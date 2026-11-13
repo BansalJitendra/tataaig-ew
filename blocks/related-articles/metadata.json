@@ -1,0 +1,11 @@
+{
+  "variantName": "related-articles",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Related Articles: three linked article cards in a row (desktop) or centred slider with dots (mobile).",
+  "contentPattern": "Section heading as default content before the block. One row per article: image | title heading holding the article link + teaser paragraph.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for article teaser lists.",
+  "reuseGuidance": "Reuse for any set of linked article cards."
+}

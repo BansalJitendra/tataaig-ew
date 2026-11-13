@@ -1,0 +1,11 @@
+{
+  "variantName": "about",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "About section: heading and clamped body with Show More / Show Less toggle next to an illustration.",
+  "contentPattern": "One row: text cell (heading, body paragraphs, then \"Show More\" and \"Show Less\" as the last two paragraphs) | image cell.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for an expandable about/intro text beside an image.",
+  "reuseGuidance": "Reuse for any long text + image pair needing a show more control."
+}

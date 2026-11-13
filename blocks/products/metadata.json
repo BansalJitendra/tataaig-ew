@@ -1,0 +1,11 @@
+{
+  "variantName": "products",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Our Products: lines of business, each with a head (icon, title link, description) and a grid of linked product cards with icon and label.",
+  "contentPattern": "Section heading as default content before the block. One row per line of business: cell 1 = icon image, title paragraph (a link; plain text = full-width \"other\" line), optional description; cell 2 = per product an icon image followed by a paragraph with the product link. A \"(…)\" suffix is desktop-only label text.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for the grouped product catalogue on landing pages.",
+  "reuseGuidance": "Reuse for grouped link grids by category; use cards for a single flat grid."
+}

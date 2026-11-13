@@ -1,0 +1,11 @@
+{
+  "variantName": "whats-new",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": "Whats New notice carousel: two cards per view with a next arrow on desktop, one card with dots on mobile; each card has an icon, clamped notice and Read More.",
+  "contentPattern": "Section heading as default content before the block. One row per notice: icon image | notice paragraph(s) | \"Read More\" paragraph.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for news/notice carousels.",
+  "reuseGuidance": "Reuse for short notice cards in a slider."
+}
