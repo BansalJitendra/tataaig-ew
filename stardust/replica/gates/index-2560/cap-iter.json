@@ -1,0 +1,1190 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-12T11:25:22.288Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.tataaig.com/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.tataaig.com/",
+    "http://localhost:8791/index-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_",
+      "isBody": false,
+      "leaves": 202,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.homeMobilePadding",
+        "tier": 2,
+        "share": 0.08,
+        "section": 0,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 278,
+        "via": "fixed",
+        "selector": "div.card.fcPadding1 > div.container > div.row > div.motorCategory_autoFetch__EqTtV",
+        "tier": 14,
+        "share": 0,
+        "section": 0,
+        "w1": 278,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "max-width",
+        "selector": "div.mp0 > div.row > div.col-12.mt-3 > button.globalButton.Button_input__1X7LK",
+        "tier": 15,
+        "share": 0,
+        "section": 0,
+        "w1": 320,
+        "maxWidth": "320px"
+      },
+      {
+        "kind": "module",
+        "px": 551,
+        "via": "fixed",
+        "selector": "div.col-12.my-md-0 > div.row.justify-content-between > div.col-md-6.mDisplayNone > picture",
+        "tier": 7,
+        "share": 0,
+        "section": 0,
+        "w1": 551,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container.sectionSeparator",
+        "tier": 1,
+        "share": 0.16,
+        "section": 2,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide.slick-active > div > div.mt-2.mb-2",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide.slick-active > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide.slick-active > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 540,
+        "via": "other",
+        "selector": "div.slick-slider.my-2 > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "max-width",
+        "selector": "div.slick-track > div.slick-slide > div > div.m-2.styles_videoCard__VpzvO",
+        "tier": 7,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "350px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container",
+        "tier": 2,
+        "share": 0.16,
+        "section": 3,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 4,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container",
+        "tier": 1,
+        "share": 0.25,
+        "section": 5,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+        "tier": 9,
+        "share": 0.02,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 809,
+        "via": "other",
+        "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 555,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container",
+        "tier": 2,
+        "share": 0.03,
+        "section": 8,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container.mp0",
+        "tier": 2,
+        "share": 0.03,
+        "section": 9,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.py-3",
+        "tier": 2,
+        "share": 0.14,
+        "section": 10,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.container-fluid > div.container-fluid.px-0 > div.row > div.container",
+        "tier": 4,
+        "share": 0.08,
+        "section": 10,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.homeMobilePadding"
+      },
+      {
+        "index": 1,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.whyTataSection",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container.sectionSeparator",
+        "px": 1648,
+        "capSelector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container.sectionSeparator"
+      },
+      {
+        "index": 3,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container"
+      },
+      {
+        "index": 5,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container",
+        "px": 1648,
+        "capSelector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container"
+      },
+      {
+        "index": 6,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 7,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 8,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container"
+      },
+      {
+        "index": 9,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator > div.container.mp0"
+      },
+      {
+        "index": 10,
+        "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+        "px": 1648,
+        "capSelector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.py-3"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1648,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 414
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > div.page > main.main",
+      "isBody": false,
+      "leaves": 202,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1678,
+        "via": "max-width",
+        "selector": "body > div.page > main.main > section.first-fold",
+        "tier": 1,
+        "share": 0.08,
+        "section": 0,
+        "w1": 1170,
+        "maxWidth": "1678px"
+      },
+      {
+        "kind": "module",
+        "px": 278,
+        "via": "fixed",
+        "selector": "#panel-car > form.quote-form > div.quote-card > div.quote-card__fetch",
+        "tier": 7,
+        "share": 0,
+        "section": 0,
+        "w1": 278,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 320,
+        "via": "max-width",
+        "selector": "form.quote-form > div.quote-card > div.quote-card__cta > button.btn-primary",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 320,
+        "maxWidth": "320px"
+      },
+      {
+        "kind": "module",
+        "px": 254,
+        "via": "fixed",
+        "selector": "form.quote-form > div.quote-flows > div.quote-flows__pair > div.flow-card",
+        "tier": 8,
+        "share": 0.01,
+        "section": 0,
+        "w1": 254,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "body > div.page > main.main > section.testi",
+        "tier": 1,
+        "share": 0.16,
+        "section": 2,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 658,
+        "via": "fixed",
+        "selector": "main.main > section.testi > div.testi__head > h2.testi__title",
+        "tier": 3,
+        "share": 0,
+        "section": 2,
+        "w1": 658,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 370,
+        "via": "fixed",
+        "selector": "div.testi__slider > div.testi__viewport > ul.testi__track > li.testi__slide",
+        "tier": 5,
+        "share": 0.01,
+        "section": 2,
+        "w1": 370,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 350,
+        "via": "fixed",
+        "selector": "div.testi__viewport > ul.testi__track > li.testi__slide > article.testi__card",
+        "tier": 6,
+        "share": 0.01,
+        "section": 2,
+        "w1": 350,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.page > main.main > section.prod > div.prod__inner",
+        "tier": 2,
+        "share": 0.16,
+        "section": 3,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.page > main.main > section.about > div.about__inner",
+        "tier": 2,
+        "share": 0.01,
+        "section": 4,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "body > div.page > main.main > section.news",
+        "tier": 1,
+        "share": 0.25,
+        "section": 5,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 392,
+        "via": "fixed",
+        "selector": "ul.news__track > li.news__slide > div.news__card > div.news__text",
+        "tier": 7,
+        "share": 0.01,
+        "section": 5,
+        "w1": 392,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.page > main.main > section.app > div.app__inner",
+        "tier": 2,
+        "share": 0.03,
+        "section": 6,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.page > main.main > section.art > div.art__inner",
+        "tier": 2,
+        "share": 0.03,
+        "section": 7,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.page > main.main > section.site-footer > div.foot__inner",
+        "tier": 2,
+        "share": 0.14,
+        "section": 8,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "main.main > section.site-footer > div.foot__legal > div.foot__legal-inner",
+        "tier": 3,
+        "share": 0.08,
+        "section": 8,
+        "w1": 1140,
+        "maxWidth": "1648px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > div.page > main.main > section.first-fold",
+        "px": 1678,
+        "capSelector": "body > div.page > main.main > section.first-fold"
+      },
+      {
+        "index": 1,
+        "selector": "body > div.page > main.main > section.why",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "body > div.page > main.main > section.testi",
+        "px": 1648,
+        "capSelector": "body > div.page > main.main > section.testi"
+      },
+      {
+        "index": 3,
+        "selector": "body > div.page > main.main > section.prod",
+        "px": 1648,
+        "capSelector": "div.page > main.main > section.prod > div.prod__inner"
+      },
+      {
+        "index": 4,
+        "selector": "body > div.page > main.main > section.about",
+        "px": 1648,
+        "capSelector": "div.page > main.main > section.about > div.about__inner"
+      },
+      {
+        "index": 5,
+        "selector": "body > div.page > main.main > section.news",
+        "px": 1648,
+        "capSelector": "body > div.page > main.main > section.news"
+      },
+      {
+        "index": 6,
+        "selector": "body > div.page > main.main > section.app",
+        "px": 1648,
+        "capSelector": "div.page > main.main > section.app > div.app__inner"
+      },
+      {
+        "index": 7,
+        "selector": "body > div.page > main.main > section.art",
+        "px": 1648,
+        "capSelector": "div.page > main.main > section.art > div.art__inner"
+      },
+      {
+        "index": 8,
+        "selector": "body > div.page > main.main > section.site-footer",
+        "px": 1648,
+        "capSelector": "div.page > main.main > section.site-footer > div.foot__inner"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1678,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 293
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1648px = build 1648px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 11 vs build 9 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/11",
+        "detail": "live 1648px → build 1678px, Δ30px (body > div.page > main.main > section.first-fold)",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 2/11",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/11",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/11",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/11",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/11",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/11",
+        "detail": "live full-bleed (div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4) → build 1648px (div.page > main.main > section.app > div.app__inner)",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 8/11",
+        "detail": "live full-bleed (div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4) → build 1648px (div.page > main.main > section.art > div.art__inner)",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 9/11",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+}

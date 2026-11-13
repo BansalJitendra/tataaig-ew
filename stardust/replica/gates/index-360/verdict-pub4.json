@@ -1,0 +1,33 @@
+{
+  "round": "pub4",
+  "width": 360,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/index-360/diff-pub4.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/content-diff-pub4.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/visual-diff-pub4.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/chrome-parity-pub4.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/clip-pub4.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/content-presence-pub4.txt"
+    }
+  },
+  "structural": 167,
+  "nothingLost": 0,
+  "at": "2026-11-12T12:50:02.478Z"
+}

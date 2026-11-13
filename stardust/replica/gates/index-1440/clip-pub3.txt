@@ -1,0 +1,4 @@
+clip-probe https://main--0484faa8--aemcoder.aem.page/ @ 1440px — docH 6176, 245 text nodes, 135 controls (HTTP 200, chrome)
+  (none)
+Clipped: 0 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 7, collapsed 0, scroll-hidden 0, horizontal 6)
+json → stardust/replica/gates/index-1440/clip-pub3.json

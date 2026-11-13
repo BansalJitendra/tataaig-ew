@@ -1,0 +1,17 @@
+{
+ "cache-control": "s-maxage=900, stale-while-revalidate=31535100",
+ "content-security-policy": "default-src *; img-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:",
+ "referrer-policy": "strict-origin",
+ "strict-transport-security": "max-age=15768000; includeSubDomains",
+ "via": "1.1 816c0643dfb486098b39f8761f7cbf3a.cloudfront.net (CloudFront)",
+ "x-amz-cf-pop": "DEL51-P4",
+ "x-app-repo": "CMS",
+ "x-app-version": "26.11.01",
+ "x-cache": "Hit from cloudfront",
+ "x-content-type-options": "nosniff",
+ "x-frame-options": "SAMEORIGIN",
+ "x-nextjs-cache": "HIT",
+ "x-oneagent-js-injection": "true",
+ "x-ruxit-js-agent": "true",
+ "x-xss-protection": "1; mode=block"
+}

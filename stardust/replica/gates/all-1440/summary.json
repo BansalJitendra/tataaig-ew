@@ -1,0 +1,101 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-12T13:13:52.576Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "overlap pixel % ≤ 10 AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.tataaig.com",
+    "eds": "https://main--0484faa8--aemcoder.aem.live",
+    "edsHostOverride": null,
+    "only": null
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 1,
+    "overridePass": 1,
+    "fail": 1,
+    "error": 0,
+    "failPixel": 0,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 1,
+    "failUnits": 0,
+    "fontsNotLoaded": 1,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "passWithOverrides": 1
+  },
+  "rows": [
+    {
+      "slug": "index",
+      "path": "/",
+      "template": "landing",
+      "tier": "archetype",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 1.6,
+      "textPct": 5.63,
+      "heightDelta": 0,
+      "originH": 6176,
+      "edsH": 6176,
+      "pixelPass": true,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": false,
+      "contentNA": null,
+      "unitPass": null,
+      "pixelOnlyPass": true,
+      "pass": false,
+      "passWithOverride": true,
+      "fontsNotLoaded": [
+        "poppins-fallback"
+      ],
+      "fontChecksSkipped": [],
+      "reasons": [
+        "content MISSING 38 / HIDDEN 0",
+        "font-not-loaded:poppins-fallback"
+      ],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": {
+        "missing": 38,
+        "hidden": 0,
+        "controlState": 0,
+        "missingButtons": 1,
+        "hiddenButtons": 0,
+        "findings": 47,
+        "variable": []
+      },
+      "units": null,
+      "unitsRequired": false,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": {
+        "verdict": "granularity",
+        "reason": "content MISSING = the 38 footer links only: the source renders its footer inside <main> (root main.Layout_main__E16O_), the EDS footer block sits outside <main>. content-presence --chrome finds all 38 on the served page (inChrome, ul.foot-links …) at 1440 and 360; footer.plain.html carries every href. Pixel, height and clip pass on their own; the font check is not covered by this entry."
+      },
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "hotBands": [],
+      "error": null
+    }
+  ]
+}

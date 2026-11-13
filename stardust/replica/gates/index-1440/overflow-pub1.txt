@@ -1,0 +1,8 @@
+measure  https://main--0484faa8--aemcoder.aem.page/
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   6176
+  html
+       x     0  y      0  w  1440  h  6176  vis  "Welcome to TATA AIG! Explore our insura…"
+      display: block

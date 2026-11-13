@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#zooszj2ira)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.875 5.209a5.833 5.833 0 1 1 8.25 8.25 5.833 5.833 0 0 1-8.25-8.25zM16 4.5a4.833 4.833 0 1 0 0 9.667A4.833 4.833 0 0 0 16 4.5zm-2.667 16A4.833 4.833 0 0 0 8.5 25.333V28a.5.5 0 0 1-1 0v-2.667a5.833 5.833 0 0 1 5.833-5.833h5.334a.5.5 0 0 1 0 1h-5.334zm15.02 2.52a.5.5 0 0 0-.707-.707l-4.98 4.98-2.312-2.313a.5.5 0 0 0-.708.707l2.667 2.666a.5.5 0 0 0 .707 0l5.334-5.333z" fill="url(#anby7azscb)"/>
+    </g>
+    <defs>
+        <linearGradient id="anby7azscb" x1="36.921" y1="12" x2="-1.887" y2="11.824" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#195DFF"/>
+            <stop offset=".162" stop-color="#264A9F"/>
+            <stop offset="1" stop-color="#35D3E1"/>
+        </linearGradient>
+        <clipPath id="zooszj2ira">
+            <path fill="#fff" d="M0 0h32v32H0z"/>
+        </clipPath>
+    </defs>
+</svg>

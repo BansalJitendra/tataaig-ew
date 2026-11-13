@@ -1,0 +1,128 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "index"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-12T11:29:13.478Z",
+      "endedAt": "2026-11-12T11:58:51.527Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParityHeader": 4,
+          "chromeParityFooter": 46
+        },
+        "1440": {
+          "chromeParityHeader": 9,
+          "chromeParityFooter": 46
+        },
+        "chrome": "chrome-compare exit 2 on 3 open-state crops only (a11y sheet overlay includes scratch page behind it 29.7%, drawer 3.8%, a11y panel 4.4%); controls/states/links/keyboard/scroll/motion match — re-run on delivered home"
+      },
+      "verdict": "foundation: nav+footer live 200, header/footer blocks + styles + Poppins + martech.js (all off) pushed 7808cd0; frozen 14 files"
+    },
+    "archetype-index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-12T11:58:59.284Z",
+      "endedAt": "2026-11-12T13:05:05.882Z",
+      "blocks": 8,
+      "gates": {
+        "360": {
+          "pixelPct": 3.3,
+          "heightDelta": -2,
+          "clipped": 0,
+          "overflow": "ok",
+          "nothingLost": 0,
+          "looksSameRed": 167,
+          "rounds": "pub1+3"
+        },
+        "1440": {
+          "pixelPct": 1.62,
+          "heightDelta": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "nothingLost": 0,
+          "looksSameRed": 188,
+          "rounds": "pub1+3"
+        },
+        "crop": "header 98.66/99.21, footer 99.59/99.78",
+        "chrome": "chrome-compare exit 2: 3 panel crops (C0) + 4 scroll-state reads of #fixHeader (pins 55→0 like source)"
+      },
+      "verdict": "index: /index live (/ 200), blocks 8, gate 1440 1.62% / 360 3.30%; content-diff reds are granularity (source footer inside <main>, EDS footer block) + renamed icons; requests 3"
+    },
+    "cluster-index": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-12T13:05:05.882Z",
+      "endedAt": "2026-11-12T13:05:05.882Z",
+      "blocks": 0,
+      "verdict": "index: no siblings — template has 1 page (the archetype)"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "gate-all",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-12T13:05:48.409Z",
+      "endedAt": "2026-11-12T13:11:37.616Z",
+      "gates": {
+        "360": {
+          "pixelPct": 3.3,
+          "heightDelta": -2,
+          "clipped": 0,
+          "contentMissing": 38,
+          "fontsFailed": [
+            "poppins-fallback"
+          ]
+        },
+        "1440": {
+          "pixelPct": 1.6,
+          "heightDelta": 0,
+          "clipped": 0,
+          "contentMissing": 38,
+          "fontsFailed": [
+            "poppins-fallback"
+          ]
+        }
+      },
+      "verdict": "gate-all: 1 page, pixel-only 1/1 PASS (1440 1.6% Δh0 / 360 3.3% Δh-2, clip 0); full 0/1 — content MISSING 38 = footer granularity (override documented, all 38 present as chrome), font-not-loaded:poppins-fallback (local(Arial) only; request queued for C-final, re-gate there)"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "index"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-12T13:11:47.291Z",
+      "endedAt": "2026-11-12T13:22:50.461Z",
+      "gates": {
+        "360": {
+          "pixelPct": 3.3,
+          "heightDelta": -2,
+          "clipped": 0
+        },
+        "1440": {
+          "pixelPct": 1.6,
+          "heightDelta": 0,
+          "clipped": 0
+        },
+        "freeze": "check exit 0 → requests applied → re-frozen 14 files"
+      },
+      "verdict": "final: freeze check clean; 4 requests resolved (footer legal row + poppins-fallback sources applied to foundation, main offset kept block-scoped, header classification no change); gate-all re-run 1/1 delivered (override: footer granularity; font fix awaiting aem.live edge expiry, re-gate in E); coverage updated from both tables"
+    }
+  }
+}

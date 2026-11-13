@@ -1,0 +1,67 @@
+content-presence @ 1440px (chrome) — origin https://www.tataaig.com/ (docH 6176, 241 items, HTTP 200) vs served https://main--0484faa8--aemcoder.aem.page/ (docH 6176, 253 items, HTTP 200)
+scope: main.Layout_main__E16O_ vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 5/0 | 5/5 | COUNT TEXT |
+| 1 | get comprehensive car insurance | 0/0 | 1/0 | 6/7 | 8/8 | MISSING BUTTON |
+| 2 | why tata aig | 3/3 | 0/0 | 6/6 | 6/6 | - |
+| 3 | #thisistataaig - customer/client testimo | 1/1 | 0/4 (+1) | 6/3 | 6/6 | EXTRA LINK |
+| 4 | our products | 27/27 | 0/0 | 5/5 | 32/32 | - |
+| 5 | about tata aig | 0/0 | 1/1 | 1/1 | 0/1 | - |
+| 6 | whats new | 0/0 | 1/3 (+1) | 4/2 | 2/2 | EXTRA LINK |
+| 7 | get our app | 2/2 | 0/0 | 5/5 | 4/4 | - |
+| 8 | related articles | 3/3 | 0/0 | 0/0 | 3/3 | - |
+| 9 | how is your car insurance premium calcul | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 10 | going for a vacation. here are five reas | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 11 | things to consider before buying insuran | 38/0 | 0/0 | 13/0 | 3/0 | MISSING LINK, COUNT TEXT, COUNT IMAGES |
+  🔴 MISSING LINK: ×2 "app" → /TAGINS/f10b6e5 in band "things to consider before buying insurance" (origin y 5506) not on the served page
+  🔴 MISSING LINK: "facebook" → /TATAAIGINDIA/ in band "things to consider before buying insurance" (origin y 5660) not on the served page
+  🔴 MISSING LINK: "linkedin" → /company/tata-aig in band "things to consider before buying insurance" (origin y 5660) not on the served page
+  🔴 MISSING LINK: "twitter" → /tataaigindia in band "things to consider before buying insurance" (origin y 5660) not on the served page
+  🔴 MISSING LINK: "instagram" → /tataaigofficial in band "things to consider before buying insurance" (origin y 5660) not on the served page
+  🔴 MISSING LINK: "youtube" → /channel/UCzz6b0_0QZfPnr8TP3Hv6ww in band "things to consider before buying insurance" (origin y 5660) not on the served page
+  🔴 MISSING LINK: "about us" → /about-us in band "things to consider before buying insurance" (origin y 5437) not on the served page
+  🔴 MISSING LINK: "public disclosures" → /public-disclosures in band "things to consider before buying insurance" (origin y 5481) not on the served page
+  🔴 MISSING LINK: "investors" → /public-disclosures in band "things to consider before buying insurance" (origin y 5524) not on the served page
+  🔴 MISSING LINK: "contact us" → /contact-us in band "things to consider before buying insurance" (origin y 5568) not on the served page
+  🔴 MISSING LINK: "careers" → / in band "things to consider before buying insurance" (origin y 5611) not on the served page
+  🔴 MISSING LINK: "agent registration" → /agent-registration in band "things to consider before buying insurance" (origin y 5655) not on the served page
+  🔴 MISSING LINK: "blog" → /knowledge-center in band "things to consider before buying insurance" (origin y 5437) not on the served page
+  🔴 MISSING LINK: "insurance faqs" → /faqs-on-insurance in band "things to consider before buying insurance" (origin y 5481) not on the served page
+  🔴 MISSING LINK: "vendor code of conduct" → /s3/vendor_code_of_conduct_31cbb0caa3.pdf in band "things to consider before buying insurance" (origin y 5524) not on the served page
+  🔴 MISSING LINK: "surety bond policies" → /surety-bond-policies in band "things to consider before buying insurance" (origin y 5568) not on the served page
+  🔴 MISSING LINK: "horizon watch" → /horizon-watch in band "things to consider before buying insurance" (origin y 5611) not on the served page
+  🔴 MISSING LINK: "excluded hospital list" → /excluded-hospital-list in band "things to consider before buying insurance" (origin y 5655) not on the served page
+  🔴 MISSING LINK: "renewals" → /renewal in band "things to consider before buying insurance" (origin y 5437) not on the served page
+  🔴 MISSING LINK: "claim process" → /claims-process in band "things to consider before buying insurance" (origin y 5481) not on the served page
+  🔴 MISSING LINK: "self service" → /servicing in band "things to consider before buying insurance" (origin y 5524) not on the served page
+  🔴 MISSING LINK: "tata aia" → / in band "things to consider before buying insurance" (origin y 5437) not on the served page
+  🔴 MISSING LINK: "disclaimer" → /disclaimers in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "terms of use" → /terms-of-use in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "downloads" → /downloads in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "irdai" → / in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "gst registration numbers" → /gst-registration in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "privacy policy" → /privacy-policy in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "grievance redressal policy" → /grievance-redressal-policy in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "general" → /general in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "bima bharosa" → / in band "things to consider before buying insurance" (origin y 5920) not on the served page
+  🔴 MISSING LINK: "health insurance portability" → /health-insurance/health-insurance-portability in band "things to consider before buying insurance" (origin y 5944) not on the served page
+  🔴 MISSING LINK: "blacklisted agents" → /PublicAccess/BlackListedAgent.aspx in band "things to consider before buying insurance" (origin y 5944) not on the served page
+  🔴 MISSING LINK: "posh policy" → /s3/POSH_Policy_bd5c8cda81.pdf in band "things to consider before buying insurance" (origin y 5944) not on the served page
+  🔴 MISSING LINK: "she-box portal (posh)" → / in band "things to consider before buying insurance" (origin y 5944) not on the served page
+  🔴 MISSING LINK: "darpan id" → /darpan-id in band "things to consider before buying insurance" (origin y 5944) not on the served page
+  🔴 MISSING LINK: "customersupport@tataaig.com" → customersupport@tataaig.com in band "things to consider before buying insurance" (origin y 6124) not on the served page
+  🟠 MISSING BUTTON: "buy now" in band "get comprehensive car insurance" (origin y 473) not on the served page
+  🟡 EXTRA HEADING: served h3 "navnit kumar dhamsaniya | health insurance customer" (y 1994) has no origin heading
+  🟡 EXTRA HEADING: served h3 "manjunath naik mahadeo | health insurance customer" (y 1994) has no origin heading
+  🟡 EXTRA HEADING: served h3 "kishana ram suthar | marine customer testimonial" (y 1994) has no origin heading
+  🟡 COUNT TEXT: band "(top)": 5 origin → 0 served visible
+  🟡 EXTRA LINK: ×3 "read more" served in band "#thisistataaig - customer/client testimonials", no origin link or button
+  🟡 EXTRA LINK: "next" served in band "#thisistataaig - customer/client testimonials", no origin link or button
+  🟡 EXTRA LINK: ×2 "read more" served in band "whats new", no origin link or button
+  🟡 COUNT TEXT: band "things to consider before buying insurance": 13 origin → 0 served visible
+  🟡 COUNT IMAGES: band "things to consider before buying insurance": 3 origin → 0 served visible
+Content: MISSING 38 (headings 0, links 38) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 1 hidden 0 / moved 0 extra 6 / count deltas 3
+Findings: 47 (37 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/index-1440/content-presence-pub4.json

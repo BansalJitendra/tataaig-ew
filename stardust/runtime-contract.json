@@ -1,0 +1,9 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "source": "scripts/scripts.js decorateButtons (strong/em required, p.button-wrapper) + scripts/aem.js decorateBlock (.block, data-block-name, <name>-wrapper, <name>-container)"
+}

@@ -1,0 +1,6 @@
+{
+  "index": {
+    "verdict": "granularity",
+    "reason": "content MISSING = the 38 footer links only: the source renders its footer inside <main> (root main.Layout_main__E16O_), the EDS footer block sits outside <main>. content-presence --chrome finds all 38 on the served page (inChrome, ul.foot-links …) at 1440 and 360; footer.plain.html carries every href. Pixel, height and clip pass on their own; font-not-loaded:poppins-fallback is the local(\"Arial\")-only fallback face, unused while Poppins loads and dead only on a host without Arial; the fix (Helvetica / Liberation Sans sources) is pushed (e8cb23d, on aem.page) and the aem.live edge still serves the cached styles.css (max-age 7200) — re-gated against the same content on aem.page (fixed CSS): fonts not loaded 0, pixel/height unchanged, content = the same 38 footer links only."
+  }
+}

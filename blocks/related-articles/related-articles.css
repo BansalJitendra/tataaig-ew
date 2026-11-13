@@ -1,0 +1,195 @@
+/* related-articles — lifted from stardust/prototypes/css/index.css § related articles */
+.related-articles {
+  padding: 70px 15px;
+}
+
+.related-articles picture {
+  display: contents;
+}
+
+.related-articles p {
+  margin: 0;
+}
+
+.related-articles .art-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.related-articles .art-heading {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.related-articles .art-heading :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.related-articles .art-slider {
+  margin-top: 55px;
+}
+
+.related-articles .art-track {
+  display: flex;
+  margin: 0 -15px;
+  transition: transform 0.5s ease;
+}
+
+.related-articles .art-col {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+}
+
+.related-articles .art-card {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  background: var(--grad-card);
+  box-shadow: var(--neu);
+}
+
+.related-articles .art-media img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+  object-fit: fill;
+}
+
+.related-articles .art-title {
+  margin: 28px 0 0;
+  padding: 0 45px;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.related-articles .art-title :is(h2, h3, h4, p) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.related-articles .art-desc {
+  padding: 0 45px 16px;
+  color: var(--slate);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.related-articles .art-dots {
+  display: none;
+}
+
+@media (width <= 768px) {
+  .related-articles {
+    padding: 50px 15px;
+  }
+
+  .related-articles .art-inner {
+    padding: 0;
+  }
+
+  .related-articles .art-heading {
+    font-size: 22px;
+  }
+
+  .related-articles .art-slider {
+    position: relative;
+    margin: 48px -15px 0;
+  }
+
+  .related-articles .art-viewport {
+    overflow: hidden;
+  }
+
+  .related-articles .art-track {
+    align-items: flex-start;
+    margin: 0;
+    transform: translateX(30px);
+  }
+
+  .related-articles .art-col {
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding: 0 15px 48px;
+  }
+
+  .related-articles .art-card {
+    height: auto;
+  }
+
+  .related-articles .art-media img {
+    height: 240px;
+  }
+
+  .related-articles .art-title {
+    margin: 28px 0 6px;
+    padding: 0 26px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: none;
+  }
+
+  .related-articles .art-desc {
+    padding: 0 26px 28px;
+  }
+
+  .related-articles .art-dots {
+    position: absolute;
+    top: 505px;
+    right: 0;
+    left: 0;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .related-articles .art-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .related-articles .art-dots button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .related-articles .art-dots button::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.25;
+  }
+
+  .related-articles .art-dots .is-active button::before {
+    opacity: 0.75;
+  }
+}
+
+@media (width <= 380px) {
+  .related-articles .art-heading {
+    font-size: 19px;
+  }
+}

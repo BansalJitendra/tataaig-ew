@@ -1,0 +1,10 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.tataaig.com/ (live side from cache stardust/replica/gates/index-360/chrome-live.json, probed 2026-11-12T11:19:17.993Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 0 paired of 0/0 texts, 3/3 icons
+
+■ footer: 1 delta(s) — 0 paired of 0/0 texts, 0/0 icons
+  REGION BOX   Δy +115px (8806→8921)
+
+✗ 1 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

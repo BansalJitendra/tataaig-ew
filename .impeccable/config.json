@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-11-12T11:59:34.834Z",
+        "reason": "agent: same-design replica — source stylesheet stardust/current/css/015aa3f6edf005ab.css sets font-family:Arial,sans-serif on these header elements; register empty, no font changes permitted"
+      }
+    ]
+  }
+}

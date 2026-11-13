@@ -1,0 +1,739 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.tataaig.com/",
+ "at": "2026-11-12T11:31:45.009Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#fixHeader",
+   "controls": [
+    {
+     "name": "TATA AIG LOGO",
+     "key": "tata aig logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>div>section>a",
+     "href": "https://www.tataaig.com/",
+     "expanded": null,
+     "rect": [
+      30,
+      110,
+      112,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accessibility options",
+     "key": "accessibility options",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(1)>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      248,
+      113,
+      50,
+      50
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         844
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "span.Switch_toggle-switch-switch__oB0iX"
+        }
+       ],
+       "shot": "390-001-Accessibility-options-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         844
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in",
+         "target": "span.Switch_toggle-switch-switch__oB0iX"
+        }
+       ],
+       "shot": "390-002-Accessibility-options-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(3)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        439,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(4)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        498,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(5)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        557,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(6)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        616,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(7)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        675,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>div>div:nth-of-type(2)>div>div>div:nth-of-type(8)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        284,
+        734,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "body>div:nth-of-type(8)>button",
+       "expanded": null,
+       "rect": [
+        0,
+        0,
+        390,
+        844
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 20
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "X",
+     "key": "x",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(1)>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      310,
+      113,
+      50,
+      50
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.tataaig.com/"
+         },
+         {
+          "text": "Claims",
+          "href": "https://www.tataaig.com/claims-process"
+         },
+         {
+          "text": "Support",
+          "href": "https://www.tataaig.com/contact-us"
+         },
+         {
+          "text": "My Policy",
+          "href": "https://www.tataaig.com/servicing"
+         }
+        ],
+        "headings": [],
+        "images": 7,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         28,
+         21,
+         334,
+         466
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.MobileMenuDrawer_backdrop__zJ1te"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.MobileMenuDrawer_drawerContainer__jAbIg"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.MobileMenuDrawer_drawerWrapper__8uJQh"
+        }
+       ],
+       "shot": "390-003-X-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://www.tataaig.com/"
+         },
+         {
+          "text": "Claims",
+          "href": "https://www.tataaig.com/claims-process"
+         },
+         {
+          "text": "Support",
+          "href": "https://www.tataaig.com/contact-us"
+         },
+         {
+          "text": "My Policy",
+          "href": "https://www.tataaig.com/servicing"
+         }
+        ],
+        "headings": [],
+        "images": 7,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         28,
+         21,
+         334,
+         466
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.MobileMenuDrawer_drawerWrapper__8uJQh"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.MobileMenuDrawer_backdrop__zJ1te"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "div.MobileMenuDrawer_drawerContainer__jAbIg"
+        }
+       ],
+       "shot": "390-004-X-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 105,
+     "height": 90,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -895,
+     "height": 90,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -595,
+     "height": 90,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 105,
+     "height": 90,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 4,
+   "truncated": "request-budget",
+   "loads": 4,
+   "requests": 787,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#fixHeader",
+   "controls": [
+    {
+     "name": "TATA AIG LOGO",
+     "key": "tata aig logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>div>section>a",
+     "href": "https://www.tataaig.com/",
+     "expanded": null,
+     "rect": [
+      165,
+      60,
+      112,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Claims",
+     "key": "claims",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(4)>a",
+     "href": "https://www.tataaig.com/claims-process",
+     "expanded": null,
+     "rect": [
+      832,
+      67,
+      49,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(5)>a",
+     "href": "https://www.tataaig.com/contact-us",
+     "expanded": null,
+     "rect": [
+      921,
+      67,
+      55,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "My Policy",
+     "key": "my policy",
+     "role": "link",
+     "kind": "account",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(6)>a",
+     "href": "https://www.tataaig.com/servicing",
+     "expanded": null,
+     "rect": [
+      1017,
+      58,
+      136,
+      39
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accessibility Options",
+     "key": "accessibility options",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>button",
+     "expanded": "false",
+     "rect": [
+      1184,
+      56,
+      92,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         902,
+         122,
+         332,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Accessibility-Options-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         902,
+         122,
+         332,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Accessibility-Options-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(3)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        264,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(4)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        323,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(5)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        382,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(6)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        441,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(7)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        500,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "",
+       "key": "",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#fixHeader>div>div>section>div:nth-of-type(2)>div>nav:nth-of-type(7)>div>div>div:nth-of-type(8)>div:nth-of-type(2)>div>div>label",
+       "expanded": null,
+       "rect": [
+        1143,
+        559,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 55,
+     "height": 100,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 100,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 100,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 55,
+     "height": 100,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 304,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

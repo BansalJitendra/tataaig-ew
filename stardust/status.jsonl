@@ -1,0 +1,38 @@
+{"ts":"2026-11-12T10:48:27Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"bounded single-page extract of https://www.tataaig.com/ with dynamics"}
+{"ts":"2026-11-12T10:50:43Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"1/1 live (200, chrome headless); dynamics: 18 same-site endpoints, hydrated; census 1440+360; cap-probe content 1648px; uncaptured first-level targets: none"}
+{"ts":"2026-11-12T10:50:54Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"bounded-single promotion + empty register + dynamics triage + martech"}
+{"ts":"2026-11-12T10:53:45Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"bounded-single spec synthesized; register empty (pure replica); dynamics 58→12 rows all dispositioned; martech contract 3 routes, all disabled"}
+{"ts":"2026-11-12T10:53:59Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"archetype index (landing): authoring stardust/prototypes/index-proposed.html from capture + source CSS lift"}
+{"ts":"2026-11-12T11:28:06Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"index (landing) prototype authored; gated pass at 1440 and 360"}
+{"ts":"2026-11-12T11:28:06Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"gate rounds for index ran inside the recreate unit; recording verdict"}
+{"ts":"2026-11-12T11:28:06Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"index 1440: 2.15% Δh+1 cd 0🔴/0🟡 clip 0; 360: 3.70% Δh-1 cd 0🔴/0🟡 clip 0; cap-probe PASS; 3 iters each; chrome-parity residuals justified; approved hands-off"}
+{"ts":"2026-11-12T11:28:24Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"migrate → deploy → rollout for the single home page; publish to aem.live"}
+{"ts":"2026-11-12T11:28:29Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"single page: index (approved archetype)"}
+{"ts":"2026-11-12T11:28:32Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"1 page, approved-page branch, no siblings"}
+{"ts":"2026-11-12T11:28:32Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"index"}
+{"ts":"2026-11-12T11:28:38Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"index rendered (A branch, 9 sections, 124 assets)"}
+{"ts":"2026-11-12T11:28:38Z","skill":"stardust:rollout","phase":"A-inventory","event":"start"}
+{"ts":"2026-11-12T11:28:46Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"1 page (index), 1 template","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-11-12T11:28:46Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-11-12T11:28:53Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"8 blocks, 1 page","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-11-12T11:28:53Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-11-12T11:28:53Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"12 rows dispositioned (detect + plan this run)","artifact":"stardust/dynamic-features.md"}
+{"ts":"2026-11-12T11:28:53Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype index, cluster index, gate-all, final"}
+{"ts":"2026-11-12T13:22:50Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"5/5 units done; / live; gate-all 1440 1.6% Δh0 / 360 3.3% Δh-2, clip 0, 1/1 delivered (footer granularity override); 4 foundation requests resolved"}
+{"ts":"2026-11-12T13:23:05Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots assembly, redirects sheet, root check, chrome noindex"}
+{"ts":"2026-11-12T13:23:43Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 1 = assembled 1; redirects: none to wire (source root 200); / 200; nav+footer noindex live; scratch /drafts/shell removed"}
+{"ts":"2026-11-12T13:23:51Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"dynamic features parity on aem.live + martech check"}
+{"ts":"2026-11-12T13:24:47Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity.json 13 features; dynamics-check aem.live 5/5 PASS (quote tabs, no page errors, martech gated all-off); owner rows D1/D2 scaffolded-awaiting-owner"}
+{"ts":"2026-11-12T13:24:55Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify delivered page + render check, re-gate font"}
+{"ts":"2026-11-12T13:25:21Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"1/1 verified on aem.live; marquee + shine running, slide-up finished; font re-gate queued for edge-cache expiry"}
+{"ts":"2026-11-12T13:25:29Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"every href on / against the live tree"}
+{"ts":"2026-11-12T13:27:52Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"137 hrefs audited live: 132 200, 5 external refusals, 0 internal 404; 112 off-scope nav/footer hrefs repointed to source (scope extension), nav+footer republished"}
+{"ts":"2026-11-12T13:28:00Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize sweep on aem.live"}
+{"ts":"2026-11-12T13:28:14Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"health 90; P1 0; P2 1 (jsonld) accepted — source has none, register empty"}
+{"ts":"2026-11-12T13:28:22Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix dry-run"}
+{"ts":"2026-11-12T13:28:26Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"0 autofix candidates; no edits"}
+{"ts":"2026-11-12T13:28:33Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"delivery summary + learnings"}
+{"ts":"2026-11-12T13:28:56Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"1/1 page verified, 8/8 blocks verified, P1 0; owner decisions D1 quote backend, D2 tags"}
+{"ts":"2026-11-12T13:29:03Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"rollout dashboard"}
+{"ts":"2026-11-12T13:29:08Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 1 page identified/prototyped/deployed/optimised"}
+{"ts":"2026-11-12T13:31:08Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"home live on aem.live (/ 200), verified; gate 1440 1.6% / 360 3.3%, clip 0; rollout A–I ended; done-check complete"}

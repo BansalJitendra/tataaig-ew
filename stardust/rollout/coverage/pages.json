@@ -1,0 +1,66 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-12T11:28:43.453Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-12T13:25:01.372Z",
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "TATA AIG | Buy Car, Bike, Health &amp; Travel Insurance Online",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:08adce0bdbe14befaf7d2ac72a639bd3743b14335911d5e0f60c91e5f8bde388",
+        "sourceUrl": "https://www.tataaig.com/"
+      },
+      "blocks": [
+        "quote-hero",
+        "why-tata",
+        "testimonials",
+        "products",
+        "about",
+        "whats-new",
+        "get-app",
+        "related-articles"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0484faa8--aemcoder.aem.live/",
+        "deployedAt": "2026-11-12T13:25:01.322Z",
+        "verifiedAt": "2026-11-12T13:25:01.372Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.3,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 38,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 45,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 38 / HIDDEN 0",
+            "font-not-loaded:poppins-fallback"
+          ],
+          "override": "granularity",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-12T13:22:39.950Z"
+        }
+      }
+    }
+  ]
+}

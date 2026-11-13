@@ -1,0 +1,20 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.tataaig.com/
+  modules  11 sections: capped 1648 ×8 · full-bleed ×3
+  contentMaxWidth 1648px (module) · shellMaxWidth fluid · root body > div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_
+build  http://localhost:8791/index-proposed.html
+  modules  9 sections: capped 1648 ×7, 1678 ×1 · full-bleed ×1
+  contentMaxWidth 1648px (module) · shellMaxWidth fluid · root body > div.page > main.main
+rows
+  ✓ content cap: live 1648px = build 1648px (±20, shared module cap)
+  ⚠ sections: live 11 vs build 9 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ⚠ module 1/11: live 1648px → build 1678px, Δ30px (body > div.page > main.main > section.first-fold)
+  ✓ module 2/11: full-bleed on both
+  ✓ module 3/11: 1648px = 1648px
+  ✓ module 4/11: 1648px = 1648px
+  ✓ module 5/11: 1648px = 1648px
+  ✓ module 6/11: 1648px = 1648px
+  ⚠ module 7/11: live full-bleed (div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4) → build 1648px (div.page > main.main > section.app > div.app__inner)
+  ⚠ module 8/11: live full-bleed (div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4) → build 1648px (div.page > main.main > section.art > div.art__inner)
+  ✓ module 9/11: 1648px = 1648px
+cap-probe: PASS at 2560 — 0 of 11 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

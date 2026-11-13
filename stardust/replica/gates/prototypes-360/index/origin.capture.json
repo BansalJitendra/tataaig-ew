@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.tataaig.com/",
+  "width": 360,
+  "vh": 900,
+  "height": 8920,
+  "chunks": 10,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 6,
+    "late": 0
+  },
+  "at": "2026-11-12T10:56:50.462Z"
+}

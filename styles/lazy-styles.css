@@ -1,1 +1,36 @@
 /* add global styles that can be loaded post LCP here */
+
+/* accessibility panel switches (header block) — classes toggled on <html> */
+html.a11y-grey-scale {
+  filter: grayscale(1);
+}
+
+html.a11y-high-contrast {
+  filter: contrast(1.5);
+}
+
+html.a11y-low-contrast {
+  filter: contrast(0.75);
+}
+
+html.a11y-grey-scale.a11y-high-contrast {
+  filter: grayscale(1) contrast(1.5);
+}
+
+html.a11y-grey-scale.a11y-low-contrast {
+  filter: grayscale(1) contrast(0.75);
+}
+
+html.a11y-light body,
+html.a11y-light main .section {
+  background: #fff;
+}
+
+html.a11y-readable body,
+html.a11y-readable body * {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+html.a11y-link a:any-link {
+  text-decoration: underline;
+}

@@ -1,0 +1,183 @@
+/* get-app — lifted from stardust/prototypes/css/index.css § get our app */
+.get-app {
+  padding: 30px 15px 0;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.get-app picture {
+  display: contents;
+}
+
+.get-app p {
+  margin: 0;
+}
+
+.get-app .app-inner {
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.get-app .app-copy {
+  flex: 0 0 41.6667%;
+  max-width: 41.6667%;
+  padding: 0 15px;
+}
+
+.get-app .app-title {
+  margin: 0 0 8px;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.56;
+}
+
+.get-app .app-title :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.get-app .app-lede {
+  margin: 8px 0 24px;
+  color: var(--navy-80);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.get-app .app-list ul {
+  margin-left: 24px;
+  text-indent: -24px;
+}
+
+.get-app .app-list li {
+  padding-top: 16px;
+  color: var(--navy-80);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.get-app .app-list li:first-child {
+  padding-top: 8px;
+}
+
+.get-app .app-list li::before {
+  content: "";
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  background: url('/icons/list-check.svg') 0 0 / 14px no-repeat;
+}
+
+.get-app .app-phone {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.get-app .app-phone img {
+  width: auto;
+  height: 335px;
+  max-height: 335px;
+  vertical-align: middle;
+}
+
+.get-app .app-qr {
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.get-app .app-qrcard {
+  border: 1px solid #dee2e6;
+  border-radius: 16px;
+  background: var(--grad-card);
+  box-shadow: var(--neu);
+}
+
+.get-app .app-qr img {
+  width: 100%;
+  max-width: 152px;
+  height: auto;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.get-app .app-badges {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 15px 0;
+}
+
+.get-app .app-badges a:any-link {
+  display: block;
+  padding: 8px;
+}
+
+.get-app .app-badges img {
+  width: 125%;
+  max-width: 230px;
+  height: auto;
+  max-height: 75px;
+  vertical-align: middle;
+}
+
+@media (width <= 768px) {
+  .get-app {
+    padding: 30px 15px;
+  }
+
+  .get-app .app-inner {
+    display: block;
+  }
+
+  .get-app .app-copy {
+    max-width: none;
+    padding: 0 15px 24px;
+  }
+
+  .get-app .app-title {
+    font-size: 22px;
+    line-height: 1.22;
+  }
+
+  .get-app .app-lede {
+    margin: 8px 0;
+  }
+
+  .get-app .app-list li {
+    padding-top: 8px;
+  }
+
+  .get-app .app-phone {
+    display: none;
+  }
+
+  .get-app .app-badges {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 8px 0 0;
+  }
+
+  .get-app .app-badges img {
+    width: 145px;
+    height: 45px;
+  }
+}
+
+@media (width <= 380px) {
+  .get-app .app-title {
+    font-size: 19px;
+  }
+}

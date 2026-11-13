@@ -1,0 +1,107 @@
+{
+ "url": "https://main--0484faa8--aemcoder.aem.live/",
+ "at": "2026-11-12T13:13:58.262Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 4,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 125,
+  "textNodes": 240,
+  "controls": 156,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "p",
+   "path": "article.testi-card > div.testi-body > div.testi-desc > p",
+   "text": "\"for navnitkumar dhamsaniya, care and support for his wife’s",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.gst-strip",
+   "path": "div.header.block > div.gst-strip > div.gst-strip-track > p",
+   "text": "welcome to tata aig! explore our insurance solutions, renew ",
+   "cutMin": 536,
+   "cutMax": 536
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "article.testi-card > div.testi-body > div.testi-name > h3#manjunath-naik-mahadeo--health-insurance-customer",
+   "text": "manjunath naik mahadeo | health insurance customer",
+   "cutMin": 188,
+   "cutMax": 188
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "li.testi-slide > article.testi-card > div.testi-body > div.testi-read",
+   "text": "read more",
+   "cutMin": 40,
+   "cutMax": 40
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "article.testi-card > div.testi-body > div.testi-read > p",
+   "text": "read more",
+   "cutMin": 39,
+   "cutMax": 39
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.news-desc",
+   "path": "div.news-card > div.news-text > div.news-desc > p",
+   "text": "grievance resolution month – november 2026 - an irdai initia",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.art-viewport",
+   "path": "div.art-viewport > ul.art-track > li.art-col > a.art-card",
+   "text": "going for a vacation. here are five reasons you need travel ",
+   "cutMin": 255,
+   "cutMax": 255
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 1,
+   "clamped": 4,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 98,
+   "textNodes": 238,
+   "controls": 113,
+   "total": 1
+  }
+ }
+}

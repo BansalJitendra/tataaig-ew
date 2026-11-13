@@ -1,0 +1,1846 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-12T10:51:58.446Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.tataaig.com/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.tataaig.com/",
+   "status": 200,
+   "host": "www.tataaig.com",
+   "title": "TATA AIG | Buy Car, Bike, Health & Travel Insurance Online",
+   "forms": [
+    {
+     "name": "motor4w_main",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:regNumber"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "motor2w_main",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:regNumber"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 75,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 75,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 64,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 11,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "span",
+     "heading": "",
+     "textLen": 11,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 5,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://tataaig.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.tataaig.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB&co=aHR0cHM6Ly93d3cudGF0YWFpZy5jb206NDQz&hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&size=invisible&anchor-ms=200",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB&bft=0dAFcWeA5VzxNRVQFNVQw0e8Dohsh-w1LypdiosDNFKyY61HL5YAxc1bG4rGfKz7z7sI4",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://tataaig.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.tataaig.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB&co=aHR0cHM6Ly93d3cudGF0YWFpZy5jb206NDQz&hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&size=invisible&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=7qffeken5itb",
+     "title": "reCAPTCHA",
+     "w": 256,
+     "h": 60
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://www.google.com/recaptcha/enterprise/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB&bft=0dAFcWeA5VzxNRVQFNVQw0e8Dohsh-w1LypdiosDNFKyY61HL5YAxc1bG4rGfKz7z7sI45v91C9VySxlFpFFVMfDZSzT5x4n8DhA",
+     "title": "recaptcha challenge expires in two minutes",
+     "w": 1438,
+     "h": 150
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "page",
+     "eventData"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ],
+    "__NEXT_DATA__": [
+     "props",
+     "page",
+     "query",
+     "buildId",
+     "isFallback",
+     "isExperimentalCompile",
+     "dynamicIds",
+     "gsp",
+     "scriptLoader"
+    ]
+   },
+   "framework": "next",
+   "globals": [
+    "adobe",
+    "_satellite",
+    "google_tag_manager",
+    "dtrum",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "w-100 h-100",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    },
+    {
+     "cls": "row",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": false
+    },
+    {
+     "cls": "row ourProducts_applyRightBorder__3Qp9B",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    },
+    {
+     "cls": "row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "row ourProducts_applyRightBorder__3Qp9B",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "row ourProducts_mt17__omSqT",
+     "cards": 7,
+     "sameSite": 7,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 11,
+   "inlineFetch": true,
+   "mainText": 13000,
+   "domAddedAfterLoad": 802,
+   "hosts": {
+    "www.tataaig.com": 173,
+    "assets.adobedtm.com": 2,
+    "dpm.demdex.net": 3,
+    "dev.visualwebsiteoptimizer.com": 9,
+    "cm.everesttech.net": 1,
+    "tataaig.demdex.net": 1,
+    "smetrics.tataaig.com": 19,
+    "sync-tm.everesttech.net": 16,
+    "cdn.moengage.com": 1,
+    "www.google.com": 8,
+    "www.gstatic.com": 7,
+    "fonts.gstatic.com": 2,
+    "www.googletagmanager.com": 1,
+    "bzrcdn.openai.com": 2,
+    "bat.bing.com": 7,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.co.in": 1,
+    "bzr.openai.com": 1,
+    "sdk-03.moengage.com": 30
+   },
+   "thirdPartyHosts": [
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "dev.visualwebsiteoptimizer.com",
+    "cm.everesttech.net",
+    "tataaig.demdex.net",
+    "sync-tm.everesttech.net",
+    "cdn.moengage.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "fonts.gstatic.com",
+    "www.googletagmanager.com",
+    "bzrcdn.openai.com",
+    "bat.bing.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.co.in",
+    "bzr.openai.com",
+    "sdk-03.moengage.com"
+   ],
+   "scripts": [
+    "https://assets.adobedtm.com/71e40a7fa2004bdcd064f8678cb1edff1296d129/satelliteLib-3430d8df4df83855f4165b0338a2ef8ff0b28afa.js",
+    "https://www.tataaig.com/ruxitagentjs_ICA15789NPRTUVXfhqrux_10349261020121938.js",
+    "https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement.min.js",
+    "https://dev.visualwebsiteoptimizer.com/dcdn/settings.js?a=1012498&settings_type=4&ts=1794478575&dt=desktop&cc=US",
+    "https://dev.visualwebsiteoptimizer.com/cdn/7.0/track-01cb9e52d0e089cd9cf8ee507161453fbr.js",
+    "https://www.tataaig.com/js/gtm_cdn_prod.js",
+    "https://www.tataaig.com/js/moengage_prod.js",
+    "https://cdn.moengage.com/release/dc_3/moe_webSdk.min.latest.js",
+    "https://www.tataaig.com/_next/static/chunks/6806-36671427460593bf.js",
+    "https://www.tataaig.com/_next/static/chunks/3211-6e1754c4f11d141a.js",
+    "https://www.tataaig.com/_next/static/chunks/4989.21858a8a04c7c555.js",
+    "https://www.tataaig.com/_next/static/chunks/1084.1ae22c6da1ec98dc.js",
+    "https://www.tataaig.com/_next/static/chunks/5711.917d25f93800bf25.js",
+    "https://www.tataaig.com/_next/static/chunks/9791.b2c17b9f7eef76be.js",
+    "https://www.tataaig.com/_next/static/chunks/553.9a267ecbb733e5a0.js",
+    "https://www.tataaig.com/_next/static/chunks/6470.d9fe8383211e6805.js",
+    "https://www.tataaig.com/_next/static/chunks/webpack-2a592fc1938e6733.js",
+    "https://www.tataaig.com/_next/static/chunks/framework-9ddc88f7ee4d19da.js",
+    "https://www.tataaig.com/_next/static/chunks/main-d109af9667cf16c2.js",
+    "https://www.tataaig.com/_next/static/chunks/4070-d36e4e1b1ec8695e.js",
+    "https://www.tataaig.com/_next/static/chunks/4000-36dee9bd50f1d81d.js",
+    "https://www.tataaig.com/_next/static/chunks/18-b3908f352e356aff.js",
+    "https://www.tataaig.com/_next/static/chunks/3019-d47fa5b6c104d0cd.js",
+    "https://www.tataaig.com/_next/static/chunks/1710-ae77f10cfcd3cbec.js",
+    "https://www.tataaig.com/_next/static/chunks/4006-3c66f3d13a166353.js",
+    "https://www.tataaig.com/_next/static/chunks/679-49ca7d397a87d980.js",
+    "https://www.tataaig.com/_next/static/chunks/8139-8cec9004c4f13c0c.js",
+    "https://www.tataaig.com/_next/static/chunks/3491-005a740f90648bf2.js",
+    "https://www.tataaig.com/_next/static/chunks/pages/index-98486d5f4d23365c.js",
+    "https://www.tataaig.com/_next/static/chunks/pages/_app-5af5ce2533d65087.js",
+    "https://www.tataaig.com/_next/static/VtDnAXPGQpMrzNCHdhpQm/_buildManifest.js",
+    "https://www.tataaig.com/_next/static/VtDnAXPGQpMrzNCHdhpQm/_ssgManifest.js",
+    "https://www.google.com/recaptcha/enterprise.js?render=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB",
+    "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+    "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf",
+    "https://www.tataaig.com/prodmetrics/?id=",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TD2BW4B&gtg_health=1",
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://bat.bing.com/bat.js",
+    "https://bat.bing.com/p/action/23004605.js",
+    "https://bat.bing.com/p/action/5824257.js",
+    "https://bat.bing.com/p/action/23586078.js",
+    "https://www.tataaig.com/prodmetrics/Ce-HLb2C3WDTF1Eo-f7Zr6TJxcaozUOdygPqHFjAOTRniA9W",
+    "https://www.tataaig.com/prodmetrics/Ce-HLb2C2xq8ZThHhP282NS7xcaozUOdygPqHFjAOTRniA9W",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/586346520/?random=1794480727716&cv=11&fst=1794480727716&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6ba1v9106654085za20szb831664",
+    "https://www.tataaig.com/_next/static/chunks/7587.32751a8bf9d82c38.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "smetrics.tataaig.com",
+     "path": "/id",
+     "query": [
+      "d_fieldgroup",
+      "d_visid_ver",
+      "mcorgid",
+      "mid",
+      "ts"
+     ],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://smetrics.tataaig.com/id"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/static/css/cf99456cc9cfe33a.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.tataaig.com/_next/static/css/cf99456cc9cfe33a.css"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/static/css/e021b6c51cc6d560.css",
+     "query": [],
+     "status": 200,
+     "contentType": "text/css",
+     "example": "https://www.tataaig.com/_next/static/css/e021b6c51cc6d560.css"
+    },
+    {
+     "method": "POST",
+     "host": "www.tataaig.com",
+     "path": "/lambda/prod-searchAndQuotation/saveData",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/lambda/prod-searchAndQuotation/saveData"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/api/restricted-countries",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/api/restricted-countries"
+    },
+    {
+     "method": "POST",
+     "host": "www.tataaig.com",
+     "path": "/prodmetrics/ag/g/c",
+     "query": [
+      "_eu",
+      "_fv",
+      "_gaz",
+      "_gsid",
+      "_nsi",
+      "_p",
+      "_s",
+      "_ss",
+      "_uip",
+      "cid",
+      "dl",
+      "dma",
+      "dt",
+      "en",
+      "ep.page_name",
+      "ep.page_type",
+      "ep.page_url",
+      "ep.time",
+      "ep.tracking_code",
+      "fp",
+      "frm",
+      "gaf",
+      "gap.gtb",
+      "gcd",
+      "gtb",
+      "gtm",
+      "ir",
+      "npa",
+      "pscdl",
+      "rcb",
+      "sct",
+      "seg",
+      "sid",
+      "sr",
+      "tag_exp",
+      "tfd",
+      "tid",
+      "uaa",
+      "uab",
+      "uafvl",
+      "uam",
+      "uamb",
+      "uap",
+      "uapv",
+      "uaw",
+      "ul",
+      "ur",
+      "v"
+     ],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://www.tataaig.com/prodmetrics/ag/g/c"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/lambda/prod-master/getrtolocation/2w",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/lambda/prod-master/getrtolocation/2w"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/lambda/prod-master/getrtolocation/4w",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/lambda/prod-master/getrtolocation/4w"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/lambda/prod-master/getCountry",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/lambda/prod-master/getCountry"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json",
+     "query": [
+      "title"
+     ],
+     "status": 308,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json",
+     "query": [
+      "subSubTitle",
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 308,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json",
+     "query": [
+      "subSubTitle",
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json",
+     "query": [
+      "subTitle",
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.tataaig.com",
+     "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json",
+     "query": [
+      "title"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET dpm.demdex.net/id",
+    "GET dpm.demdex.net/id/rd",
+    "GET dev.visualwebsiteoptimizer.com/j.php",
+    "GET dev.visualwebsiteoptimizer.com/cdn/edrv/worker-1812c0acae942a04cd4f8b40cf6cf31a.br.js",
+    "GET dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-e3080bf2a69bd657fa39ce161549a119.br.js",
+    "GET dev.visualwebsiteoptimizer.com/cdn/edrv/nc-59f89d1cd37c21c6b10e3bc5e58efe57.br.js",
+    "GET dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/opaEv_ng-363823edb3279ae69d4b54cd6673a421br.js",
+    "GET dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/worker-70faafffa0475802f5ee03ca5ff74179br.js",
+    "POST www.google.com/recaptcha/enterprise/reload",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET bzrcdn.openai.com/pixel-config/v1/2upNGNdjNe8iiNrvgfvV7b.json",
+    "POST www.google.com/rmkt/collect/586346520/",
+    "POST bzr.openai.com/v1/sdk/events",
+    "POST sdk-03.moengage.com/v3/sdkconfig/web/RKI1E59FO5W7NTYN6IGC8P37",
+    "GET sdk-03.moengage.com/v2/websdksettings",
+    "POST sdk-03.moengage.com/v2/device/add",
+    "POST sdk-03.moengage.com/v3/campaigns/inapp/live"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.tataaig.com/lambda/prod-searchAndQuotation/saveData",
+     "body": "{}"
+    },
+    {
+     "url": "https://www.google.com/recaptcha/enterprise/reload?k=6LdArMApAAAAABwe1ud_10vqCe3ceXmmO8UmZ0nB",
+     "body": "\n\u00180lEGiwO4Qwx5R9ArxUy0mBpf\u0012�\u000e03AFcWeA7R9xoqONYEjW2s8EMlpcjYljAzEYW4VXfZYE9JTu0DBEVIZerJLZU9xKZZoXQuJLQEjcV5iZHUcOxw0yixH28ND2sa_obhdoss-9LwP8rsFZ2SahDOlLYHtua5teDGbQoEsMCQGisY8EsMnCZ8_LJguSoWaU82PfLK12cnIOIuyQBUTu6NptieVrYG0y0wN8-Kic-bXXnr-Wceegs_Aac-8rrF0HVf4L_7SUh7t2-0ZkQiIFn6r9GHn0UEmHhlOw61ul0Yc7eeJFBgfieywizCKmu0I4K3cDT03osGq-LGw4I07YC_wiPh536NmmwRdpX-rwh_gf1xvOFcyClJTy0qZYK8ImAhxzB2-s0st-OGj"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&auid=1095056481.1794480727&dt=TATA%20AIG%20%7C%20Buy%20Car%2C%20Bike%2C%20Health%20%26%20Travel%20Insurance%20Online&en=page_view&dl=https%3A",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1095056481.1794480727&gtm=45E92e6ba1v831664223za204zd831664223xeaxf4&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/586346520/?random=1794480727716&cv=11&fst=1794480727716&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6ba1v9106654085za20szb831664223zd831664223xecxf4&gc",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1095056481.1794480727&dt=TATA%20AIG%20%7C%20Buy%20Car%2C%20Bike%2C%20Health%20%26%20Travel%20Insurance%20Online&tid=AW-586346520&en=page_view",
+     "body": ""
+    },
+    {
+     "url": "https://www.tataaig.com/prodmetrics/ag/g/c?v=2&tid=G-BGQYN7SBBB&gtm=45g92e6ba1v877856755za20szb831664223zd831664223xf4&_p=1794480721531&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&_uip=%3A%3A&cid",
+     "body": ""
+    },
+    {
+     "url": "https://bzr.openai.com/v1/sdk/events?pid=2upNGNdjNe8iiNrvgfvV7b&st=oaiq-web&sv=0.1.103&t=1794480728329&ec=2",
+     "body": "{\"obref\":\"99c271f9-fa93-40f3-9d54-24934aa16e3d\",\"events\":[{\"test_session_id\":null,\"type\":\"openai::sdk_init\",\"timestamp_ms\":1794480727076,\"id\":\"799fa645-b44a-40bb-a6cd-f5b1ab52d34d\",\"source_url\":\"https://www.tataaig.com/\",\"data\":{\"type\":\"sdk_lifecycle\"}},{\"test_session_id\":null,\"type\":\"oai::diagnostic\",\"timestamp_ms\":1794480727077,\"id\":\"d9acc11e-e235-4b78-9179-1e865176e795\",\"data\":{\"type\":\"diagnost"
+    },
+    {
+     "url": "https://sdk-03.moengage.com/v3/sdkconfig/web/RKI1E59FO5W7NTYN6IGC8P37",
+     "body": "{\"query_params\":{\"unique_id\":null}}"
+    },
+    {
+     "url": "https://sdk-03.moengage.com/v2/device/add?os=web&os_platform=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F158.0.0.0%20Safari%2F537.36&is_inco",
+     "body": "null"
+    },
+    {
+     "url": "https://sdk-03.moengage.com/v3/campaigns/inapp/live?sdk_ver=2.81.01&unique_id=e76c718d-4c30-4bb6-ada2-5650f880e877&os=web",
+     "body": "{\"identifiers\":{},\"campaign_ids\":[],\"user_session_attributes\":{\"USER_TYPE\":\"New\",\"DAY_OF_THE_WEEK\":\"Thursday\",\"TIME_OF_THE_DAY\":\"10\"}}"
+    },
+    {
+     "url": "https://www.tataaig.com/lambda/prod-searchAndQuotation/saveData",
+     "body": "{}"
+    }
+   ],
+   "textAtLoad": 13000,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-dev-visualwebsiteoptimizer-com",
+   "class": "A",
+   "feature": "unknown third-party host dev.visualwebsiteoptimizer.com",
+   "hint": "inspect",
+   "evidence": [
+    "dev.visualwebsiteoptimizer.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-bzrcdn-openai-com",
+   "class": "A",
+   "feature": "unknown third-party host bzrcdn.openai.com",
+   "hint": "inspect",
+   "evidence": [
+    "bzrcdn.openai.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-bzr-openai-com",
+   "class": "A",
+   "feature": "unknown third-party host bzr.openai.com",
+   "hint": "inspect",
+   "evidence": [
+    "bzr.openai.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-sdk-03-moengage-com",
+   "class": "A",
+   "feature": "unknown third-party host sdk-03.moengage.com",
+   "hint": "inspect",
+   "evidence": [
+    "sdk-03.moengage.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-index-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-api-restricted-countries",
+   "class": "A",
+   "feature": "first-party API GET /api/restricted-countries",
+   "api": {
+    "method": "GET",
+    "path": "/api/restricted-countries"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /api/restricted-countries → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getrtolocation-2w",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getrtolocation/2w",
+   "api": {
+    "method": "GET",
+    "path": "/lambda/prod-master/getrtolocation/2w"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /lambda/prod-master/getrtolocation/2w → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getrtolocation-4w",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getrtolocation/4w",
+   "api": {
+    "method": "GET",
+    "path": "/lambda/prod-master/getrtolocation/4w"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /lambda/prod-master/getrtolocation/4w → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getcountry",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getCountry",
+   "api": {
+    "method": "GET",
+    "path": "/lambda/prod-master/getCountry"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /lambda/prod-master/getCountry → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-json",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json?title → 308"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-custom",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-locato",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-locato",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json?subSubTitle,subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json?subTitle,title → 308"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json?subSubTitle,subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-indivi",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-home-i",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-privat",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-casual",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-rural-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-small-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json",
+   "api": {
+    "method": "GET",
+    "path": "/_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json?title → 200"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-next-data",
+   "class": "A",
+   "feature": "CMS / app settings object __NEXT_DATA__",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "cr-client-framework-next",
+   "class": "CR",
+   "feature": "client framework next",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "www.google.com",
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-motor4w-main-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"motor4w_main\" → no action (JS-wired) (1 fields)",
+   "signature": [
+    "text:regNumber"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:regNumber"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-motor2w-main-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"motor2w_main\" → no action (JS-wired) (1 fields)",
+   "signature": [
+    "text:regNumber"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:regNumber"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-w-100-h-100-6-cards",
+   "class": "L",
+   "feature": "listing candidate w-100 h-100 (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-row-ourproducts-applyrightborder-3qp9b-6",
+   "class": "L",
+   "feature": "listing candidate row ourProducts_applyRightBorder__3Qp9B (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-row-ourproducts-mt17-omsqt-7-cards",
+   "class": "L",
+   "feature": "listing candidate row ourProducts_mt17__omSqT (7 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "s-first-party-api-post-lambda-prod-searchandquotation-saveda",
+   "class": "S",
+   "feature": "first-party API POST /lambda/prod-searchAndQuotation/saveData",
+   "api": {
+    "method": "POST",
+    "path": "/lambda/prod-searchAndQuotation/saveData"
+   },
+   "hint": "search",
+   "evidence": [
+    "POST /lambda/prod-searchAndQuotation/saveData → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "tataaig.demdex.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "cm.everesttech.net",
+    "sync-tm.everesttech.net",
+    "bat.bing.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "stats.g.doubleclick.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
+   "hint": "tags",
+   "evidence": [
+    "smetrics.tataaig.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-moengage-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.moengage.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.moengage.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-co-in",
+   "class": "T",
+   "feature": "unknown third-party host www.google.co.in",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.co.in"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET dev.visualwebsiteoptimizer.com/j.php": 1,
+   "GET dev.visualwebsiteoptimizer.com/cdn/edrv/worker-1812c0acae942a04cd4f8b40cf6cf31a.br.js": 1,
+   "GET dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-e3080bf2a69bd657fa39ce161549a119.br.js": 1,
+   "GET dev.visualwebsiteoptimizer.com/cdn/edrv/nc-59f89d1cd37c21c6b10e3bc5e58efe57.br.js": 1,
+   "GET dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/opaEv_ng-363823edb3279ae69d4b54cd6673a421br.js": 1,
+   "GET dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/worker-70faafffa0475802f5ee03ca5ff74179br.js": 1,
+   "GET www.tataaig.com/_next/static/css/cf99456cc9cfe33a.css": 1,
+   "GET www.tataaig.com/_next/static/css/e021b6c51cc6d560.css": 1,
+   "POST www.tataaig.com/lambda/prod-searchAndQuotation/saveData": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json": 1,
+   "GET www.tataaig.com/api/restricted-countries": 1,
+   "POST www.google.com/recaptcha/enterprise/reload": 1,
+   "GET www.tataaig.com/lambda/prod-master/getrtolocation/4w": 1,
+   "GET www.tataaig.com/lambda/prod-master/getrtolocation/2w": 1,
+   "GET www.tataaig.com/lambda/prod-master/getCountry": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json": 1,
+   "GET www.tataaig.com/_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 1,
+  "triggerPages": {
+   "aria-haspopup": 1
+  }
+ }
+}

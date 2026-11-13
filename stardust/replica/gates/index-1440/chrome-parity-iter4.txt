@@ -1,0 +1,20 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.tataaig.com/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-12T11:13:56.398Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 10 delta(s) — 6 paired of 6/6 texts, 7/7 icons
+  PAIR         "Personal"  lineHeight 21px → normal; Δx -12px (461→449)
+  PAIR         "Business"  Δx -11px (590→579)
+  PAIR         "Renewal"  lineHeight 21px → normal; Δx -11px (720→709)
+  PAIR         "Claims"  tag <span> → <a>; Δx -11px (849→838)
+  PAIR         "Support"  tag <span> → <a>; Δx -11px (938→927)
+  PAIR         "My Policy"  tag <span> → <a>; Δx -11px (1033→1022); Δw +17px (119→136)
+  ICON         icon #1: signature "Icon down.svg" → "Icon%20down.svg"
+  ICON         icon #2: signature "Icon down.svg" → "Icon%20down.svg"
+  ICON         icon #3: signature "Icon down.svg" → "Icon%20down.svg"
+  ICON         "My Policy"  icon #4 near "My Policy": Δw +17px (0→17); signature "user (2).svg" → "user%20(2).svg"
+
+■ footer: 1 delta(s) — 0 paired of 0/0 texts, 0/0 icons
+  REGION BOX   Δy +100px (6075→6175)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,222 @@
+/* why-tata — lifted from stardust/prototypes/css/index.css § why TATA AIG */
+/* stylelint-disable no-descending-specificity -- lifted prototype cascade order */
+.why-tata {
+  padding: 64.4px 15px 70px;
+  background: var(--surface);
+}
+
+.why-tata picture {
+  display: contents;
+}
+
+.why-tata p {
+  margin: 0;
+}
+
+.why-tata .why-title {
+  margin: 0 0 35px;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.why-tata .why-title :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.why-tata .why-arc {
+  position: relative;
+  height: 450px;
+  padding-bottom: 25px;
+  overflow-y: hidden;
+  background: url('/icons/why-arc.svg') 0 100% / 100% auto no-repeat;
+}
+
+.why-tata .why-ring {
+  position: absolute;
+  inset: 45px 50px 0;
+  height: 100%;
+  border: 1px dotted rgb(38 74 159 / 30%);
+  border-radius: 50%;
+  transform: scaleY(2) translateY(25%);
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 50% 50%, 0 30%);
+}
+
+.why-tata .why-items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.why-tata .why-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.why-tata .why-item-0 {
+  margin-bottom: 0;
+  transform: translateX(10px);
+}
+
+.why-tata .why-item-1 {
+  margin-bottom: 176.6667px;
+  transform: translateX(-30px);
+}
+
+.why-tata .why-item-2 {
+  margin-bottom: 283.3333px;
+  transform: translateX(-20px);
+}
+
+.why-tata .why-item-3 {
+  margin-bottom: 283.3333px;
+  transform: translateX(20px);
+}
+
+.why-tata .why-item-4 {
+  margin-bottom: 176.6667px;
+  transform: translateX(30px);
+}
+
+.why-tata .why-item-5 {
+  margin-bottom: 0;
+  transform: translateX(-10px);
+}
+
+.why-tata .why-circle {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1.2px dotted rgb(38 74 159 / 35%);
+  border-radius: 50%;
+  background: var(--surface);
+}
+
+.why-tata .why-circle img {
+  width: auto;
+  height: 25px;
+}
+
+.why-tata .why-label {
+  display: block;
+  width: 150px;
+  min-height: 56px;
+  margin-top: 4px;
+  color: var(--blue);
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.why-tata .why-more {
+  font-size: 11.2px;
+  line-height: 16.8px;
+}
+
+.why-tata .why-more a:any-link {
+  display: block;
+  color: var(--blue);
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.why-tata .why-more-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (width <= 768px) {
+  .why-tata {
+    padding: 64.4px 15px 50px;
+  }
+
+  .why-tata .why-title {
+    font-size: 22px;
+  }
+
+  .why-tata .why-m-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+
+  .why-tata .why-m-item {
+    position: relative;
+    display: flex;
+    flex: 0 0 50%;
+    justify-content: center;
+    max-width: 50%;
+    margin-bottom: 100px;
+    padding: 0 15px;
+  }
+
+  .why-tata .why-m-item .why-circle {
+    width: 65px;
+    height: 65px;
+    border: 1.2px dashed rgb(38 74 159 / 55%);
+  }
+
+  .why-tata .why-m-item .why-circle img {
+    height: 31px;
+  }
+
+  .why-tata .why-m-text {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    text-align: center;
+  }
+
+  .why-tata .why-m-text .why-text {
+    display: block;
+    color: var(--blue);
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .why-tata .why-m-text .why-more {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .why-tata .why-m-text .why-more a:any-link {
+    display: block;
+    color: var(--slate);
+    text-decoration: underline;
+    opacity: 1;
+  }
+
+  .why-tata .why-m-art {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .why-tata .why-m-art img {
+    width: 323px;
+    height: auto;
+  }
+}
+
+@media (width <= 380px) {
+  .why-tata .why-title {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-12T11:28:46.070Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-12T13:28:43.257Z",
+  "blocks": [
+    {
+      "id": "about",
+      "label": "about",
+      "kind": "module",
+      "signature": "module:about",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "about",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "get-app",
+      "label": "get-app",
+      "kind": "module",
+      "signature": "module:get-app",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "get-app",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "products",
+      "label": "products",
+      "kind": "module",
+      "signature": "module:products",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quote-hero",
+      "label": "quote-hero",
+      "kind": "module",
+      "signature": "module:quote-hero",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quote-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related-articles",
+      "label": "related-articles",
+      "kind": "module",
+      "signature": "module:related-articles",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "related-articles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonials",
+      "label": "testimonials",
+      "kind": "module",
+      "signature": "module:testimonials",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "testimonials",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "whats-new",
+      "label": "whats-new",
+      "kind": "module",
+      "signature": "module:whats-new",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "whats-new",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "why-tata",
+      "label": "why-tata",
+      "kind": "module",
+      "signature": "module:why-tata",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "why-tata",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

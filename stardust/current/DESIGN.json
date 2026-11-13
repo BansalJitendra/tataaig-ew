@@ -1,0 +1,142 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1648px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1648,
+          "via": "max-width",
+          "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.homeMobilePadding",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 809,
+          "via": "other",
+          "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 551,
+          "via": "fixed",
+          "selector": "div.col-12.my-md-0 > div.row.justify-content-between > div.col-md-6.mDisplayNone > picture",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 350,
+          "via": "max-width",
+          "selector": "div.slick-track > div.slick-slide.slick-active > div > div.mt-2.mb-2",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 320,
+          "via": "max-width",
+          "selector": "div.mp0 > div.row > div.col-12.mt-3 > button.globalButton.Button_input__1X7LK",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 278,
+          "via": "fixed",
+          "selector": "div.card.fcPadding1 > div.container > div.row > div.motorCategory_autoFetch__EqTtV",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 0,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 1,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.whyTataSection",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 2,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 3,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 4,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 5,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 6,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 7,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 8,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 9,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 10,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-12T10:50:02.115Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.tataaig.com/"
+        ]
+      }
+    }
+  }
+}

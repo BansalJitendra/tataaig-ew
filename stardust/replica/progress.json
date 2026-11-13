@@ -1,0 +1,35 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "index",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": ["stardust/prototypes/css/canon.css", "stardust/prototypes/css/index.css"],
+      "contentRoot": "main",
+      "iterations": { "1440": 3, "360": 3 },
+      "gates": {
+        "1440": { "pixelPct": 2.15, "heightDelta": 1, "contentDiff": { "red": 0, "nothingLost": 0, "advisory": 131 }, "visualDiff": "3 advisory: STRETCHED IMAGE x3 on related-article images — faithful (source renders them width:100%/height:250px with no object-fit)", "clipped": 0, "overflow": 0 },
+        "360": { "pixelPct": 3.70, "heightDelta": -1, "contentDiff": { "red": 0, "nothingLost": 0, "accepted": 4, "advisory": 115 }, "visualDiff": "5 advisory: STRETCHED IMAGE on article images; HEADING FACE on the hidden More-panel h3s (16px Poppins, source same)", "clipped": 0, "overflow": 0 }
+      },
+      "capProbe": "PASS",
+      "gateAll": { "1440": "PASS 2.16% Δh 1", "360": "PASS 3.7% Δh -1", "stateFile": "stardust/.work/state-proto.json (copy with prototypePath; real state.json untouched)" },
+      "residuals": [
+        "360 band y5500-6000 at 20.8%: related-article images — live serves _next/image w=750 q=30 renditions cropped into 270x240; prototype uses the original jpeg at 270x240 (rendition/compression difference, layout matches).",
+        "chrome-parity header: nav text x deltas (-11px) and icon signature 'Icon down.svg' vs 'Icon%20down.svg' — live icons are loading=lazy and unloaded at probe time (signature falls back to raw attribute); measure.mjs puts nav boxes within 1px and header crop-compare matches 98.6%.",
+        "chrome-parity footer REGION BOX Δy: the source's <footer> is empty (all footer content lives inside <main>); prototype mirrors that with an empty <footer> after main, compared against an unsettled live doc height.",
+        "Text variants are mirrored as dual nodes (desktop/mobile) where the source swaps by width (product card labels, 'Renew your/Renew TATA AIG car policy', why-TATA mobile grid, whats-new desktop+mobile carousels) — content-diff EXTRA advisories only.",
+        "reCAPTCHA badge (third-party, fixed bottom-right) not reproduced."
+      ],
+      "captureState": [
+        { "element": ".gst-strip__track", "restoreAtDelivery": "marquee translateX(0→-140%) 30s linear infinite (implemented in CSS; frozen at t=0 by the capture)" },
+        { "element": ".flow-card__shine", "restoreAtDelivery": "shine sweep 8.4s linear, 4 iterations (implemented)" },
+        { "element": ".get-app-float", "restoreAtDelivery": "slide-up entrance .5s ease-out (implemented)" }
+      ],
+      "motion": {
+        "observed": ["quote tabs switch panel on click (#car/#bike/...)", "testimonial slick-next: track translateX(-370px) transition .5s", "Personal/Business/Renewal mega menu opens on click", "accessibility panel toggles on click", "getApp slideUp entrance", "Brand-New-Car shine sweep"],
+        "implemented": ["quote tabs (inline JS, hidden panels)", "testimonials + whats-new next arrow (translateX, .5s)", "header mega menus + a11y panel click toggle", "get-app slide-up + shine keyframes (CSS)", "About Show More/Less", "desktop footer accordion toggle"],
+        "dead": ["header scroll-morph (static on both)", "nav hover (no change on live)"]
+      },
+      "verdict": "pass"
+    }
+  }
+}
