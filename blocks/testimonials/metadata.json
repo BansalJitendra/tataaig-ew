@@ -1,0 +1,11 @@
+{
+  "variantName": "testimonials",
+  "baseBlock": "carousel",
+  "canonicalModel": "carousel",
+  "visualCharacteristics": "Customer testimonial slider with thumbnail, name, clamped description and Read More control; heading and View All Reviews button sit above.",
+  "contentPattern": "Section heading and \"View All Reviews\" link (<em> = outline button) as default content before the block. One row per testimonial: thumbnail image | name heading + description paragraph | \"Read More\" paragraph.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for customer testimonial sliders.",
+  "reuseGuidance": "Reuse for any quote/review slider with image, name and text."
+}

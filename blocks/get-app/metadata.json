@@ -1,0 +1,11 @@
+{
+  "variantName": "get-app",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "Get our app band: copy with benefit list, phone screenshot, QR code card and store badges.",
+  "contentPattern": "One row, up to four cells classified by content: copy (heading, lede, benefit list); images without links (first = phone screenshot, second = QR code, desktop only); linked images = store badges.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for app download promotion bands.",
+  "reuseGuidance": "Reuse for any app promo with store badges."
+}

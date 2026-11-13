@@ -1,0 +1,11 @@
+{
+  "variantName": "quote-hero",
+  "baseBlock": "tabs",
+  "canonicalModel": "tabs",
+  "visualCharacteristics": "Home first fold: product quote tabs (Car, Bike, Health, Travel, More) with a panel per tab holding a title, optional input/segmented choice, a Buy now CTA and flow cards, plus campaign art and a scroll cue.",
+  "contentPattern": "One row per tab: cell 1 = tab icon image + tab label; cell 2 = panel (h2 title, optional icon note, ul choice, field label, <em> placeholder, <strong><a> Buy now CTA, then flow-card paragraphs of image + text). The More panel uses h3 group headings each followed by a ul of image + label items.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for the homepage quote-entry hero with tabbed product journeys.",
+  "reuseGuidance": "Reuse for any first fold that offers tabbed product quote entry; not for a simple banner hero."
+}

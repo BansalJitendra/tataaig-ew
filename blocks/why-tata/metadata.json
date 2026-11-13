@@ -1,0 +1,11 @@
+{
+  "variantName": "why-tata",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Six proof points arranged on an arc (desktop) or two-column grid (mobile), each an icon with a label and link, plus an optional mobile illustration.",
+  "contentPattern": "Section heading as default content before the block. Item rows: icon image | label paragraph + link paragraph. Optional final art row with a single image (mobile illustration).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use for the \"Why TATA AIG\" proof-point section.",
+  "reuseGuidance": "Reuse for a short set of icon + label proof points; use plain cards for longer content."
+}
