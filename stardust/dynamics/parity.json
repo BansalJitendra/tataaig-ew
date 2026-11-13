@@ -1,0 +1,174 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-12T13:24:22.814Z"
+  },
+  "method": "single page; quote widget rebuilt as the quote-hero block (tabs + panels, Buy now hands off to the source quote journey); tags carried in the martech contract, every part disabled; framework/data rows are static content",
+  "features": [
+    {
+      "id": "quote-widget",
+      "feature": "product quote tabs + registration form",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "interim",
+      "verifiedBy": "aem.live 1440: 5 tabs, 5 panels, 3 inputs; Buy now targets www.tataaig.com car / two-wheeler / health / travel quote journeys",
+      "owner": "D1 — keep the hand-off to the source quote journey or proxy the quote APIs",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".quote-hero [role=tab]",
+          "min": 5
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".quote-hero [role=tabpanel]",
+          "min": 5
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".quote-hero .quote-card-btn",
+          "min": 4
+        }
+      ]
+    },
+    {
+      "id": "captcha",
+      "feature": "reCAPTCHA on the quote form",
+      "class": "F",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1 — arrives with the quote backend",
+      "checks": []
+    },
+    {
+      "id": "rto-lookups",
+      "feature": "quote-form lookups (RTO, country, restricted countries)",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1 — host-bound on www.tataaig.com; not needed by the interim hand-off",
+      "checks": []
+    },
+    {
+      "id": "save-quote",
+      "feature": "POST saveData (quote save)",
+      "class": "S",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D1",
+      "checks": []
+    },
+    {
+      "id": "next-data-prefetch",
+      "feature": "Next.js route prefetches",
+      "class": "A",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "id": "page-globals",
+      "feature": "digitalData / dataLayer / __NEXT_DATA__",
+      "class": "A",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "id": "next-hydration",
+      "feature": "Next.js client framework",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "id": "card-groups",
+      "feature": "Why TATA AIG + Our Products card groups",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": []
+    },
+    {
+      "id": "tags",
+      "feature": "Adobe DTM / AppMeasurement, GTM, Dynatrace",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D2 — enable martech contract parts on the new host",
+      "checks": []
+    },
+    {
+      "id": "moengage",
+      "feature": "MoEngage web SDK",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D2 — martech route moengage, disabled",
+      "checks": []
+    },
+    {
+      "id": "vwo-openai",
+      "feature": "VWO / OpenAI loaded by the tag stack",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D2 — arrive through the tag managers when enabled",
+      "checks": []
+    },
+    {
+      "id": "runtime-iframe",
+      "feature": "tag-injected iframe",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "D2 — arrives with the tags",
+      "checks": []
+    },
+    {
+      "id": "page-health",
+      "feature": "no uncaught errors on the delivered page",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-12T10:52:38.975Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.tataaig.com"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null,
+  "note": "No CMP (OneTrust or other) found on the source home page; the source loads tags without a consent banner. Owner decides the consent model before enabling any route."
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-TD2BW4B&gtg_health=1",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "adobe-dtm",
+   "vendor": "Adobe Dynamic Tag Management (satelliteLib)",
+   "src": "https://assets.adobedtm.com/71e40a7fa2004bdcd064f8678cb1edff1296d129/satelliteLib-3430d8df4df83855f4165b0338a2ef8ff0b28afa.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "moengage",
+   "vendor": "MoEngage Web SDK (site init script)",
+   "src": "https://www.tataaig.com/js/moengage_prod.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "tag manager: Adobe Launch",
+  "analytics: Google Analytics / Ads",
+  "RUM: Dynatrace",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer",
+  "digitalData"
+ ],
+ "tagNotes": {
+  "adobe-dtm": "Loaded by the source <head> as a legacy DTM satelliteLib (it pulls AppMeasurement from assets.adobedtm.com); carried over disabled.",
+  "moengage": "Source loads its first-party /js/moengage_prod.js, which loads cdn.moengage.com/release/dc_3/moe_webSdk.min.latest.js; rehost the init script on the new site before enabling.",
+  "google-tag-manager": "GTM-TD2BW4B from the source page."
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

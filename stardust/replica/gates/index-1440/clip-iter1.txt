@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/index-proposed.html @ 1440px — docH 6010, 241 text nodes, 113 controls (HTTP 200, chrome)
+  🔴 TEXT CLIPPED           ×4     in h5.testi__name  li.testi__slide > article.testi__card > div.testi__body > h5.testi__name  "navnit kumar dhamsaniya | health insurance customer"  cut 2–21px
+Clipped: 4 (text clipped 4, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 7, collapsed 0, scroll-hidden 0, horizontal 4)
+json → stardust/replica/gates/index-1440/clip-iter1.json

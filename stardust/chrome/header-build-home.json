@@ -1,0 +1,1663 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--0484faa8--aemcoder.aem.page/",
+ "at": "2026-11-12T12:54:54.162Z",
+ "shots": "stardust/.work/chrome/header-build-home",
+ "widths": {
+  "390": {
+   "root": "#fixHeader",
+   "controls": [
+    {
+     "name": "TATA AIG LOGO",
+     "key": "tata aig logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>a",
+     "href": "https://main--0484faa8--aemcoder.aem.page/",
+     "expanded": null,
+     "rect": [
+      30,
+      110,
+      112,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accessibility options",
+     "key": "accessibility options",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#fixHeader>div>div:nth-of-type(1)>button:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      248,
+      113,
+      50,
+      50
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [
+         "Close",
+         "Decrease",
+         "Increase",
+         "Decrease",
+         "Increase",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "390-001-Accessibility-options-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [
+         "Close",
+         "Decrease",
+         "Increase",
+         "Decrease",
+         "Increase",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         0,
+         390,
+         844
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [],
+       "shot": "390-002-Accessibility-options-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close",
+       "key": "close",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>button",
+       "expanded": null,
+       "rect": [
+        0,
+        0,
+        390,
+        844
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 24
+        }
+       }
+      },
+      {
+       "name": "Decrease",
+       "key": "decrease",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(1)>span:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        239,
+        317,
+        18,
+        22
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Increase",
+       "key": "increase",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(1)>span:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        324,
+        317,
+        18,
+        22
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Decrease",
+       "key": "decrease",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(2)>span:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        239,
+        382,
+        18,
+        22
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Increase",
+       "key": "increase",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(2)>span:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        324,
+        382,
+        18,
+        22
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(3)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        438,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(4)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        497,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(5)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        556,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(6)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        615,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(7)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        674,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(8)>button",
+       "expanded": null,
+       "rect": [
+        283,
+        733,
+        75,
+        34
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "X",
+     "key": "x",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#fixHeader>div>div:nth-of-type(1)>button:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      310,
+      113,
+      50,
+      50
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://main--0484faa8--aemcoder.aem.page/"
+         },
+         {
+          "text": "Claims",
+          "href": "https://main--0484faa8--aemcoder.aem.page/claims-process"
+         },
+         {
+          "text": "Support",
+          "href": "https://main--0484faa8--aemcoder.aem.page/contact-us"
+         },
+         {
+          "text": "My Policy",
+          "href": "https://www.tataaig.com/servicing"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu",
+         "Personal",
+         "Business",
+         "Renewal"
+        ],
+        "options": 0,
+        "rect": [
+         28,
+         21,
+         334,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.header-backdrop"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.header-backdrop"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "nav.site-nav"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.site-nav"
+        }
+       ],
+       "shot": "390-003-X-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "",
+          "href": "https://main--0484faa8--aemcoder.aem.page/"
+         },
+         {
+          "text": "Claims",
+          "href": "https://main--0484faa8--aemcoder.aem.page/claims-process"
+         },
+         {
+          "text": "Support",
+          "href": "https://main--0484faa8--aemcoder.aem.page/contact-us"
+         },
+         {
+          "text": "My Policy",
+          "href": "https://www.tataaig.com/servicing"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu",
+         "Personal",
+         "Business",
+         "Renewal"
+        ],
+        "options": 0,
+        "rect": [
+         28,
+         21,
+         334,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.header-backdrop"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.header-backdrop"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 350,
+         "delay": 0,
+         "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+         "target": "nav.site-nav"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "nav.site-nav"
+        }
+       ],
+       "shot": "390-004-X-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#site-nav>div>button",
+       "expanded": null,
+       "rect": [
+        312,
+        21,
+        50,
+        50
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      },
+      {
+       "name": "Personal",
+       "key": "personal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-nav>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        28,
+        139,
+        334,
+        42
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Motor Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance"
+           },
+           {
+            "text": "Travel Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/travel-insurance"
+           },
+           {
+            "text": "Health Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/health-insurance"
+           },
+           {
+            "text": "Other Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/"
+           }
+          ],
+          "headings": [],
+          "images": 8,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           189,
+           334,
+           208
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-005-Personal-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Motor Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance"
+           },
+           {
+            "text": "Travel Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/travel-insurance"
+           },
+           {
+            "text": "Health Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/health-insurance"
+           },
+           {
+            "text": "Other Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/"
+           }
+          ],
+          "headings": [],
+          "images": 8,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           189,
+           334,
+           208
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-006-Personal-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Business",
+       "key": "business",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-nav>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        28,
+        199,
+        334,
+        42
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Marine Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+           },
+           {
+            "text": "Liability Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/liability-insurance"
+           },
+           {
+            "text": "Group Health Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/group-health-insurance"
+           },
+           {
+            "text": "Fire and Burglary Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/fire-burglary-insurance"
+           },
+           {
+            "text": "Engineering Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/engineering-insurance"
+           }
+          ],
+          "headings": [],
+          "images": 10,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           249,
+           334,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-007-Business-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Marine Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+           },
+           {
+            "text": "Liability Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/liability-insurance"
+           },
+           {
+            "text": "Group Health Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/group-health-insurance"
+           },
+           {
+            "text": "Fire and Burglary Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/fire-burglary-insurance"
+           },
+           {
+            "text": "Engineering Insurance",
+            "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/engineering-insurance"
+           }
+          ],
+          "headings": [],
+          "images": 10,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           249,
+           334,
+           256
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-008-Business-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Renewal",
+       "key": "renewal",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#site-nav>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        28,
+        259,
+        334,
+        42
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Car",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=car&renewalHeader=yes"
+           },
+           {
+            "text": "Bike",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=2w&renewalHeader=yes"
+           },
+           {
+            "text": "Health",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=health&renewalHeader=yes"
+           },
+           {
+            "text": "Others",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=others&renewalHeader=yes"
+           }
+          ],
+          "headings": [],
+          "images": 8,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           309,
+           334,
+           208
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-009-Renewal-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Car",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=car&renewalHeader=yes"
+           },
+           {
+            "text": "Bike",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=2w&renewalHeader=yes"
+           },
+           {
+            "text": "Health",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=health&renewalHeader=yes"
+           },
+           {
+            "text": "Others",
+            "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=others&renewalHeader=yes"
+           }
+          ],
+          "headings": [],
+          "images": 8,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           28,
+           309,
+           334,
+           208
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [],
+         "shot": "390-010-Renewal-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 105,
+     "height": 90,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -895,
+     "height": 90,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -595,
+     "height": 90,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 105,
+     "height": 90,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 10,
+   "truncated": null,
+   "loads": 13,
+   "requests": 1507,
+   "maxRequests": 4000,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#fixHeader",
+   "controls": [
+    {
+     "name": "TATA AIG LOGO",
+     "key": "tata aig logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#fixHeader>div>a",
+     "href": "https://main--0484faa8--aemcoder.aem.page/",
+     "expanded": null,
+     "rect": [
+      165,
+      60,
+      112,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Personal",
+     "key": "personal",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      443,
+      67,
+      90,
+      22
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Motor Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance"
+         },
+         {
+          "text": "Travel Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/travel-insurance"
+         },
+         {
+          "text": "Health Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/health-insurance"
+         },
+         {
+          "text": "Other Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/"
+         },
+         {
+          "text": "Car Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/car-insurance"
+         },
+         {
+          "text": "Bike Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/two-wheeler-insurance"
+         },
+         {
+          "text": "Auto Rickshaw Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance"
+         },
+         {
+          "text": "Commercial Vehicle Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/commercial-vehicle-insurance"
+         }
+        ],
+        "headings": [],
+        "images": 8,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         282,
+         120,
+         717,
+         240
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Personal-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Motor Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance"
+         },
+         {
+          "text": "Travel Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/travel-insurance"
+         },
+         {
+          "text": "Health Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/health-insurance"
+         },
+         {
+          "text": "Other Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/"
+         },
+         {
+          "text": "Car Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/car-insurance"
+         },
+         {
+          "text": "Bike Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/two-wheeler-insurance"
+         },
+         {
+          "text": "Auto Rickshaw Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance"
+         },
+         {
+          "text": "Commercial Vehicle Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/motor-insurance/commercial-vehicle-insurance"
+         }
+        ],
+        "headings": [],
+        "images": 8,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         282,
+         120,
+         717,
+         240
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-Personal-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      573,
+      67,
+      90,
+      22
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Marine Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+         },
+         {
+          "text": "Liability Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/liability-insurance"
+         },
+         {
+          "text": "Group Health Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/group-health-insurance"
+         },
+         {
+          "text": "Fire and Burglary Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/fire-burglary-insurance"
+         },
+         {
+          "text": "Engineering Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/engineering-insurance"
+         },
+         {
+          "text": "Marine Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+         },
+         {
+          "text": "Transit Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance/transit-insurance"
+         },
+         {
+          "text": "Marine Open Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance/annual-open-policy"
+         }
+        ],
+        "headings": [],
+        "images": 10,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         264,
+         120,
+         717,
+         296
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-Business-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Marine Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+         },
+         {
+          "text": "Liability Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/liability-insurance"
+         },
+         {
+          "text": "Group Health Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/group-health-insurance"
+         },
+         {
+          "text": "Fire and Burglary Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/fire-burglary-insurance"
+         },
+         {
+          "text": "Engineering Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/engineering-insurance"
+         },
+         {
+          "text": "Marine Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance"
+         },
+         {
+          "text": "Transit Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance/transit-insurance"
+         },
+         {
+          "text": "Marine Open Insurance",
+          "href": "https://main--0484faa8--aemcoder.aem.page/sme-insurance/marine-insurance/annual-open-policy"
+         }
+        ],
+        "headings": [],
+        "images": 10,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         264,
+         120,
+         717,
+         296
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-Business-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Renewal",
+     "key": "renewal",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      703,
+      67,
+      89,
+      22
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Car",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=car&renewalHeader=yes"
+         },
+         {
+          "text": "Bike",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=2w&renewalHeader=yes"
+         },
+         {
+          "text": "Health",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=health&renewalHeader=yes"
+         },
+         {
+          "text": "Others",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=others&renewalHeader=yes"
+         }
+        ],
+        "headings": [],
+        "images": 8,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         694,
+         120,
+         335,
+         240
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-005-Renewal-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Car",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=car&renewalHeader=yes"
+         },
+         {
+          "text": "Bike",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=2w&renewalHeader=yes"
+         },
+         {
+          "text": "Health",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=health&renewalHeader=yes"
+         },
+         {
+          "text": "Others",
+          "href": "https://main--0484faa8--aemcoder.aem.page/renewal?lob=others&renewalHeader=yes"
+         }
+        ],
+        "headings": [],
+        "images": 8,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         694,
+         120,
+         335,
+         240
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-Renewal-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Claims",
+     "key": "claims",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-nav>ul>li:nth-of-type(4)>a",
+     "href": "https://main--0484faa8--aemcoder.aem.page/claims-process",
+     "expanded": null,
+     "rect": [
+      832,
+      67,
+      49,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-nav>ul>li:nth-of-type(5)>a",
+     "href": "https://main--0484faa8--aemcoder.aem.page/contact-us",
+     "expanded": null,
+     "rect": [
+      921,
+      67,
+      55,
+      21
+     ],
+     "actions": {}
+    },
+    {
+     "name": "My Policy",
+     "key": "my policy",
+     "role": "link",
+     "kind": "account",
+     "sel": "#site-nav>ul>li:nth-of-type(6)>a",
+     "href": "https://www.tataaig.com/servicing",
+     "expanded": null,
+     "rect": [
+      1016,
+      58,
+      136,
+      39
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accessibility Options",
+     "key": "accessibility options",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-nav>ul>li:nth-of-type(7)>button",
+     "expanded": "false",
+     "rect": [
+      1183,
+      56,
+      92,
+      44
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [
+         "Decrease",
+         "Increase",
+         "Decrease",
+         "Increase",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No"
+        ],
+        "options": 0,
+        "rect": [
+         894,
+         122,
+         332,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-007-Accessibility-Options-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 13,
+        "inputs": [],
+        "buttons": [
+         "Decrease",
+         "Increase",
+         "Decrease",
+         "Increase",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No",
+         "No"
+        ],
+        "options": 0,
+        "rect": [
+         894,
+         122,
+         332,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-008-Accessibility-Options-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Decrease",
+       "key": "decrease",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(1)>span:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        1091,
+        143,
+        18,
+        22
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Increase",
+       "key": "increase",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(1)>span:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1176,
+        143,
+        18,
+        22
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Decrease",
+       "key": "decrease",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(2)>span:nth-of-type(2)>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        1091,
+        208,
+        18,
+        22
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Increase",
+       "key": "increase",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(2)>span:nth-of-type(2)>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1176,
+        208,
+        18,
+        22
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(3)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        264,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(4)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        323,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(5)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        382,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(6)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        441,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(7)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        500,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "No",
+       "key": "no",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#a11y-panel>div>ul>li:nth-of-type(8)>button",
+       "expanded": null,
+       "rect": [
+        1135,
+        559,
+        75,
+        34
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 55,
+     "height": 100,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 100,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 100,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 55,
+     "height": 100,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 8,
+   "truncated": null,
+   "loads": 13,
+   "requests": 1535,
+   "maxRequests": 4000,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

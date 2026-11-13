@@ -1,0 +1,8 @@
+measure  http://localhost:8791/index-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   8885
+  html
+       x     0  y      0  w   360  h  8885  vis  "Welcome to TATA AIG! Explore our insura…"
+      display: block

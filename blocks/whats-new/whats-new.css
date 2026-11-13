@@ -1,0 +1,207 @@
+/* whats-new — lifted from stardust/prototypes/css/index.css § whats new */
+.whats-new {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 15px 151px;
+}
+
+.whats-new picture {
+  display: contents;
+}
+
+.whats-new .news-title {
+  position: relative;
+  margin: 0 -15px 8px;
+  padding: 0 15px;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.whats-new .news-title :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.whats-new .news-d {
+  position: relative;
+  margin-top: 73px;
+}
+
+.whats-new .news-viewport {
+  overflow: hidden;
+}
+
+.whats-new .news-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.whats-new .news-d .news-slide {
+  flex: 0 0 50%;
+  padding: 0 8px 16px;
+}
+
+.whats-new .news-card {
+  display: inline-flex;
+  width: calc(100% - 8px);
+  margin: 4px;
+  padding: 20px;
+  border-radius: 16px;
+  background: var(--grad-card);
+  box-shadow: var(--neu);
+}
+
+.whats-new .news-icon {
+  flex: none;
+  margin-right: 16px;
+}
+
+.whats-new .news-icon img {
+  display: inline;
+  width: 50.844px;
+  height: 36.914px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.whats-new .news-text {
+  min-width: 0;
+  color: var(--slate);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.whats-new .news-desc {
+  display: -webkit-box;
+  max-height: 3.6em;
+  overflow: hidden;
+  line-height: 1.8em;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.whats-new .news-desc.is-open {
+  display: block;
+  max-height: none;
+}
+
+.whats-new .news-desc p {
+  margin: 0 0 16px;
+}
+
+.whats-new .news-desc a:any-link {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.whats-new .news-read {
+  color: var(--blue);
+  line-height: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.whats-new .news-read p {
+  margin: 0;
+}
+
+.whats-new .news-next {
+  position: absolute;
+  top: 50px;
+  right: -25px;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.whats-new .news-next img {
+  display: block;
+  width: 14.5px;
+  max-width: none;
+  height: 20px;
+  margin-left: 3px;
+}
+
+@media (width <= 768px) {
+  .whats-new {
+    position: relative;
+    height: 379px;
+    padding: 0 15px;
+  }
+
+  .whats-new .news-title {
+    margin-bottom: 8px;
+    padding: 0 15px 48px;
+    font-size: 22px;
+  }
+
+  .whats-new .news-m {
+    position: relative;
+    margin: 0 -15px;
+    padding: 0 15px;
+  }
+
+  .whats-new .news-m .news-slide {
+    flex: 0 0 100%;
+    padding-bottom: 16px;
+  }
+
+  .whats-new .news-m .news-card {
+    display: flex;
+    width: auto;
+    margin: 0 16px;
+  }
+
+  .whats-new .news-dots {
+    position: absolute;
+    top: 181px;
+    right: 15px;
+    left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .whats-new .news-dots li {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+  .whats-new .news-dots button {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: transparent;
+    font-size: 0;
+    line-height: 0;
+  }
+
+  .whats-new .news-dots button::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0.25;
+  }
+
+  .whats-new .news-dots .is-active button::before {
+    opacity: 0.75;
+  }
+}
+
+@media (width <= 380px) {
+  .whats-new .news-title {
+    font-size: 19px;
+  }
+}

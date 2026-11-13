@@ -1,0 +1,54 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-12T11:58:08.404Z",
+ "source": "https://www.tataaig.com/",
+ "build": "https://main--0484faa8--aemcoder.aem.page/drafts/shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 3,
+  "warn": 1,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "panel-visual@390 Accessibility options [click]",
+   "width": 390,
+   "path": "Accessibility options",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 29.7% (bar 2%; source 390×844, build 390×844; texture 92% thick)"
+  },
+  {
+   "key": "panel-visual@390 X [click]",
+   "width": 390,
+   "path": "X",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 3.8% (bar 2%; source 334×466, build 334×475; texture 55% thick)"
+  },
+  {
+   "key": "panel-visual@1440 Accessibility Options [click]",
+   "width": 1440,
+   "path": "Accessibility Options",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.4% (bar 2%; source 332×532, build 332×532; texture 58% thick)"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/index-proposed.html @ 360px — docH 8885, 302 text nodes, 200 controls (HTTP 200, chrome)
+  🔴 CONTROL CLIPPED        ×3     in div.art__slider  div.art__slider > ul.dots.only-m > li.is-active > button  "1"  cut 16px
+Clipped: 3 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 3; advisory: clamped 4, collapsed 0, scroll-hidden 0, horizontal 5)
+json → stardust/replica/gates/index-360/clip-iter1.json

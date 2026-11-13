@@ -1,0 +1,25 @@
+{
+ "pages": 1,
+ "vendors": [
+  {
+   "host": "www.tataaig.com",
+   "pages": 1,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "digitalData": 1
+ },
+ "cspHosts": []
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.94" height="10.84" viewBox="0 0 14.94 10.84">
+    <defs>
+        <linearGradient id="xi1l2nwh4a" x1="1.079" y1="1.619" x2="-.237" y2="-1.016" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0d3594" stop-opacity=".898"/>
+            <stop offset="1" stop-color="#35d3e1"/>
+        </linearGradient>
+    </defs>
+    <g data-name="Group 4041">
+        <path data-name="Path 979" d="M1066.931 569.156h12.3a.82.82 0 0 0 0-1.64h-12.3a.82.82 0 0 0 0 1.64z" transform="translate(-1065.611 -567.016)" style="stroke:transparent;fill:url(#xi1l2nwh4a)"/>
+        <path data-name="Path 980" d="M1079.231 572.516h-12.3a.82.82 0 0 0 0 1.64h12.3a.82.82 0 0 0 0-1.64z" transform="translate(-1065.611 -567.916)" style="stroke:transparent;fill:url(#xi1l2nwh4a)"/>
+        <path data-name="Path 981" d="M1079.231 577.516h-12.3a.82.82 0 0 0 0 1.64h12.3a.82.82 0 0 0 0-1.64z" transform="translate(-1065.611 -568.816)" style="stroke:transparent;fill:url(#xi1l2nwh4a)"/>
+    </g>
+</svg>

@@ -1,0 +1,1131 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-12T10:52:38.974Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--0484faa8--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-unknown-third-party-host-dev-visualwebsiteoptimizer-com",
+   "class": "A",
+   "feature": "unknown third-party host dev.visualwebsiteoptimizer.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "dev.visualwebsiteoptimizer.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-bzrcdn-openai-com",
+   "class": "A",
+   "feature": "unknown third-party host bzrcdn.openai.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "bzrcdn.openai.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-bzr-openai-com",
+   "class": "A",
+   "feature": "unknown third-party host bzr.openai.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "bzr.openai.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-sdk-03-moengage-com",
+   "class": "A",
+   "feature": "unknown third-party host sdk-03.moengage.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "sdk-03.moengage.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-index-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/index.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-api-restricted-countries",
+   "class": "A",
+   "feature": "first-party API GET /api/restricted-countries",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /api/restricted-countries → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getrtolocation-2w",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getrtolocation/2w",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /lambda/prod-master/getrtolocation/2w → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getrtolocation-4w",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getrtolocation/4w",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /lambda/prod-master/getrtolocation/4w → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-lambda-prod-master-getcountry",
+   "class": "A",
+   "feature": "first-party API GET /lambda/prod-master/getCountry",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /lambda/prod-master/getCountry → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-json",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/!.json?title → 308"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-custom",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/customer-reviews.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-locato",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-car-network-garages.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "widget",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-locato",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/locator/cashless-network-hospitals.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "widget",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/group-health-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/fire-burglary-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/marine-insurance/annual-open-policy.json?subSubTitle,subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/pi-insurance.json?subTitle,title → 308"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-sme-in",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/sme-insurance/workmen-compensation-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/senior-citizen-health-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-health",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/health-insurance/medicare-plus.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/car-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/two-wheeler-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-motor-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance.json?subSubTitle,subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/student-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/international-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-travel",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/travel-insurance/domestic-travel-insurance.json?subTitle,title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-indivi",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/individual-personal-accident-insurance.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-home-i",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/home-insurance.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-privat",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/private-client-group-insurance.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-casual",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/casualty-insurance.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-rural-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/rural-insurance/crop-insurance.json → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-next-data-vtdnaxpgqpmrznchdhpqm-small-",
+   "class": "A",
+   "feature": "first-party API GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "GET /_next/data/VtDnAXPGQpMrzNCHdhpQm/small-business-insurance.json?title → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-next-data",
+   "class": "A",
+   "feature": "CMS / app settings object __NEXT_DATA__",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "cr-client-framework-next",
+   "class": "CR",
+   "feature": "client framework next",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.google.com",
+    "www.gstatic.com"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production backend (vendor form id + field mapping)"
+  },
+  {
+   "id": "f-form-motor4w-main-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"motor4w_main\" → no action (JS-wired) (1 fields)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "text:regNumber"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-motor2w-main-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"motor2w_main\" → no action (JS-wired) (1 fields)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "text:regNumber"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "l-listing-candidate-w-100-h-100-6-cards",
+   "class": "L",
+   "feature": "listing candidate w-100 h-100 (6 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-row-ourproducts-applyrightborder-3qp9b-6",
+   "class": "L",
+   "feature": "listing candidate row ourProducts_applyRightBorder__3Qp9B (6 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-row-ourproducts-mt17-omsqt-7-cards",
+   "class": "L",
+   "feature": "listing candidate row ourProducts_mt17__omSqT (7 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "s-first-party-api-post-lambda-prod-searchandquotation-saveda",
+   "class": "S",
+   "feature": "first-party API POST /lambda/prod-searchAndQuotation/saveData",
+   "pages": 1,
+   "probed": 1,
+   "reach": {
+    "pages": 1,
+    "of": 1
+   },
+   "evidence": [
+    "POST /lambda/prod-searchAndQuotation/saveData → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "datasource ownership / same-origin routing on production",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "dpm.demdex.net",
+    "tataaig.demdex.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cm.everesttech.net",
+    "sync-tm.everesttech.net",
+    "bat.bing.com",
+    "ad.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "smetrics.tataaig.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-moengage-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.moengage.com",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "cdn.moengage.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-co-in",
+   "class": "T",
+   "feature": "unknown third-party host www.google.co.in",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "www.google.co.in"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "0×0"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  }
+ ]
+}

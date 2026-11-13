@@ -1,0 +1,117 @@
+{
+ "url": "https://main--0484faa8--aemcoder.aem.live/",
+ "at": "2026-11-12T13:13:51.282Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 7,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 105,
+  "textNodes": 245,
+  "controls": 135,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 5,
+   "clipper": "p",
+   "path": "article.testi-card > div.testi-body > div.testi-desc > p",
+   "text": "\"for navnitkumar dhamsaniya, care and support for his wife’s",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 2,
+   "clipper": "div.news-desc",
+   "path": "div.news-card > div.news-text > div.news-desc > p",
+   "text": "if you had purchased a home guard plus policy during this pe",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.gst-strip",
+   "path": "div.header.block > div.gst-strip > div.gst-strip-track > p",
+   "text": "welcome to tata aig! explore our insurance solutions, renew ",
+   "cutMin": 636,
+   "cutMax": 636
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "article.testi-card > div.testi-body > div.testi-name > h3#uttam-shalikram-rewatkar--tata-aig-health-insurance--customer-testimonial",
+   "text": "uttam shalikram rewatkar | tata aig health insurance | custo",
+   "cutMin": 155,
+   "cutMax": 155
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "li.testi-slide > article.testi-card > div.testi-body > div.testi-read",
+   "text": "read more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.testi-viewport",
+   "path": "article.testi-card > div.testi-body > div.testi-read > p",
+   "text": "read more",
+   "cutMin": 0,
+   "cutMax": 0
+  },
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.news-viewport",
+   "path": "li.news-slide > div.news-card > div.news-text > div.news-read",
+   "text": "read more",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.news-viewport",
+   "path": "div.news-card > div.news-text > div.news-read > p",
+   "text": "read more",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 7,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 84,
+   "textNodes": 243,
+   "controls": 93,
+   "total": 0
+  }
+ }
+}

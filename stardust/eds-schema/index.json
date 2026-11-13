@@ -1,0 +1,2997 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "first-fold",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Car"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bike"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Health"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Travel"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "More"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Get comprehensive car insurance"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Auto-fetch your vehicle details instantly!"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Your car registration number"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Buy now"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Insure your"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Brand New Car"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "your TATA AIG car policy"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Renew"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "TATA AIG car policy"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Renew"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Premium calculator"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "(Requires manual entry. Mobile Number not required)"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Get comprehensive bike insurance"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Auto-fetch your vehicle details instantly!"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Your bike registration number"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Buy now"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Insure your"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Brand New Bike"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "your TATA AIG bike policy"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Renew"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "TATA AIG bike policy"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Renew"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Premium calculator"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "(Requires manual entry. Mobile Number not required)"
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Health plan starting from ₹15/day"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Comprehensive care for you and your loved ones, covers every day."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Buy now"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "We’ll simplify it"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "New to health insurance?"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "your TATA AIG policy"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Renew"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Premium calculator"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "(Requires manual entry. Mobile Number not required)"
+    },
+    {
+     "role": "heading",
+     "order": 38,
+     "text": "Instant Policy. No Medical Test."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Leisure/Business"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Student"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Add Destinations"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Buy now"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Ideal for Frequent Travellers"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Annual Travel Insurance Plan"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Premium calculator"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "(Requires manual entry. Mobile Number not required)"
+    },
+    {
+     "role": "heading",
+     "order": 47,
+     "text": "More insurance products for you"
+    },
+    {
+     "role": "heading",
+     "order": 48,
+     "text": "Business products"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Marine Cargo"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Group Health"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Fire & Burglary"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Open Marine"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Workmen Insurance"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Professional Indemnity"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Contractors’ Plant and Machinery Insurance"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Cyber Insurance"
+    },
+    {
+     "role": "heading",
+     "order": 57,
+     "text": "Other products"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Home Insurance"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "New"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Cyber Insurance"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Scroll"
+    }
+   ],
+   "imgCount": 44,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.quote-panel",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 8,
+      "textRuns": 12
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.quote-tab",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "why",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why TATA AIG"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1 Cr + Policies Issued last year"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "5 Cr + Customers Served since Inception"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Instant Policy For All Products"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "13244+ Network Garages"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "View Motor Insurance",
+     "href": "/locator/cashless-car-network-garages"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "15,000+ Hospitals"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "View Health Insurance",
+     "href": "/locator/cashless-network-hospitals"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "200+ Destinations Covered"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "View Travel Insurance",
+     "href": "/travel-insurance"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "1 Cr + Policies Issued last year"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "5 Cr + Customers Served since Inception"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Instant Policy For All Products"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "13244+ Network Garages"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "View Motor Insurance",
+     "href": "/locator/cashless-car-network-garages"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "15,000+ Hospitals"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "View Health Insurance",
+     "href": "/locator/cashless-network-hospitals"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "200+ Destinations Covered"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "View Travel Insurance",
+     "href": "/travel-insurance"
+    }
+   ],
+   "imgCount": 13,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.why__item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.why-m__item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "testi",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "#ThisIsTataAIG - Customer/Client Testimonials"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "View All Reviews",
+     "href": "https://www.tataaig.com/customer-reviews"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Navnit Kumar Dhamsaniya | Health Insurance Customer"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "\"For Navnitkumar Dhamsaniya, care and support for his wife’s breast cancer diagnosis went beyond hospitals; we stood by him through it all. With cashless claims, quick approvals, and even chemotherapy covered, he could focus on his family without worry. Because with TATA AIG, protection is more than a policy. It’s a promise. We’re always #WithYouLikeFamily. #TATAAIG #WithYouLikeFamily #WithYouAlways #HealthInsurance #CustomerTestimonial\""
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Manjunath Naik Mahadeo | Health Insurance Customer"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "\"For over 10 years, Mr. Manjunath Naik Mahadeo trusted us to stand by him. From smooth claim handling to peace of mind, we’ve been there at every step of the way, so he can focus on living, not worrying. For us, it is a promise and not just a policy as we’re #WithYouLikeFamily #TATAAIG #WithYouAlways #HealthInsurance #CustomerTestimonial\""
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Kishana Ram Suthar | Marine Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "When Mr. Kishana Ram Suthar’s business was unexpectedly hit by flood, support came without delay. With a reliable insurance plan for SME and a hassle-free claims process, TATA AIG helped this entrepreneur get back on his feet, with his business running smoothly once again.​"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Uttam Shalikram Rewatkar | TATA AIG Health Insurance | Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "\"When Uttam Shalikram Rewatkar faced sleepless nights due to breathing issues, he needed more than medical treatment—he needed support he could rely on. With quick approvals, cashless claims, and seamless assistance, we helped ease his journey and stood by him like family. #TATAAIG #WithYouLikeFamily #WithYouAlways #HealthInsurance #CustomerTestimonia\""
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Venkata Chalapati Rao | TATA AIG Health Insurance | Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "\"For Venkata Chalapati Rao, what started as a minor red eye, led to an unexpected eye cancer diagnosis. Through every challenge, we made sure he had one less thing to worry about. Quick claims, reliable support, and complete peace of mind when it mattered the most. Because real protection is about standing by you like family. #TATAAIG #WithYouLikeFamily #WithYouAlways #HealthInsurance #CustomerTestimonial\""
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Munazir Ansari | Health Insurance Customer"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "\"Health challenges often come without warning. For Munazir Ansari, it was his father’s cancer diagnosis. In moments like these, care, clarity, and trust matter the most. That’s what we ensured at every step of the way. For us, protection is not just a policy, it’s a promise. Because we’re always #WithYouLikeFamily. #TATAAIG #WithYouLikeFamily #WithYouAlways #HealthInsurance #CustomerTestimonial\""
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Balwant Rai | Health Insurance Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Mr. Balwant Rai always prioritised his and his family’s health. When he was diagnosed with a slipped disc and surgery was recommended, he immediately worried about the financial burden. But with TATA AIG’s support, his journey was smooth and worry-free. His hospitalisation expenses were covered with the convenience of cashless facility and his pre and post expenses were reimbursed in no time."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Sagar Sunil Jambhale | Health Insurance Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Mr. Jambhale wisely invested in TATA AIG Health Insurance for his parents, and it proved to be a lifesaver during a crisis. When his mother was diagnosed with breast cancer, it was a challenging time for the entire family. Thanks to TATA AIG, they didn’t have to worry about financial burden. With cashless treatment for all her care, the Jambhale family found much-needed relief during this difficult phase.​ ​"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Satpal Singh | Car Insurance Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Mr. Satpal Singh enjoys the comfort of driving to work every day in his car. However, during one of his commutes, heavy traffic caused a car to hit his vehicle from behind, causing it to collide with another car. He immediately rushed to the service centre, where a TATA AIG surveyor promptly assessed the damage. The entire claim process was quick and hassle-free, with cashless settlement and smooth paperwork."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Read More"
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Mr. Ravi Bothra | Fire Insurance Customer Testimonial"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "On June 18, 2023, a fire devastated Blisstering Electronics Pvt. Ltd's business in Noida. Once TATA AIG's claims team was informed about the loss, they acted immediately to address the setback faced by this SME. Our prompt action and dedication led to the swift settlement of a Rs. 1.3 crore claim, showcasing our commitment to helping businesses recover quickly from unforeseen events. This rapid payment of the claim underlines our promise at TATA AIG: \"With you Always.\""
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Read More"
+    }
+   ],
+   "imgCount": 21,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.testi__slide",
+     "count": 10,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "prod",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our Products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Business Insurance",
+     "href": "/sme-insurance"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "One stop business insurance solutions"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Marine Cargo"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Marine Cargo"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Group Health"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Group Health"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fire & Burglary"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Fire & Burglary"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Marine Open"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Marine Open"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Workmen Insurance"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Workmen Insurance"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Professional Indemnity"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Professional Indemnity"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Health Insurance",
+     "href": "/health-insurance"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "15,000+ Network Hospitals"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Health Insurance"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Health Insurance"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "TATA AIG Eldercare"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "TATA AIG Eldercare"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Medicare Plus Super Top Up"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Medicare Plus Super Top Up"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Motor Insurance",
+     "href": "/motor-insurance"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Upto 75% off on Motor Insurance"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Car Insurance"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Car Insurance"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Bike Insurance"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Bike Insurance"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "CV Insurance"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "CV Insurance"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Auto Rikshaw Insurance"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Auto Rikshaw Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Travel Insurance",
+     "href": "/travel-insurance"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "191+ destinations covered"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "International Travel"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "International Travel"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Student Travel"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Student Travel"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Domestic Travel"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Domestic Travel"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Other Insurance"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Accident Insurance"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Accident Insurance"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Home Insurance"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Home Insurance"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Casualty Insurance"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Casualty Insurance"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Private Client Group Insurance"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Private Client Group Insurance"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Pradhan Mantri Fasal Bima Yojna (PMFBY)"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Pradhan Mantri Fasal Bima Yojna"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Small Business Insurance"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Small Business Insurance"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Financial Lines"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Financial Lines"
+    }
+   ],
+   "imgCount": 32,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.prod__lob",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 8,
+      "textRuns": 14
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "about",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "About TATA AIG"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tata AIG General Insurance Company Limited is a joint venture company between Tata Group and American International Group (AIG). Tata AIG General Insurance Company Limited celebrates 25 years of service as on 2026, since it commenced operations in India on January 22, 2001. The Company has grown strongly to emerge as the preferred private general insurance company in India with several pioneering firsts to its credit. Driven by a mission to create better tomorrows for Customers by delivering trustworthy and innovative risk solutions, Tata AIG’s broad portfolio of protection covers are backed by years of professional expertise in product offerings, exceptional service capabilities and seamless claims process management. The Company offers a wide range of general insurance covers for businesses and individuals including a comprehensive range of general insurance products for Liability, Marine Cargo, Personal Accident, Travel, Rural-Agriculture Insurance, Extended Warranty etc. As on March 31, 2026, Tata AIG General Insurance Company Limited recorded its Gross Written Premium (GWP) at 20,749 Cr, With 262 offices spread across the country, Tata AIG General Insurance Company Limited has a robust multi-channel distribution network of 1,17,000+ plus licensed agents including POSP, 980+ licensed brokers and bancassurance partners; a workforce of 9,000+ employees, including 750+ full time claim experts, spread over 266 locations, tie-ups with 12000+ workshops and 13000+ network hospitals and worldwide network of claim servicing partners and a dedicated customer service & operations team, consistently delivering superior service experiences, powered by the latest innovations in technology."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Show More"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "news",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Whats New"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Grievance Resolution Month – November 2026 - An IRDAI Initiative"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "TATA AIG is conducting a customer outreach exercise for policyholders who had availed a Home Guard Plus Policy during 2016–2017."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "If you had purchased a Home Guard Plus Policy during this period, and have not yet been contacted by us, we request you to get in touch. You may be eligible for a refund."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Please contact us at our Customer Support Number: 022 6489 8282 with your policy details. Our team will assist with verification and processing of any applicable refund”"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We stand in solidarity with the people of Andhra Pradesh and Telangana and are dedicated to offering constant support during these tough times"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Tata AIG Stand with all those affected in the Wayanad & Calicut Landslide. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/Landslide_Claim_Assistance_c2a49b4ed4.pdf"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Tata AIG Stand with all those affected in the Mecca Heatwave. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/mecca_heatwaves_mailer_1e56ef639a.pdf"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Tata AIG Stand with all those affected by the Cyclone Remal for the resident of West Bengal & North East, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_remal_claim_assiatance_112740bb32.pdf"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "TATA AIG are committed to serve our insured by swiftly providing the General Average Guarantee for cargo insured and declared with us."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Please find here with the on registration process and modes of registration in CKYCRR"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "link of video",
+     "href": "https://www.ckycindia.in/ckyc/assets/images/CKYCvideoforReportingEntities.mp4"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "ABHA is a digital platform to maintain your medical records. to begin your digital healthcare journey."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Click here",
+     "href": "https://healthid.ndhm.gov.in/"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Tata AIG Stand with all those affected by the Cyclone Michaung for the resident of costal Tamil Nadu, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Tata AIG Stand with all those affected by the floods in Sikkim, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/sikkim_floods_claim_assistance_439e4028d1.pdf"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Tata AIG Stand with all those affected by the floods in Himachal Pradesh India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Tata AIG stands in solidarity with the families & victims of the unfortunate train accident at Balasore, Odisha. for claim assistance."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Click here",
+     "href": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Tata AIG Stand with all those affected by the floods in North India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/north_india_floods_claim_assistance_tata_aig_bbebff1861.pdf"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "For any claim intimation for the loss under Cyclone Biparjoy covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "We celebrate 21 years of service this year (2022). A foundation of 21 years built with the legacy of yesterday, an expertise of today & a commitment to a brighter tomorrow."
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Change in Assistance Company and Claim Servicing Contact Details for Overseas Travel Insurance Claims."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Travel Insurance Products have been aligned with Tata AIG brand and will start with the name \"TATA AIG Travel Insurance” effective 25th March ‘25, for more information"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Grievance Resolution Month – November 2026 - An IRDAI Initiative"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "TATA AIG is conducting a customer outreach exercise for policyholders who had availed a Home Guard Plus Policy during 2016–2017."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "If you had purchased a Home Guard Plus Policy during this period, and have not yet been contacted by us, we request you to get in touch. You may be eligible for a refund."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Please contact us at our Customer Support Number: 022 6489 8282 with your policy details. Our team will assist with verification and processing of any applicable refund”"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "We stand in solidarity with the people of Andhra Pradesh and Telangana and are dedicated to offering constant support during these tough times"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Tata AIG Stand with all those affected in the Wayanad & Calicut Landslide. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/Landslide_Claim_Assistance_c2a49b4ed4.pdf"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Tata AIG Stand with all those affected in the Mecca Heatwave. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/mecca_heatwaves_mailer_1e56ef639a.pdf"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Tata AIG Stand with all those affected by the Cyclone Remal for the resident of West Bengal & North East, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_remal_claim_assiatance_112740bb32.pdf"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "TATA AIG are committed to serve our insured by swiftly providing the General Average Guarantee for cargo insured and declared with us."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Please find here with the on registration process and modes of registration in CKYCRR"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "link of video",
+     "href": "https://www.ckycindia.in/ckyc/assets/images/CKYCvideoforReportingEntities.mp4"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "ABHA is a digital platform to maintain your medical records. to begin your digital healthcare journey."
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Click here",
+     "href": "https://healthid.ndhm.gov.in/"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Tata AIG Stand with all those affected by the Cyclone Michaung for the resident of costal Tamil Nadu, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Tata AIG Stand with all those affected by the floods in Sikkim, India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/sikkim_floods_claim_assistance_439e4028d1.pdf"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Tata AIG Stand with all those affected by the floods in Himachal Pradesh India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Tata AIG stands in solidarity with the families & victims of the unfortunate train accident at Balasore, Odisha. for claim assistance."
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Click here",
+     "href": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf"
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Tata AIG Stand with all those affected by the floods in North India. For any claim intimation covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/north_india_floods_claim_assistance_tata_aig_bbebff1861.pdf"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "For any claim intimation for the loss under Cyclone Biparjoy covered with Tata AIG ."
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "click here",
+     "href": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "We celebrate 21 years of service this year (2022). A foundation of 21 years built with the legacy of yesterday, an expertise of today & a commitment to a brighter tomorrow."
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Change in Assistance Company and Claim Servicing Contact Details for Overseas Travel Insurance Claims."
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Travel Insurance Products have been aligned with Tata AIG brand and will start with the name \"TATA AIG Travel Insurance” effective 25th March ‘25, for more information"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Read More"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "4"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "5"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "6"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "7"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "8"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "9"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "10"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "11"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "12"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "13"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "14"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "15"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "16"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "17"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "18"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "19"
+    }
+   ],
+   "imgCount": 39,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.news__slide",
+     "count": 19,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.news__slide",
+     "count": 19,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 18,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "app",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get our app"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Keep your Policy handy and stay updated on the go!"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Download your policy with a single tap"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Keep your policies available offline"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "View network garages/hospitals"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Manage all policies across all companies in a single vault"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "art",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Related Articles"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "How is your car insurance premium calculated?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Well it’s about time that changed, don’t you think? Read on to know the components of your car insurance premium, so you can save more, and get smarter along the way!"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Going for a vacation. Here are five reasons you need travel insurance"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "That is certainly a nightmare. It is why a travel insurance policy is important. You could be on a domestic or an international holiday. A travel plan will ensure nothing spoils your perfect vacation."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Things To Consider Before Buying Insurance"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Checkout the list of things that needs to consider before buying insurance to avoid Frauds."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "3"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.art__col",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "site-footer",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Download Our App"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Follow Us"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "About Us",
+     "href": "/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Public Disclosures",
+     "href": "/public-disclosures"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Investors",
+     "href": "https://www.tataaig.com/public-disclosures#investorSection"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Contact Us",
+     "href": "/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Careers",
+     "href": "https://careers.tataaig.com/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Agent Registration",
+     "href": "https://www.tataaig.com/agent-registration"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Resources"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Blog",
+     "href": "/knowledge-center"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Insurance FAQs",
+     "href": "/faqs-on-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Vendor Code of Conduct",
+     "href": "https://www.tataaig.com/s3/vendor_code_of_conduct_31cbb0caa3.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Surety Bond Policies",
+     "href": "https://www.tataaig.com/surety-bond-policies"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Horizon Watch",
+     "href": "https://www.tataaig.com/horizon-watch"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Excluded Hospital List",
+     "href": "/excluded-hospital-list"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Services"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Renewals",
+     "href": "/renewal"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Claim Process",
+     "href": "/claims-process"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Self Service",
+     "href": "https://www.tataaig.com/servicing"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Group Companies"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "TATA AIA",
+     "href": "https://www.tataaia.com/"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Health Insurance"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Motor Insurance"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Travel Insurance"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "SME Insurance"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Other Insurance"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Calculators"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Health Insurance",
+     "href": "/health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Tata AIG MediCare Series",
+     "href": "/health-insurance/medicare"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Senior Citizen Health Insurance",
+     "href": "/health-insurance/senior-citizen-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "TATA AIG MediCare Select Health Insurance",
+     "href": "/health-insurance/medicare-select"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Individual Health Insurance",
+     "href": "/health-insurance/individual-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Family Health Insurance",
+     "href": "/health-insurance/family-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Critical Illness Insurance",
+     "href": "/health-insurance/critical-illness-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Arogya Sanjeevani",
+     "href": "/health-insurance/arogya-sanjeevani"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "MediCare Plus (Super Top Up)",
+     "href": "/health-insurance/medicare-plus"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Corona Kavach",
+     "href": "/health-insurance/corona-kavach"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Health Insurance Quote",
+     "href": "/buy-online/health-insurance/premium-checker"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Cashless Health Insurance",
+     "href": "/health-insurance/cashless-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Women Health Insurance",
+     "href": "/health-insurance/women-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Maternity Health Insurance",
+     "href": "/health-insurance/maternity-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Parents Health Insurance",
+     "href": "/health-insurance/parents-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Motor Insurance",
+     "href": "/motor-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Car Insurance",
+     "href": "/motor-insurance/car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Commercial Vehicle Insurance",
+     "href": "/motor-insurance/commercial-vehicle-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Long Term Two wheeler package policy",
+     "href": "/motor-insurance/two-wheeler-insurance/long-term-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Auto Secure-Commercial Vehicle Package Policy",
+     "href": "/corporate-motor-insurance/auto-secure-corporate-fleet-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Third Party Car Insurance",
+     "href": "/motor-insurance/car-insurance/third-party-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Third Party Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/third-party-bike-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Comprehensive Car Insurance",
+     "href": "/motor-insurance/car-insurance/comprehensive-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Comprehensive Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Car Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Bike Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "Auto Rickshaw Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Standalone Own Damage Car Insurance",
+     "href": "/motor-insurance/car-insurance/standalone-own-damage-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Standalone Own Damage Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "International Travel Insurance",
+     "href": "/travel-insurance/international-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Travel Insurance",
+     "href": "/travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Domestic Travel Insurance",
+     "href": "/travel-insurance/domestic-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Student Travel Insurance",
+     "href": "/travel-insurance/student-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Senior Citizen Travel Insurance",
+     "href": "/travel-insurance/senior-citizen-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Business Travel Insurance",
+     "href": "/corporate-travel-insurance/business-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Travel Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Schengen Travel Insurance",
+     "href": "/travel-insurance/travel-insurance-schengen"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Family Travel Insurance",
+     "href": "/travel-insurance/family-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Marine Insurance",
+     "href": "/sme-insurance/marine-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Marine Transit Insurance",
+     "href": "/sme-insurance/marine-insurance/transit-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Marine Cargo Insurance",
+     "href": "/sme-insurance/marine-insurance/cargo-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Marine Open Insurance",
+     "href": "/sme-insurance/marine-insurance/annual-open-policy"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Fire & Burglary Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Fire Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/fire-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Shop Insurance",
+     "href": "https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Office Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/office-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Theft Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/theft-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "Group Health Insurance",
+     "href": "/sme-insurance/group-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Workmen Compensation Insurance",
+     "href": "/sme-insurance/workmen-compensation-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Labour Insurance",
+     "href": "/sme-insurance/workmen-compensation-insurance/labour-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Engineering Insurance",
+     "href": "https://www.tataaig.com/sme-insurance/engineering-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Contractors’ Plant and Machinery Insurance",
+     "href": "/sme-insurance/engineering-insurance/contractors-plant-machinery-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Professional Indemnity Insurance",
+     "href": "/sme-insurance/professional-indemnity-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "Accident Insurance",
+     "href": "/individual-personal-accident-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Home Insurance",
+     "href": "/home-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Rural Insurance",
+     "href": "/rural-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Private Client Group Insurance",
+     "href": "/private-client-group-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Financial lines",
+     "href": "/financial-liabilities-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Health Insurance Calculator",
+     "href": "/health-insurance/health-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Car Insurance Calculator",
+     "href": "/motor-insurance/car-insurance/car-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Bike Insurance Calculator",
+     "href": "/motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Travel Insurance Calculator",
+     "href": "/travel-insurance/travel-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "Group Health Insurance Calculator",
+     "href": "/sme-insurance/group-health-insurance/group-health-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "Marine Insurance Calculator",
+     "href": "/sme-insurance/marine-insurance/marine-insurance-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Workmen Compensation Premium Calculator",
+     "href": "/sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Health Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Health Insurance",
+     "href": "/health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Tata AIG MediCare Series",
+     "href": "/health-insurance/medicare"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "Senior Citizen Health Insurance",
+     "href": "/health-insurance/senior-citizen-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "TATA AIG MediCare Select Health Insurance",
+     "href": "/health-insurance/medicare-select"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Individual Health Insurance",
+     "href": "/health-insurance/individual-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "Family Health Insurance",
+     "href": "/health-insurance/family-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Critical Illness Insurance",
+     "href": "/health-insurance/critical-illness-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "Arogya Sanjeevani",
+     "href": "/health-insurance/arogya-sanjeevani"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "MediCare Plus (Super Top Up)",
+     "href": "/health-insurance/medicare-plus"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Corona Kavach",
+     "href": "/health-insurance/corona-kavach"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Health Insurance Quote",
+     "href": "/buy-online/health-insurance/premium-checker"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Cashless Health Insurance",
+     "href": "/health-insurance/cashless-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Women Health Insurance",
+     "href": "/health-insurance/women-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Maternity Health Insurance",
+     "href": "/health-insurance/maternity-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Parents Health Insurance",
+     "href": "/health-insurance/parents-health-insurance"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Motor Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Motor Insurance",
+     "href": "/motor-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "Car Insurance",
+     "href": "/motor-insurance/car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Commercial Vehicle Insurance",
+     "href": "/motor-insurance/commercial-vehicle-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Long Term Two wheeler package policy",
+     "href": "/motor-insurance/two-wheeler-insurance/long-term-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Auto Secure-Commercial Vehicle Package Policy",
+     "href": "/corporate-motor-insurance/auto-secure-corporate-fleet-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Third Party Car Insurance",
+     "href": "/motor-insurance/car-insurance/third-party-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Third Party Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/third-party-bike-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Comprehensive Car Insurance",
+     "href": "/motor-insurance/car-insurance/comprehensive-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Comprehensive Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Car Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "Bike Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike"
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "Auto Rickshaw Quote",
+     "href": "https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Standalone Own Damage Car Insurance",
+     "href": "/motor-insurance/car-insurance/standalone-own-damage-car-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 125,
+     "text": "Standalone Own Damage Bike Insurance",
+     "href": "/motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Travel Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "International Travel Insurance",
+     "href": "/travel-insurance/international-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "Travel Insurance",
+     "href": "/travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 129,
+     "text": "Domestic Travel Insurance",
+     "href": "/travel-insurance/domestic-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Student Travel Insurance",
+     "href": "/travel-insurance/student-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 131,
+     "text": "Senior Citizen Travel Insurance",
+     "href": "/travel-insurance/senior-citizen-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Business Travel Insurance",
+     "href": "/corporate-travel-insurance/business-travel-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "Travel Insurance Quote",
+     "href": "https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "Schengen Travel Insurance",
+     "href": "/travel-insurance/travel-insurance-schengen"
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "Family Travel Insurance",
+     "href": "/travel-insurance/family-travel-insurance"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "SME Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Marine Insurance",
+     "href": "/sme-insurance/marine-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Marine Transit Insurance",
+     "href": "/sme-insurance/marine-insurance/transit-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 139,
+     "text": "Marine Cargo Insurance",
+     "href": "/sme-insurance/marine-insurance/cargo-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Marine Open Insurance",
+     "href": "/sme-insurance/marine-insurance/annual-open-policy"
+    },
+    {
+     "role": "cta",
+     "order": 141,
+     "text": "Fire & Burglary Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "Fire Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/fire-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "Shop Insurance",
+     "href": "https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 144,
+     "text": "Office Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/office-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 145,
+     "text": "Theft Insurance",
+     "href": "/sme-insurance/fire-burglary-insurance/theft-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "Group Health Insurance",
+     "href": "/sme-insurance/group-health-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 147,
+     "text": "Workmen Compensation Insurance",
+     "href": "/sme-insurance/workmen-compensation-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 148,
+     "text": "Labour Insurance",
+     "href": "/sme-insurance/workmen-compensation-insurance/labour-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "Engineering Insurance",
+     "href": "https://www.tataaig.com/sme-insurance/engineering-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Contractors’ Plant and Machinery Insurance",
+     "href": "/sme-insurance/engineering-insurance/contractors-plant-machinery-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 151,
+     "text": "Professional Indemnity Insurance",
+     "href": "/sme-insurance/professional-indemnity-insurance"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "Other Insurance"
+    },
+    {
+     "role": "cta",
+     "order": 153,
+     "text": "Accident Insurance",
+     "href": "/individual-personal-accident-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "Home Insurance",
+     "href": "/home-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 155,
+     "text": "Rural Insurance",
+     "href": "/rural-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 156,
+     "text": "Private Client Group Insurance",
+     "href": "/private-client-group-insurance"
+    },
+    {
+     "role": "cta",
+     "order": 157,
+     "text": "Financial lines",
+     "href": "/financial-liabilities-insurance"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "Calculators"
+    },
+    {
+     "role": "cta",
+     "order": 159,
+     "text": "Health Insurance Calculator",
+     "href": "/health-insurance/health-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 160,
+     "text": "Car Insurance Calculator",
+     "href": "/motor-insurance/car-insurance/car-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 161,
+     "text": "Bike Insurance Calculator",
+     "href": "/motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 162,
+     "text": "Travel Insurance Calculator",
+     "href": "/travel-insurance/travel-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 163,
+     "text": "Group Health Insurance Calculator",
+     "href": "/sme-insurance/group-health-insurance/group-health-insurance-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 164,
+     "text": "Marine Insurance Calculator",
+     "href": "/sme-insurance/marine-insurance/marine-insurance-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 165,
+     "text": "Workmen Compensation Premium Calculator",
+     "href": "/sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator"
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "Disclaimer",
+     "href": "/disclaimers"
+    },
+    {
+     "role": "cta",
+     "order": 167,
+     "text": "Terms of Use",
+     "href": "/terms-of-use"
+    },
+    {
+     "role": "cta",
+     "order": 168,
+     "text": "Downloads",
+     "href": "/downloads"
+    },
+    {
+     "role": "cta",
+     "order": 169,
+     "text": "IRDAI",
+     "href": "https://www.irdai.gov.in/"
+    },
+    {
+     "role": "cta",
+     "order": 170,
+     "text": "GST Registration Numbers",
+     "href": "/gst-registration"
+    },
+    {
+     "role": "cta",
+     "order": 171,
+     "text": "Privacy Policy",
+     "href": "/privacy-policy"
+    },
+    {
+     "role": "cta",
+     "order": 172,
+     "text": "Grievance Redressal Policy",
+     "href": "/grievance-redressal-policy"
+    },
+    {
+     "role": "cta",
+     "order": 173,
+     "text": "General",
+     "href": "/general"
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "Bima Bharosa",
+     "href": "https://bimabharosa.irdai.gov.in/"
+    },
+    {
+     "role": "cta",
+     "order": 175,
+     "text": "Health Insurance Portability",
+     "href": "https://www.tataaig.com/health-insurance/health-insurance-portability"
+    },
+    {
+     "role": "cta",
+     "order": 176,
+     "text": "Blacklisted Agents",
+     "href": "https://agencyportal.irdai.gov.in/PublicAccess/BlackListedAgent.aspx"
+    },
+    {
+     "role": "cta",
+     "order": 177,
+     "text": "Posh Policy",
+     "href": "/s3/POSH_Policy_bd5c8cda81.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 178,
+     "text": "She-Box Portal (POSH)",
+     "href": "https://shebox.wcd.gov.in/"
+    },
+    {
+     "role": "cta",
+     "order": 179,
+     "text": "Darpan ID",
+     "href": "https://www.tataaig.com/darpan-id"
+    },
+    {
+     "role": "body",
+     "order": 180,
+     "text": "BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS / FRAUDULENT OFFERS IRDAI or its officials do not involve in activities like selling insurance policies, announcing bonus or investment of premiums. Public receiving such phone calls are requested to lodge a police complaint. Insurance is the subject matter of the solicitation. For more details on benefits, exclusions, limitations, terms and conditions, please read sales brochure / policy wording carefully before concluding a sale. Trade logo displayed above belongs to TATA Sons Private Limited and AIG and used by TATA AIG General Insurance Company Limited under License. 2008, TATA AIG General Insurance Company Limited, all rights reserved. Registered Office : Peninsula Business Park, Tower A, 15th Floor, G.K.Marg, Lower Parel, Mumbai - 400 013, Maharashtra, India. CIN: U85110MH2000PLC128425. IRDA of India Regn. No. 108. 24*7 Customer Support Number: 022 6489 8282 / 1800 267 1955 (only for senior citizen policy holders). Email Id – . Category of Certificate of Registration: General Insurance."
+    },
+    {
+     "role": "cta",
+     "order": 181,
+     "text": "customersupport@tataaig.com",
+     "href": "mailto:customersupport@tataaig.com"
+    }
+   ],
+   "imgCount": 15,
+   "editableTexts": 19,
+   "repeats": [
+    {
+     "unitSelector": "DIV.foot__col",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 6,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "A.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "UL.foot-acc__col",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 15,
+      "imgs": 0,
+      "textRuns": 15
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 15,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 15,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 15,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DETAILS.foot-macc",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 15,
+      "imgs": 1,
+      "textRuns": 16
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 14,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

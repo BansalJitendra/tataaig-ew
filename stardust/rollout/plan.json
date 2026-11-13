@@ -1,0 +1,59 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-12T11:28:46.111Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-12T11:28:46.111Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "quote-hero",
+          "edsBlockName": "quote-hero"
+        },
+        {
+          "id": "why-tata",
+          "edsBlockName": "why-tata"
+        },
+        {
+          "id": "testimonials",
+          "edsBlockName": "testimonials"
+        },
+        {
+          "id": "products",
+          "edsBlockName": "products"
+        },
+        {
+          "id": "about",
+          "edsBlockName": "about"
+        },
+        {
+          "id": "whats-new",
+          "edsBlockName": "whats-new"
+        },
+        {
+          "id": "get-app",
+          "edsBlockName": "get-app"
+        },
+        {
+          "id": "related-articles",
+          "edsBlockName": "related-articles"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

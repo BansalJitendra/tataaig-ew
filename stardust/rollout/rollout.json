@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-12T11:28:43.453Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.tataaig.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "0484faa8",
+      "ref": "main"
+    },
+    "liveHost": "main--0484faa8--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 1,
+    "discovered": 1,
+    "capped": false,
+    "pageCap": 1
+  },
+  "lastRun": {
+    "at": "2026-11-12T13:28:43.257Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 8,
+      "converted": 8,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

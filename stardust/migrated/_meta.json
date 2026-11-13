@@ -1,0 +1,1100 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "quote-hero",
+    "why-tata",
+    "testimonials",
+    "products",
+    "about",
+    "whats-new",
+    "get-app",
+    "related-articles"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "first-fold",
+    "why",
+    "testi",
+    "prod",
+    "about",
+    "news",
+    "app",
+    "art",
+    "site-footer"
+  ],
+  "canonShas": {
+    "header": "48a6ec54f9ec",
+    "footer": "736a7ff44f02",
+    "css": "96cd84418fb1"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "TATA AIG | Buy Car, Bike, Health &amp; Travel Insurance Online",
+    "description": "Buy/Renew car, bike, travel, health insurance online instantly with Tata AIG. Insurance with low premium &amp; minimal paperwork. Great savings on insurance. ✓ 20+ yrs in service with Trust of TATA ✓ 5 Cr+ Customers Served ✓ High Claim Settlement Ratio FY 19-20 ✓ Instant Policy Online.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "TATA AIG | Buy Car, Bike, Health &amp; Travel Insurance Online",
+    "description": "Buy/Renew car, bike, travel, health insurance online instantly with Tata AIG. Insurance with low premium &amp; minimal paperwork. Great savings on insurance. ✓ 20+ yrs in service with Trust of TATA ✓ 5 Cr+ Customers Served ✓ High Claim Settlement Ratio FY 19-20 ✓ Instant Policy Online.",
+    "url": "https://www.tataaig.com/"
+  },
+  "migratedAt": "2026-11-12T11:28:32Z",
+  "designMdSha": "bc88002711c9",
+  "designJsonSha": "363b27a358bd",
+  "sourceCurrentSha": "1081b3c761e4",
+  "sourceProposedSha": "784f75814432",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 124,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/motor-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/international-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/student-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/senior-citizen-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/domestic-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/health-insurance/medicare-select",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/health-insurance/medicare-reserve",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/videoassistance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/women-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/home-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/cyber-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/liability-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/engineering-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/transit-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/annual-open-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/professional-indemnity-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/fire-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/office-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/engineering-insurance/contractors-plant-machinery-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/engineering-insurance/contractors-all-risk-insurance-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/renewal?lob=car&renewalHeader=yes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/renewal?lob=2w&renewalHeader=yes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/renewal?lob=health&renewalHeader=yes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/renewal?lob=others&renewalHeader=yes",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/claims-process",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/servicing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locator/cashless-car-network-garages",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locator/cashless-network-hospitals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "!#",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locator/cashless-car-network-garages",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/locator/cashless-network-hospitals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/customer-reviews",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/annual-open-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/pi-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/senior-citizen-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance/auto-rickshaw-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/international-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/student-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/domestic-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/individual-personal-accident-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/home-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/casualty-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/private-client-group-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/rural-insurance/crop-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/small-business-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/financial-liabilities-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/Landslide_Claim_Assistance_c2a49b4ed4.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/mecca_heatwaves_mailer_1e56ef639a.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_remal_claim_assiatance_112740bb32.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/sikkim_floods_claim_assistance_439e4028d1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/north_india_floods_claim_assistance_tata_aig_bbebff1861.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/Landslide_Claim_Assistance_c2a49b4ed4.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/mecca_heatwaves_mailer_1e56ef639a.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_remal_claim_assiatance_112740bb32.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/sikkim_floods_claim_assistance_439e4028d1.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/north_india_floods_claim_assistance_tata_aig_bbebff1861.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/articles/how-is-your-car-insurance-premium-calculated",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/knowledge-center/travel-insurance/going-for-a-vacation-here-are-five-reasons-you-need-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/knowledge-center/general-insurance/things-to-consider-before-buying-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/public-disclosures",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/public-disclosures#investorSection",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/agent-registration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/knowledge-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faqs-on-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/s3/vendor_code_of_conduct_31cbb0caa3.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/surety-bond-policies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/horizon-watch",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/excluded-hospital-list",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/renewal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/claims-process",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/servicing",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/senior-citizen-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-select",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/individual-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/family-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/critical-illness-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/arogya-sanjeevani",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/corona-kavach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/buy-online/health-insurance/premium-checker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/cashless-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/women-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/maternity-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/parents-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/long-term-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-motor-insurance/auto-secure-corporate-fleet-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/third-party-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/third-party-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/comprehensive-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/standalone-own-damage-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/international-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/domestic-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/student-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/senior-citizen-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-travel-insurance/business-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/travel-insurance-schengen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/family-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/transit-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/cargo-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/annual-open-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/fire-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/office-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/theft-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance/labour-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/engineering-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/engineering-insurance/contractors-plant-machinery-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/professional-indemnity-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/individual-personal-accident-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/home-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/rural-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/private-client-group-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/financial-liabilities-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/health-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/car-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/travel-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance/group-health-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/marine-insurance-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/senior-citizen-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-select",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/individual-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/family-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/critical-illness-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/arogya-sanjeevani",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/medicare-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/corona-kavach",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/buy-online/health-insurance/premium-checker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/cashless-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/women-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/maternity-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/parents-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/commercial-vehicle-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/long-term-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-motor-insurance/auto-secure-corporate-fleet-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/third-party-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/third-party-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/comprehensive-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/standalone-own-damage-car-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/international-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/domestic-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/student-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/senior-citizen-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/corporate-travel-insurance/business-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/travel-insurance-schengen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/family-travel-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/transit-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/cargo-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/annual-open-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/fire-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/office-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/fire-burglary-insurance/theft-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance/labour-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/sme-insurance/engineering-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/engineering-insurance/contractors-plant-machinery-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/professional-indemnity-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/individual-personal-accident-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/home-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/rural-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/private-client-group-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/financial-liabilities-insurance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/health-insurance/health-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/car-insurance/car-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/travel-insurance/travel-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/group-health-insurance/group-health-insurance-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/marine-insurance/marine-insurance-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/disclaimers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-of-use",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/downloads",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/gst-registration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/grievance-redressal-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/general",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/health-insurance/health-insurance-portability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/s3/POSH_Policy_bd5c8cda81.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.tataaig.com/darpan-id",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

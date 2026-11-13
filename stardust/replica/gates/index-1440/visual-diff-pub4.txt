@@ -1,0 +1,4259 @@
+[live-session] waiting to pace live navigations to www.tataaig.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 898 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff-pub4/
+
+build red flags (advisory): 
+  • IMAGE DID NOT LOAD: media_1ffed0c34350b9b1c7b77140de29c53913299984e.jpg?width=750&format=jpg&optimize=medium rendered 350x197 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1f1d657930af34484c5a9b4751cc7c0cbaa4d462c.jpg?width=750&format=jpg&optimize=medium rendered 350x197 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_194b8aa5f316f07e11869f1902513e7e6f3f65996.jpg?width=750&format=jpg&optimize=medium rendered 350x197 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • STRETCHED IMAGE: media_1a962ccffebb32749cc3976ffacda107010fd5d90.jpg?width=2000&format=webply&optimize=medium natural 1584x1209 → rendered 350x250. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), or use the source's object-fit when it crops.
+  • STRETCHED IMAGE: media_157baccf7cb77cc024991cc1deec12ea92602642f.jpg?width=2000&format=webply&optimize=medium natural 1584x1209 → rendered 350x250. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), or use the source's object-fit when it crops.
+  • STRETCHED IMAGE: media_1a2a977d68b7ba732eebeeb1ce7ea1cd810b4b7fd.jpg?width=2000&format=webply&optimize=medium natural 1584x1209 → rendered 350x250. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), or use the source's object-fit when it crops.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 6000,
+  "textLen": 13105,
+  "images": [
+   {
+    "src": "arrowRight.svg",
+    "natural": "16x16",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "9f3e08faa6fde7200b9afadebbe8de1a8cedd239_1_44abd520bf.png",
+    "natural": "253x360",
+    "rendered": "70x100",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "arrowRight.svg",
+    "natural": "16x16",
+    "rendered": "16x16",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FTata_AIG_Logo_Sept_2026_630c66ccd7.png&w=96&q=75",
+    "natural": "96x52",
+    "rendered": "96x52",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AcssMen.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nav_mtoggle.svg",
+    "natural": "15x11",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "0x0",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Live_Container_adc0c278ba.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_f5ccd8427a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_adca7b78c1.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_933bafaeed.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "0x0",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Live_container_0332205b40.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_0d337c7a1b.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_49cea69744.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_824e5ab9ef.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_824e5ab9ef.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "0x0",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Live_Container_c3e31338cb.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_83465fda78.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_e0e8aed679.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_933bafaeed.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "user%20(2).svg",
+    "natural": "0x0",
+    "rendered": "0x17",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "AcssMen.svg",
+    "natural": "0x0",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "0x0",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "search.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "minus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "plus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "text.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "minus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "plus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "greyScale.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "highContrast.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "lowContrast.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "light.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "readable.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "link.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reset.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "https_dev10bn_tataaig_com_s3_new4w_Selected_bace88237c_0236063b60.svg",
+    "natural": "30x19",
+    "rendered": "30x20",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "https_dev10bn_tataaig_com_s3_new_Bike_Deselected_f368b29414_80bae1e802.svg",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "https_dev10bn_tataaig_com_s3_new_Health_Deselected_e726c7c997_22945c7be4.svg",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "https_dev10bn_tataaig_com_s3_new_Travel_Deselected_109ee88ba1_431ec2ed99.svg",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "More_not_Selected_dffe3f3406_870a7f5623.svg",
+    "natural": "32x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shine.svg",
+    "natural": "10x10",
+    "rendered": "10x10",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newCarIcon.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shineLine.svg",
+    "natural": "300x150",
+    "rendered": "162x58",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "renewalNotificationIcon.svg",
+    "natural": "32x32",
+    "rendered": "23x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "calculator.svg",
+    "natural": "32x32",
+    "rendered": "23x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shine.svg",
+    "natural": "10x10",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newBikeIcon.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shineLine.svg",
+    "natural": "300x150",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "renewalNotificationIcon.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "calculator.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newIcon.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "renewalNotificationIcon.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "calculator.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "inputSearchIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ww.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "downArrowV2.svg",
+    "natural": "13x7",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "calculator.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Marine_Cargo_15d7af3d8f.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_Health_203c989bd0.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fire_and_Burglary_1_e3bb889d53.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Marine_Open_8270d9d71d.svg",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "WC_Icon_a503416f44.svg",
+    "natural": "33x32",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_ad5a3c1880.svg",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "CPM_a1de9bd032.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cyber_Icons_0ac0e27ef0.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_Frame_e719d63660.svg",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Vector_107fbfbca4.svg",
+    "natural": "22x24",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "IPL_vector_99b97dea78_1_e2c6425bb7.svg",
+    "natural": "551x491",
+    "rendered": "551x491",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "scroll.svg",
+    "natural": "29x62",
+    "rendered": "54x54",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_1497_cf38de5cfc.svg",
+    "natural": "54x66",
+    "rendered": "21x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_1366_2766986325.svg",
+    "natural": "61x61",
+    "rendered": "25x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_4134_4e0aedee05.svg",
+    "natural": "44x48",
+    "rendered": "23x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_3624_d8635bfcef.svg",
+    "natural": "58x51",
+    "rendered": "28x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_3623_60bfbdb020.svg",
+    "natural": "72x50",
+    "rendered": "36x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_3651_5537ce339f.svg",
+    "natural": "42x57",
+    "rendered": "19x25",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FNavnitkumar_Dhamsaniya_Horizontal_Thumbnail_c6cc2070ce.png&w=384&q=75",
+    "natural": "384x216",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FNaik_Mahadeo_Horizontal_Thumbnail_5caffe9593.png&w=384&q=75",
+    "natural": "384x216",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FKishana_ram_suthar_1f9c79bc9b.jpg&w=384&q=75",
+    "natural": "350x200",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FUttam_Rewatkar_Horizontal_Thumbnail_d7e39f0e00.png&w=384&q=75",
+    "natural": "384x216",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FVankata_Rao_Horizontal_Thumbnail_885fc5d7ab.png&w=384&q=75",
+    "natural": "384x216",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FAnsari_Horizontal_Thumbnail_e30689a9ba.png&w=640&q=75",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FBalwant_Rai_e46d709c3a.jpg&w=640&q=75",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FSagar_Sunil_Jambhale_1f46cf9d47.jpg&w=640&q=75",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FSatpal_Singh_d83c784d91.jpg&w=640&q=75",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FRavi_be3485bbef.jpg&w=640&q=75",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconRight.png",
+    "natural": "29x40",
+    "rendered": "15x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Layer_2_a335282894.svg",
+    "natural": "36x32",
+    "rendered": "36x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Marine_Cargo_15d7af3d8f.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_Health_203c989bd0.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Fire_and_Burglary_1_e3bb889d53.svg",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Marine_Open_8270d9d71d.svg",
+    "natural": "25x24",
+    "rendered": "25x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "WC_Icon_a503416f44.svg",
+    "natural": "33x32",
+    "rendered": "33x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_ad5a3c1880.svg",
+    "natural": "25x24",
+    "rendered": "25x24",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22537_d38d818655.svg",
+    "natural": "36x20",
+    "rendered": "36x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22935_88f5605a4a.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22948_98767acc42.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22936_1_d7f3dba581.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22931_e466595874.svg",
+    "natural": "37x30",
+    "rendered": "37x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22937_1_752df8425c.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22938_895dced528.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22939_22f5b422bb.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22940_3255fea957.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Travel_Insurance_Desktop_7c7ca0a14c.svg",
+    "natural": "36x28",
+    "rendered": "36x28",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22941_170bdd85a9.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_22942_f923183bc3.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Domestic_d83833c767.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "More_icon_f5617612bd.svg",
+    "natural": "0x0",
+    "rendered": "23x23",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Group_23162_5d209c1d71.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_23163_e876a79072.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_23166_122756cc95.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_12f4998d65.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_1_6d8172ec5a.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_2_7711ed5e8c.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_23165_0386464c42.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Group_3636_42cbc1747d.svg",
+    "natural": "857x578",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "TAGIC_20y_9e829be5dd.png",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x30",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconRight.png",
+    "natural": "0x0",
+    "rendered": "0x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "TAGIC_20y_9e829be5dd.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "speaker_59c10b8a4a_d02265610e.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "App_SS_for_hmpg01_bbc2510010.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "QR_code_bc61d5b21d.png",
+    "natural": "0x0",
+    "rendered": "16x16",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "google_play_badge_c786de1341.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app_store_696810fe31.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2Fhow-is-your-car-insurance-premium-calculated_081db5b3de.jpeg&w=3840&q=30",
+    "natural": "0x0",
+    "rendered": "350x250",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2Fgoing-for-a-vacation_9b4d1b62e8.jpeg&w=3840&q=30",
+    "natural": "0x0",
+    "rendered": "350x250",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2Fbenefits-of-buying-long-term-two-wheeler-insurance_f1fa642ba3.jpeg&w=3840&q=30",
+    "natural": "0x0",
+    "rendered": "350x250",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "Tata_AIG_Logo_Sept_2026_630c66ccd7.png",
+    "natural": "0x0",
+    "rendered": "50x50",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "google_play_badge_c786de1341.svg",
+    "natural": "0x0",
+    "rendered": "110x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "app_store_696810fe31.svg",
+    "natural": "0x0",
+    "rendered": "110x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "FB.svg",
+    "natural": "0x0",
+    "rendered": "0x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "linkedin-in.svg",
+    "natural": "0x0",
+    "rendered": "0x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "x-twitter.svg",
+    "natural": "0x0",
+    "rendered": "0x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "instagram.svg",
+    "natural": "0x0",
+    "rendered": "0x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "youtube.svg",
+    "natural": "0x0",
+    "rendered": "0x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "0x0",
+    "rendered": "12x12",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconDown.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FTata_AIG_Logo_Sept_2026_630c66ccd7.png&w=96&q=75",
+    "natural": "96x52",
+    "rendered": "96x52",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "modalCrossIcon.svg",
+    "natural": "23x23",
+    "rendered": "14x14",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_07782652c4.svg",
+    "natural": "14x14",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon%20down.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_c3e31338cb.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_Container_83465fda78.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_e0e8aed679.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Live_container_933bafaeed.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "noun_customer_care_1155438_ae656068ba_38d8f7e913.svg",
+    "natural": "16x17",
+    "rendered": "20x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "user_2_5c38be1c91_0af21216a0.svg",
+    "natural": "20x20",
+    "rendered": "20x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=5824257&Ver=2&mid=6ed083dd-b4fa-48b2-a404-fc42e7db874f&bo=1&sid=b1467140de9611f18a1abd203c3ed31d&vid=b146b5f0de9611f18a71a17af3d28286&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=TATA%20AIG%20%7C%20Buy%20Car,%20Bike,%20Health%20%26%20Travel%20Insurance%20Online&kw=general%20insurance,%20general%20insurance%20company,%20tata%20aig&p=https%3A%2F%2Fwww.tataaig.com%2F&r=&lt=4117&evt=pageLoad&sv=2&cdb=AQAQ&rn=693603",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=23586078&Ver=2&mid=4b2890e2-171e-4e1f-9c41-eec3cbe3b263&bo=1&sid=b1467140de9611f18a1abd203c3ed31d&vid=b146b5f0de9611f18a71a17af3d28286&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=TATA%20AIG%20%7C%20Buy%20Car,%20Bike,%20Health%20%26%20Travel%20Insurance%20Online&kw=general%20insurance,%20general%20insurance%20company,%20tata%20aig&p=https%3A%2F%2Fwww.tataaig.com%2F&r=&lt=4117&evt=pageLoad&sv=2&cdb=AQAQ&rn=92838",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=23004605&Ver=2&mid=335a7ad9-4684-4d30-ac97-647cb9f1a9ca&bo=1&sid=b1467140de9611f18a1abd203c3ed31d&vid=b146b5f0de9611f18a71a17af3d28286&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=TATA%20AIG%20%7C%20Buy%20Car,%20Bike,%20Health%20%26%20Travel%20Insurance%20Online&kw=general%20insurance,%20general%20insurance%20company,%20tata%20aig&p=https%3A%2F%2Fwww.tataaig.com%2F&r=&lt=4117&evt=pageLoad&sv=2&cdb=AQAQ&rn=851065",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Get comprehensive car insurance",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Get comprehensive bike insurance",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Health plan starting from ₹15/da",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Instant Policy. No Medical Test.",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More insurance products for you",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Business products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why TATA AIG",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "#ThisIsTataAIG - Customer/Client",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "About TATA AIG",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Whats New",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Get our app",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related Articles",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is your car insurance premiu",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Going for a vacation. Here are f",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "Poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Things To Consider Before Buying",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "Poppins",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "container-fluid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "d-flex",
+    "width": 1110,
+    "left": 165
+   },
+   {
+    "sel": "slick-track",
+    "width": 3700,
+    "left": 165
+   },
+   {
+    "sel": "row",
+    "width": 1124,
+    "left": 158
+   },
+   {
+    "sel": "row",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "row",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "slick-track",
+    "width": 10545,
+    "left": 165
+   },
+   {
+    "sel": "row",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "col-12",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "row",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "my-3",
+    "width": 1110,
+    "left": 165
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5071,
+  "textLen": 11520,
+  "images": [
+   {
+    "src": "media_1ab841a5032331dfe598fa860b2d1698321ee3242.png?width=2000&format=webply&optimize=medium",
+    "natural": "2000x1085",
+    "rendered": "96x52",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-menu.svg",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nav-toggle.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ab841a5032331dfe598fa860b2d1698321ee3242.png?width=2000&format=webply&optimize=medium",
+    "natural": "2000x1085",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nav-chevron.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-motor.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-travel.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-other.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nav-chevron.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-marine.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-liability.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-group-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-fire.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-fire.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nav-chevron.svg",
+    "natural": "39x29",
+    "rendered": "18x18",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-car.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-bike.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-renewal-health.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-other.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "mega-arrow.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "user.svg",
+    "natural": "20x20",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-menu.svg",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "18x18",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-zoom.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-minus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-plus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-text.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-minus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-plus.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-grey-scale.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-high-contrast.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-low-contrast.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-light.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-readable.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-link.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "access-reset.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10b39f0bfd62d3fa452869710722a5fa5b5981332.svg?width=2000&format=webply&optimize=medium",
+    "natural": "30x19",
+    "rendered": "30x20",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17196a65585ab85c37fcb5ea47c869a479a35e198.svg?width=2000&format=webply&optimize=medium",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_135b95c296b8ae9d0f603d3a5476b85fdf48be81a.svg?width=2000&format=webply&optimize=medium",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1192f9e6629dd9caf671b0f96c54f17c210688822.svg?width=2000&format=webply&optimize=medium",
+    "natural": "33x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1acd8c376462436a2fae7269762446f11e86dfa88.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "30x20",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "quote-shine.svg",
+    "natural": "10x10",
+    "rendered": "10x10",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fbe7076640cfc9d03b1ade68e900998850163b3d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shineLine.svg",
+    "natural": "300x150",
+    "rendered": "162x58",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17dd3519a69496411b34c76921db44e20edf77989.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "26x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "quote-shine.svg",
+    "natural": "10x10",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c84a41820c18c6246e98b9e8c3af57749f6ad16a.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shineLine.svg",
+    "natural": "300x150",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17dd3519a69496411b34c76921db44e20edf77989.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c337582a66b2819f52cd819f5a6603b03ae2f1f2.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17dd3519a69496411b34c76921db44e20edf77989.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "quote-search.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18dad3eaf19b4abce6f0cc0ab04e4112e26106f2b.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "flow-down.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17dd3519a69496411b34c76921db44e20edf77989.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "newForwardIcon.svg",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f7a0fd939ef66762c61fa8c4fe618ee9d5addaa7.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1dc3a15c004d15c9d93ed8483d0e4007e1f78d82d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1af46c6ad1e252e46255d900f12351964e65e8b7c.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1608e69664cf90c39cd6a5843be2f35f86eef4fcf.svg?width=2000&format=webply&optimize=medium",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ea4d6617fa6efd4fdbe2fdfcb33095a4b7b26655.svg?width=2000&format=webply&optimize=medium",
+    "natural": "33x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d44b072c3713e277a04e8a6c30d465aad5a5763d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e69c6bd70df5f74c9005f413e34218ffc8dc672b.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_111849785dc35f4a536958f89abaac7419ae0fc31.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f9139c203240a3b83cfcca586bcf5e776ea60510.svg?width=2000&format=webply&optimize=medium",
+    "natural": "25x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cad20e02728f0143ecec8cf33a95aae83beb402a.svg?width=2000&format=webply&optimize=medium",
+    "natural": "22x24",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b2fc4432dfead83ce21935bd867faa6dee4111be.png?width=2000&format=webply&optimize=medium",
+    "natural": "1102x982",
+    "rendered": "551x491",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1020017c4e28eeb6abba0f4ef8b80393a05379a70.svg?width=2000&format=webply&optimize=medium",
+    "natural": "29x62",
+    "rendered": "54x54",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1de721b9ed5192e5dca96df88ee495955e1f90a5d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "54x66",
+    "rendered": "21x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_168b40297520c78814da3bc73e4a3ee68220efc77.svg?width=2000&format=webply&optimize=medium",
+    "natural": "61x61",
+    "rendered": "25x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b4ae81ba2eeb13287d4d30a9c015f68dbc5a58e5.svg?width=2000&format=webply&optimize=medium",
+    "natural": "44x48",
+    "rendered": "23x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c690cd97b9096b822a99a9dd179a268a355e1f11.svg?width=2000&format=webply&optimize=medium",
+    "natural": "58x51",
+    "rendered": "28x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c1c76fd17a3c24897e485e09905dd36648f05dc.svg?width=2000&format=webply&optimize=medium",
+    "natural": "72x50",
+    "rendered": "36x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f988b9ec8a2910cecf536acf18580888820a3fbc.svg?width=2000&format=webply&optimize=medium",
+    "natural": "42x57",
+    "rendered": "19x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1de721b9ed5192e5dca96df88ee495955e1f90a5d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "54x66",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_168b40297520c78814da3bc73e4a3ee68220efc77.svg?width=2000&format=webply&optimize=medium",
+    "natural": "61x61",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b4ae81ba2eeb13287d4d30a9c015f68dbc5a58e5.svg?width=2000&format=webply&optimize=medium",
+    "natural": "44x48",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c690cd97b9096b822a99a9dd179a268a355e1f11.svg?width=2000&format=webply&optimize=medium",
+    "natural": "58x51",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c1c76fd17a3c24897e485e09905dd36648f05dc.svg?width=2000&format=webply&optimize=medium",
+    "natural": "72x50",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f988b9ec8a2910cecf536acf18580888820a3fbc.svg?width=2000&format=webply&optimize=medium",
+    "natural": "42x57",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f656a9277c0f3b3c801f1380b840627f17ef218d.svg?width=750&format=svg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1af36c26ec24df209b78984a6599f6615eea3fc6b.png?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12b4d2f9ea7d67778dfdf43f29e44d09c75d0c4a4.png?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_116243964cac7ed3dcf8da73aabacd2037eaa8a82.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "350x200",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18ffaca48e92f60c1be03f53943a0d515f893a85d.png?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1651c871eb43ecd89a13203536e42e9b71507d081.png?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15a5ffcd7146fdd09df1f500115cfffdd3cf86044.png?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a2743332e61fad68debc315b15bd6dd5fd3ca071.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "350x200",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ffed0c34350b9b1c7b77140de29c53913299984e.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f1d657930af34484c5a9b4751cc7c0cbaa4d462c.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_194b8aa5f316f07e11869f1902513e7e6f3f65996.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "350x197",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "playIcon.svg",
+    "natural": "72x72",
+    "rendered": "60x60",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconRight.png",
+    "natural": "29x40",
+    "rendered": "15x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d244ab0108ee802c0da72b8ff96bfb6d9b2f23f5.svg?width=2000&format=webply&optimize=medium",
+    "natural": "36x32",
+    "rendered": "36x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f7a0fd939ef66762c61fa8c4fe618ee9d5addaa7.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1dc3a15c004d15c9d93ed8483d0e4007e1f78d82d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1af46c6ad1e252e46255d900f12351964e65e8b7c.svg?width=2000&format=webply&optimize=medium",
+    "natural": "24x24",
+    "rendered": "24x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1608e69664cf90c39cd6a5843be2f35f86eef4fcf.svg?width=2000&format=webply&optimize=medium",
+    "natural": "25x24",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ea4d6617fa6efd4fdbe2fdfcb33095a4b7b26655.svg?width=2000&format=webply&optimize=medium",
+    "natural": "33x32",
+    "rendered": "33x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d44b072c3713e277a04e8a6c30d465aad5a5763d.svg?width=2000&format=webply&optimize=medium",
+    "natural": "25x24",
+    "rendered": "25x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1788b36fa87039330ccc60551e40e0001b3f45e15.svg?width=2000&format=webply&optimize=medium",
+    "natural": "36x20",
+    "rendered": "36x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_188cc9b89cc05f69242c31587ec01c941a90715ca.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_162829de964220b2e4fa6af76a938b41e73370865.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1802eb80c8ddadc6a68ffd3d6c8e9ab9706556a7c.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_183e090096ade20387fe069ae763cff76f81e3785.svg?width=2000&format=webply&optimize=medium",
+    "natural": "37x30",
+    "rendered": "37x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11a20d33b252c2d05ab50c5af51b691f6e701cc07.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1208dc4d08cae57e46e8741a10c463af9a61aaf3c.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12caa115391aeb0fb12031d5c98824d4d7f4b285a.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd2ccb149b4753ecadc1bc61be8aae70a3bbab3f.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e0bd33cee7bd05b2ca774a0dd7baa53025ff4de4.svg?width=2000&format=webply&optimize=medium",
+    "natural": "36x28",
+    "rendered": "36x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Icon_9b93180372.svg",
+    "natural": "17x17",
+    "rendered": "17x17",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1664820864a5fab402c96aaefa9ca6d6c79e37878.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_100f3cd2f02f07b95238a5979fb9168f933f5696a.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c9b5d5f323df63534926370529cd0484360e7c4.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19a46bada6bfe881d39be9f47aa5cbc1bf281544c.svg?width=2000&format=webply&optimize=medium",
+    "natural": "23x23",
+    "rendered": "23x23",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_180122c300eee214c99837f3d1038fc777bdc786b.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd281b0cb12b474d49d17ac4cc053298acf3f6e1.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17b9805faadb30bc8e7d85d307253d0386baca001.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1878eda16faafdefffcc453e45183bbb186e96046.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1eaf19506976d480aa717c759e85ba984579b5c30.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17c218db62d8a87cc75815823f624ac6e17aa814f.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_166071a4ddd2c18fbaeb64106549678e48b700906.svg?width=2000&format=webply&optimize=medium",
+    "natural": "32x32",
+    "rendered": "32x32",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13ff901e536dc8ee619205439958c4761286fdda1.png?width=2000&format=webply&optimize=medium",
+    "natural": "857x578",
+    "rendered": "456x308",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f3ca5dd2a772153230d163df0d12a8dde5fba078.png?width=2000&format=webply&optimize=medium",
+    "natural": "494x405",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "51x37",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "iconRight.png",
+    "natural": "29x40",
+    "rendered": "15x20",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f3ca5dd2a772153230d163df0d12a8dde5fba078.png?width=2000&format=webply&optimize=medium",
+    "natural": "494x405",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg?width=2000&format=webply&optimize=medium",
+    "natural": "51x37",
+    "rendered": "0x0",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13a3ad4657bc589bc23bbbd90e78d98117c272ec4.png?width=2000&format=webply&optimize=medium",
+    "natural": "567x750",
+    "rendered": "253x335",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_193a9def06ef5af5b8944745cead5cfb9dbc587f6.png?width=2000&format=webply&optimize=medium",
+    "natural": "108x108",
+    "rendered": "111x111",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a3ab98436e5df44ee16da21d05e67ee82fa145ae.svg?width=2000&format=webply&optimize=medium",
+    "natural": "193x60",
+    "rendered": "121x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e13a34a1498cf4236bd38e4ebce866f437c9a59f.svg?width=2000&format=webply&optimize=medium",
+    "natural": "193x60",
+    "rendered": "121x38",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a962ccffebb32749cc3976ffacda107010fd5d90.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1584x1209",
+    "rendered": "350x250",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_157baccf7cb77cc024991cc1deec12ea92602642f.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1584x1209",
+    "rendered": "350x250",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a2a977d68b7ba732eebeeb1ce7ea1cd810b4b7fd.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1584x1209",
+    "rendered": "350x250",
+    "fit": "fill",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ab841a5032331dfe598fa860b2d1698321ee3242.png?width=2000&format=webply&optimize=medium",
+    "natural": "2000x1085",
+    "rendered": "84x50",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a3ab98436e5df44ee16da21d05e67ee82fa145ae.svg?width=2000&format=webply&optimize=medium",
+    "natural": "193x60",
+    "rendered": "110x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e13a34a1498cf4236bd38e4ebce866f437c9a59f.svg?width=2000&format=webply&optimize=medium",
+    "natural": "193x60",
+    "rendered": "110x34",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "facebook.svg",
+    "natural": "8x12",
+    "rendered": "8x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "linkedin.svg",
+    "natural": "131x150",
+    "rendered": "11x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "x-twitter.svg",
+    "natural": "150x150",
+    "rendered": "12x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "instagram.svg",
+    "natural": "131x150",
+    "rendered": "11x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "youtube.svg",
+    "natural": "169x150",
+    "rendered": "14x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "12x12",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon-down.png",
+    "natural": "22x22",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "arrow-right.svg",
+    "natural": "16x16",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_144ee479572978a8d235708c69fe24e5522523792.png?width=2000&format=webply&optimize=medium",
+    "natural": "253x360",
+    "rendered": "70x100",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "arrow-right.svg",
+    "natural": "16x16",
+    "rendered": "16x16",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Get comprehensive car insurance",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Get comprehensive bike insurance",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Health plan starting from ₹15/da",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Instant Policy. No Medical Test.",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "More insurance products for you",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "24px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Business products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Other products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why TATA AIG",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "#ThisIsTataAIG - Customer/Client",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Navnit Kumar Dhamsaniya | Health",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Manjunath Naik Mahadeo | Health ",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kishana Ram Suthar | Marine Cust",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Uttam Shalikram Rewatkar | TATA ",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Venkata Chalapati Rao | TATA AIG",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Munazir Ansari | Health Insuranc",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Balwant Rai | Health Insurance C",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sagar Sunil Jambhale | Health In",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Satpal Singh | Car Insurance Cus",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Mr. Ravi Bothra | Fire Insurance",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Our Products",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "About TATA AIG",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Whats New",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Get our app",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Related Articles",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "28px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "How is your car insurance premiu",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Going for a vacation. Here are f",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Things To Consider Before Buying",
+    "color": "rgb(38, 74, 159)",
+    "fontSize": "16px",
+    "family": "poppins",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "first-fold-inner",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "first-fold-scroll",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "why-title",
+    "width": 1410,
+    "left": 15
+   },
+   {
+    "sel": "why-items",
+    "width": 1410,
+    "left": 15
+   },
+   {
+    "sel": "testi-head",
+    "width": 1110,
+    "left": 165
+   },
+   {
+    "sel": "testi-track",
+    "width": 1110,
+    "left": 165
+   },
+   {
+    "sel": "prod-title",
+    "width": 1110,
+    "left": 165
+   },
+   {
+    "sel": "prod-head",
+    "width": 1124,
+    "left": 158
+   },
+   {
+    "sel": "prod-grid",
+    "width": 1124,
+    "left": 158
+   },
+   {
+    "sel": "about-inner",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "news-title",
+    "width": 1140,
+    "left": 150
+   },
+   {
+    "sel": "news-track",
+    "width": 1110,
+    "left": 165
+   }
+  ]
+ }
+}

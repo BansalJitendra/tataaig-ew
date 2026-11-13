@@ -10,82 +10,119 @@
  * governing permissions and limitations under the License.
  */
 
+/*
+ * TATA AIG replica foundation — lifted from the gated prototype
+ * (stardust/prototypes/css/canon.css + index.css; values from the source stylesheets
+ * 015aa3f6edf005ab.css and bootstrap 4). Blocks build on these tokens.
+ */
+
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* colors (canon) */
+  --blue: #264a9f;
+  --navy: #071e54;
+  --navy-80: rgb(7 30 84 / 80%);
+  --slate: #546280;
+  --muted: #919cb5;
+  --page: #f5f5f5;
+  --surface: #eff0f3;
+  --surface-2: #e5e6eb;
+  --input: #f4f7ff;
+  --tint: #e2edff;
+  --strip: #caeaef;
+  --line: #d4d7de;
+  --dash: #bac0cf;
+  --shadow-dark: #bfc3cf;
+  --legal: #18478b;
+  --text: #212529;
+  --link: #007bff;
+  --neu: 3px 3px 6px var(--shadow-dark), -3px -3px 6px #fff;
+  --neu-r: -3px -3px 6px 0 #fff, 3px 3px 6px 0 var(--shadow-dark);
+  --neu-in: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px #fff;
+  --grad-card: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+  --grad-brand: linear-gradient(90deg, #35d3e1 -23.09%, #0d3594 123.37%);
+  --grad-btn: linear-gradient(276deg, rgb(13 53 148 / 89.8%), #35d3e1);
+
+  /* layout: bootstrap container steps + the source's 1648px wide cap */
+  --container: 1140px;
+  --gutter: 15px;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --font: poppins, poppins-fallback, sans-serif;
+  --body-font-family: var(--font);
+  --heading-font-family: var(--font);
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* header reservation: strip 40 + page pad 15 + header 100 (desktop) */
+  --nav-height: 155px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* boilerplate aliases */
+  --background-color: var(--page);
+  --text-color: var(--text);
+  --link-color: var(--link);
 }
 
-/* fallback fonts */
+/* metric-matched local fallback for Poppins (fonttools, width-matched against Arial; Liberation
+   Sans and Helvetica are Arial-metric faces for hosts without Arial) */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: poppins-fallback;
+  size-adjust: 114.26%;
+  ascent-override: 91.89%;
+  descent-override: 30.63%;
+  line-gap-override: 8.75%;
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans');
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+@media (width <= 1199px) {
+  :root { --container: 960px; }
 }
 
-@media (width >= 900px) {
+@media (width <= 991px) {
+  :root { --container: 720px; }
+}
+
+@media (width <= 767px) {
   :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+    --container: 540px;
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    /* strip 32 + app-banner offset 73 + header 90 */
+    --nav-height: 195px;
   }
+}
+
+@media (width >= 1900px) {
+  :root { --container: 1648px; }
+}
+
+/* reset (canon) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: 100%;
 }
 
 body {
   display: none;
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  background: var(--page);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
 }
 
 body.appear {
   display: block;
 }
 
+/* chrome reservation (boilerplate structural layer) */
 header {
   height: var(--nav-height);
+  background: var(--page);
 }
 
 header .header,
@@ -104,222 +141,192 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin: 0 0 8px;
   font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
-
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+p {
+  margin: 0 0 16px;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+a,
+a:any-link {
+  color: var(--link);
+  text-decoration: none;
+  background-color: transparent;
 }
 
-main > div {
-  margin: 40px 16px;
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  cursor: pointer;
 }
 
 input,
 textarea,
-select,
-button {
-  font: inherit;
+select {
+  margin: 0;
+  font-family: inherit;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+[hidden] {
+  display: none !important;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+/* source swaps desktop/mobile content at 768 (mDisplayNone / dDisplayNone) */
+.only-m {
+  display: none !important;
 }
 
-/* buttons */
+@media (width <= 768px) {
+  .only-d {
+    display: none !important;
+  }
+
+  .only-m {
+    display: block !important;
+  }
+}
+
+/* buttons — the source's two global shapes (.btn-primary gradient pill, .btn-outline) */
 p.button-wrapper {
-  margin: 12px 0;
+  margin: 0 0 16px;
 }
 
 a.button:any-link,
 button.button {
-  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   max-width: 100%;
   margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  padding: 8px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
   font: inherit;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 21px;
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-a.button[aria-disabled="true"],
-button.button:disabled {
-  cursor: not-allowed;
-  pointer-events: none;
 }
 
 a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+button.button.primary,
+a.button.accent,
+button.button.accent {
+  border-radius: 20px;
+  background: transparent var(--grad-btn) 0 0 no-repeat padding-box;
+  box-shadow: 3px 3px 3px #cecece, -3px -3px 3px #fff;
+  color: #fff;
+  font-size: 13px;
+  line-height: 19.5px;
 }
 
 a.button.secondary,
 button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
+  border-color: var(--blue);
+  background: var(--surface);
+  box-shadow: var(--neu);
+  color: var(--blue);
 }
 
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
+/* stylelint-disable no-descending-specificity */
+
+/* Experience Workspace edit mode: repaint CTAs from their authored marks */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-decoration: none;
 }
 
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
 }
 
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  border-radius: 20px;
+  background: transparent var(--grad-btn) 0 0 no-repeat padding-box;
+  color: #fff;
 }
 
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  border-color: var(--blue);
+  background: var(--surface);
+  color: var(--blue);
 }
 
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
 }
 
-main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
-}
+/* stylelint-enable no-descending-specificity */
 
+/* icons (decorateIcons) */
 .icon {
   display: inline-block;
-  height: 24px;
   width: 24px;
+  height: 24px;
 }
 
 .icon img {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 
-/* sections */
-main > .section {
-  margin: 40px 0;
+/* page canvas — main and its sections */
+main {
+  position: relative;
 }
 
-main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+main > .section:empty {
+  display: none;
 }
 
-main > .section:first-of-type {
-  margin-top: 0;
+/* sections are uncapped (the source's bands are full-bleed with their own container);
+   blocks cap their own inner content with var(--container) + var(--gutter).
+   Default content gets the bootstrap container. */
+main > .section > .default-content-wrapper {
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
 }
 
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
-}
-
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+/* section styles (default-content sections only) */
+main .section.surface {
+  background: var(--surface);
 }

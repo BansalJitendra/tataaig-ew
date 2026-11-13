@@ -1,0 +1,130 @@
+/* about — lifted from stardust/prototypes/css/index.css § about */
+.about {
+  padding: 70px 15px;
+}
+
+.about picture {
+  display: contents;
+}
+
+.about p {
+  margin: 0;
+}
+
+.about .about-inner {
+  position: relative;
+  display: flex;
+  max-width: var(--container);
+  min-height: 350px;
+  margin: 0 auto;
+}
+
+.about .about-text {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 15px;
+}
+
+.about .about-title {
+  margin: 0 0 35px;
+  color: var(--blue);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.about .about-title :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+}
+
+.about .about-body p {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--navy-80);
+  font-size: 14px;
+  line-height: 21px;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+.about .about-body.is-open p {
+  -webkit-line-clamp: unset;
+}
+
+.about .about-toggle {
+  display: inline-block;
+  margin-top: 15px;
+  border: 1px solid transparent;
+  color: var(--blue);
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.about .about-toggle .about-show-less,
+.about .about-toggle.is-open .about-show-more {
+  display: none;
+}
+
+.about .about-toggle.is-open .about-show-less {
+  display: block;
+}
+
+.about .about-art {
+  position: absolute;
+  inset: 0 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.about .about-art img {
+  width: 100%;
+  height: auto;
+}
+
+@media (width <= 768px) {
+  .about {
+    padding: 50px 15px;
+  }
+
+  .about .about-inner {
+    display: block;
+    min-height: 0;
+  }
+
+  .about .about-text {
+    max-width: none;
+    text-align: center;
+  }
+
+  .about .about-title {
+    font-size: 22px;
+  }
+
+  .about .about-body p {
+    text-align: center;
+  }
+
+  .about .about-art {
+    position: static;
+    justify-content: center;
+    width: auto;
+    margin-top: 48px;
+    padding: 0 15px;
+  }
+
+  .about .about-art img {
+    width: 238.4px;
+  }
+}
+
+@media (width <= 380px) {
+  .about .about-title {
+    font-size: 19px;
+  }
+}

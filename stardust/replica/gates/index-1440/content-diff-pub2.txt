@@ -1,0 +1,747 @@
+[live-session] waiting to pace live navigations to www.tataaig.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--0484faa8--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 956 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 474 text nodes — 27 headings, 0 eyebrows, 193 CTAs, 254 body; 165 img
+  build: 296 text nodes — 27 headings, 0 eyebrows, 39 CTAs, 230 body; 157 img
+  editable texts (outermost h*/p/ul/ol): source 132 / build 75
+  attributes (placeholder/aria-label/title): source 64 / build 80; icons: source 100 / build 131
+  accepted (invisible, nothing lost): 11 SAME IMAGE — "shine.svg ↔ quote-shine.svg", "newCarIcon.svg ↔ media_1fbe7076640cfc9d03b1ade68e900998850163b3d.svg", "scroll.svg ↔ media_1020017c4e28eeb6abba0f4ef8b80393a05379a70.svg", "Group_3624_d8635bfcef.svg ↔ media_1c690cd97b9096b822a99a9dd179a268a355e1f11.svg" …
+root "header"
+  source: 56 text nodes — 0 headings, 0 eyebrows, 42 CTAs, 14 body; 48 img
+  build: 63 text nodes — 0 headings, 0 eyebrows, 42 CTAs, 21 body; 49 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 23 / build 28; icons: source 21 / build 29
+root "footer"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 110 text nodes — 0 headings, 0 eyebrows, 97 CTAs, 13 body; 15 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 24
+  attributes (placeholder/aria-label/title): source 0 / build 59; icons: source 0 / build 12
+
+Findings: 724 (197 structural 🔴)
+Tiers: looks-same 🔴 197 · nothing-lost 🟡 0 · accepted 🟢 11 (owner 0, auto 11) · advisory 527
+  🔴 MISSING CTA [main]: source cta "About Us" → /about-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Public Disclosures" → /public-disclosures has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Investors" → https://www.tataaig.com/public-disclosures#investorSection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Contact Us" → /contact-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Careers" → https://careers.tataaig.com/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Agent Registration" → https://www.tataaig.com/agent-registration has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Blog" → /knowledge-center has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Insurance FAQs" → /faqs-on-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Vendor Code of Conduct" → https://www.tataaig.com/s3/vendor_code_of_conduct_31cbb0caa3.pdf has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Surety Bond Policies" → https://www.tataaig.com/surety-bond-policies has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Horizon Watch" → https://www.tataaig.com/horizon-watch has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Excluded Hospital List" → /excluded-hospital-list has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Renewals" → /renewal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Claim Process" → /claims-process has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Self Service" → https://www.tataaig.com/servicing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "TATA AIA" → https://www.tataaia.com/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance" → /health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Tata AIG MediCare Series" → /health-insurance/medicare has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Senior Citizen Health Insurance" → /health-insurance/senior-citizen-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "TATA AIG MediCare Select Health Insurance" → /health-insurance/medicare-select has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Individual Health Insurance" → /health-insurance/individual-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Family Health Insurance" → /health-insurance/family-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Critical Illness Insurance" → /health-insurance/critical-illness-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Arogya Sanjeevani" → /health-insurance/arogya-sanjeevani has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "MediCare Plus (Super Top Up)" → /health-insurance/medicare-plus has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Corona Kavach" → /health-insurance/corona-kavach has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance Quote" → /buy-online/health-insurance/premium-checker has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Cashless Health Insurance" → /health-insurance/cashless-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Women Health Insurance" → /health-insurance/women-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Maternity Health Insurance" → /health-insurance/maternity-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Parents Health Insurance" → /health-insurance/parents-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Motor Insurance" → /motor-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance" → /motor-insurance/car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance" → /motor-insurance/two-wheeler-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Commercial Vehicle Insurance" → /motor-insurance/commercial-vehicle-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Long Term Two wheeler package policy" → /motor-insurance/two-wheeler-insurance/long-term-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Auto Secure-Commercial Vehicle Package Policy" → /corporate-motor-insurance/auto-secure-corporate-fleet-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Third Party Car Insurance" → /motor-insurance/car-insurance/third-party-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Third Party Bike Insurance" → /motor-insurance/two-wheeler-insurance/third-party-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Comprehensive Car Insurance" → /motor-insurance/car-insurance/comprehensive-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Comprehensive Bike Insurance" → /motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance Quote" → https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance Quote" → https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Auto Rickshaw Quote" → https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Standalone Own Damage Car Insurance" → /motor-insurance/car-insurance/standalone-own-damage-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Standalone Own Damage Bike Insurance" → /motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "International Travel Insurance" → /travel-insurance/international-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance" → /travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Domestic Travel Insurance" → /travel-insurance/domestic-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Student Travel Insurance" → /travel-insurance/student-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Senior Citizen Travel Insurance" → /travel-insurance/senior-citizen-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Business Travel Insurance" → /corporate-travel-insurance/business-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance Quote" → https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Schengen Travel Insurance" → /travel-insurance/travel-insurance-schengen has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Family Travel Insurance" → /travel-insurance/family-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Insurance" → /sme-insurance/marine-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Transit Insurance" → /sme-insurance/marine-insurance/transit-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Cargo Insurance" → /sme-insurance/marine-insurance/cargo-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Open Insurance" → /sme-insurance/marine-insurance/annual-open-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Fire & Burglary Insurance" → /sme-insurance/fire-burglary-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Fire Insurance" → /sme-insurance/fire-burglary-insurance/fire-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Shop Insurance" → https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Office Insurance" → /sme-insurance/fire-burglary-insurance/office-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Theft Insurance" → /sme-insurance/fire-burglary-insurance/theft-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Group Health Insurance" → /sme-insurance/group-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Workmen Compensation Insurance" → /sme-insurance/workmen-compensation-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Labour Insurance" → /sme-insurance/workmen-compensation-insurance/labour-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Engineering Insurance" → https://www.tataaig.com/sme-insurance/engineering-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Contractors’ Plant and Machinery Insurance" → /sme-insurance/engineering-insurance/contractors-plant-machinery-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Professional Indemnity Insurance" → /sme-insurance/professional-indemnity-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Accident Insurance" → /individual-personal-accident-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Home Insurance" → /home-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Rural Insurance" → /rural-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Private Client Group Insurance" → /private-client-group-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Financial lines" → /financial-liabilities-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance Calculator" → /health-insurance/health-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance Calculator" → /motor-insurance/car-insurance/car-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance Calculator" → /motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance Calculator" → /travel-insurance/travel-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Group Health Insurance Calculator" → /sme-insurance/group-health-insurance/group-health-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Insurance Calculator" → /sme-insurance/marine-insurance/marine-insurance-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Workmen Compensation Premium Calculator" → /sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance" → /health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Tata AIG MediCare Series" → /health-insurance/medicare has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Senior Citizen Health Insurance" → /health-insurance/senior-citizen-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "TATA AIG MediCare Select Health Insurance" → /health-insurance/medicare-select has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Individual Health Insurance" → /health-insurance/individual-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Family Health Insurance" → /health-insurance/family-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Critical Illness Insurance" → /health-insurance/critical-illness-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Arogya Sanjeevani" → /health-insurance/arogya-sanjeevani has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "MediCare Plus (Super Top Up)" → /health-insurance/medicare-plus has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Corona Kavach" → /health-insurance/corona-kavach has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance Quote" → /buy-online/health-insurance/premium-checker has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Cashless Health Insurance" → /health-insurance/cashless-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Women Health Insurance" → /health-insurance/women-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Maternity Health Insurance" → /health-insurance/maternity-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Parents Health Insurance" → /health-insurance/parents-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Motor Insurance" → /motor-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance" → /motor-insurance/car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance" → /motor-insurance/two-wheeler-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Commercial Vehicle Insurance" → /motor-insurance/commercial-vehicle-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Long Term Two wheeler package policy" → /motor-insurance/two-wheeler-insurance/long-term-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Auto Secure-Commercial Vehicle Package Policy" → /corporate-motor-insurance/auto-secure-corporate-fleet-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Third Party Car Insurance" → /motor-insurance/car-insurance/third-party-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Third Party Bike Insurance" → /motor-insurance/two-wheeler-insurance/third-party-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Comprehensive Car Insurance" → /motor-insurance/car-insurance/comprehensive-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Comprehensive Bike Insurance" → /motor-insurance/two-wheeler-insurance/comprehensive-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance Quote" → https://www.tataaig.com/buy-online/motor-insurance/car-insurance/premium-checker has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance Quote" → https://www.tataaig.com/buy-online/motor-insurance/two-wheeler-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Bike has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Auto Rickshaw Quote" → https://www.tataaig.com/buy-online/motor-insurance/auto-rickshaw-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Auto+Rickshaw has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Standalone Own Damage Car Insurance" → /motor-insurance/car-insurance/standalone-own-damage-car-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Standalone Own Damage Bike Insurance" → /motor-insurance/two-wheeler-insurance/own-damage-cover-in-bike-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "International Travel Insurance" → /travel-insurance/international-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance" → /travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Domestic Travel Insurance" → /travel-insurance/domestic-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Student Travel Insurance" → /travel-insurance/student-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Senior Citizen Travel Insurance" → /travel-insurance/senior-citizen-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Business Travel Insurance" → /corporate-travel-insurance/business-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance Quote" → https://www.tataaig.com/buy-online/travel-insurance/premium-checker?utm_source=Display&utm_medium=Footer&utm_campaign=Travel has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Schengen Travel Insurance" → /travel-insurance/travel-insurance-schengen has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Family Travel Insurance" → /travel-insurance/family-travel-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Insurance" → /sme-insurance/marine-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Transit Insurance" → /sme-insurance/marine-insurance/transit-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Cargo Insurance" → /sme-insurance/marine-insurance/cargo-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Open Insurance" → /sme-insurance/marine-insurance/annual-open-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Fire & Burglary Insurance" → /sme-insurance/fire-burglary-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Fire Insurance" → /sme-insurance/fire-burglary-insurance/fire-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Shop Insurance" → https://www.tataaig.com/sme-insurance/fire-burglary-insurance/shop-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Office Insurance" → /sme-insurance/fire-burglary-insurance/office-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Theft Insurance" → /sme-insurance/fire-burglary-insurance/theft-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Group Health Insurance" → /sme-insurance/group-health-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Workmen Compensation Insurance" → /sme-insurance/workmen-compensation-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Labour Insurance" → /sme-insurance/workmen-compensation-insurance/labour-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Engineering Insurance" → https://www.tataaig.com/sme-insurance/engineering-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Contractors’ Plant and Machinery Insurance" → /sme-insurance/engineering-insurance/contractors-plant-machinery-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Professional Indemnity Insurance" → /sme-insurance/professional-indemnity-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Accident Insurance" → /individual-personal-accident-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Home Insurance" → /home-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Rural Insurance" → /rural-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Private Client Group Insurance" → /private-client-group-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Financial lines" → /financial-liabilities-insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance Calculator" → /health-insurance/health-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Car Insurance Calculator" → /motor-insurance/car-insurance/car-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bike Insurance Calculator" → /motor-insurance/two-wheeler-insurance/bike-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Travel Insurance Calculator" → /travel-insurance/travel-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Group Health Insurance Calculator" → /sme-insurance/group-health-insurance/group-health-insurance-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Marine Insurance Calculator" → /sme-insurance/marine-insurance/marine-insurance-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Workmen Compensation Premium Calculator" → /sme-insurance/workmen-compensation-insurance/workmen-compensation-policy-premium-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Disclaimer" → /disclaimers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Terms of Use" → /terms-of-use has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Downloads" → /downloads has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "IRDAI" → https://www.irdai.gov.in/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "GST Registration Numbers" → /gst-registration has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Privacy Policy" → /privacy-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Grievance Redressal Policy" → /grievance-redressal-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "General" → /general has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Bima Bharosa" → https://bimabharosa.irdai.gov.in/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Health Insurance Portability" → https://www.tataaig.com/health-insurance/health-insurance-portability has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Blacklisted Agents" → https://agencyportal.irdai.gov.in/PublicAccess/BlackListedAgent.aspx has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Posh Policy" → /s3/POSH_Policy_bd5c8cda81.pdf has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "She-Box Portal (POSH)" → https://shebox.wcd.gov.in/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "Darpan ID" → https://www.tataaig.com/darpan-id has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [main]: source cta "customersupport@tataaig.com" → mailto:customersupport@tataaig.com has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ICON DIFF [main]: source image https_dev10bn_tataaig_com_s3_new4w_Selected_bace88237c_0236063b60.svg (30×20) vs build image media_10b39f0bfd62d3fa452869710722a5fa5b5981332.svg (30×20) at "car". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image https_dev10bn_tataaig_com_s3_new_Bike_Deselected_f368b29414_80bae1e802.svg (30×20) vs build image media_17196a65585ab85c37fcb5ea47c869a479a35e198.svg (30×20) at "bike". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image https_dev10bn_tataaig_com_s3_new_Health_Deselected_e726c7c997_22945c7be4.svg (30×20) vs build image media_135b95c296b8ae9d0f603d3a5476b85fdf48be81a.svg (30×20) at "health". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image https_dev10bn_tataaig_com_s3_new_Travel_Deselected_109ee88ba1_431ec2ed99.svg (30×20) vs build image media_1192f9e6629dd9caf671b0f96c54f17c210688822.svg (30×20) at "travel". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image More_not_Selected_dffe3f3406_870a7f5623.svg (30×20) vs build image media_1acd8c376462436a2fae7269762446f11e86dfa88.svg (30×20) at "more". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Marine_Open_8270d9d71d.svg (25×24) vs build image media_1608e69664cf90c39cd6a5843be2f35f86eef4fcf.svg (24×24) at "marine open marine open". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image WC_Icon_a503416f44.svg (33×32) vs build image media_1ea4d6617fa6efd4fdbe2fdfcb33095a4b7b26655.svg (24×24) at "workmen insurance workmen insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Icon_ad5a3c1880.svg (25×24) vs build image media_1d44b072c3713e277a04e8a6c30d465aad5a5763d.svg (24×24) at "professional indemnity professional inde". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22935_88f5605a4a.svg (32×32) vs build image media_188cc9b89cc05f69242c31587ec01c941a90715ca.svg (24×24) at "health insurance health insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22948_98767acc42.svg (32×32) vs build image media_162829de964220b2e4fa6af76a938b41e73370865.svg (24×24) at "tata aig eldercare tata aig eldercare". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22936_1_d7f3dba581.svg (32×32) vs build image media_1802eb80c8ddadc6a68ffd3d6c8e9ab9706556a7c.svg (24×24) at "medicare plus super top up medicare plus". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22937_1_752df8425c.svg (32×32) vs build image media_11a20d33b252c2d05ab50c5af51b691f6e701cc07.svg (24×24) at "car insurance car insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22938_895dced528.svg (32×32) vs build image media_1208dc4d08cae57e46e8741a10c463af9a61aaf3c.svg (24×24) at "bike insurance bike insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22939_22f5b422bb.svg (32×32) vs build image media_12caa115391aeb0fb12031d5c98824d4d7f4b285a.svg (24×24) at "cv insurance cv insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22940_3255fea957.svg (32×32) vs build image media_1cd2ccb149b4753ecadc1bc61be8aae70a3bbab3f.svg (24×24) at "auto rikshaw insurance auto rikshaw insu". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22941_170bdd85a9.svg (32×32) vs build image media_1664820864a5fab402c96aaefa9ca6d6c79e37878.svg (24×24) at "international travel international trave". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_22942_f923183bc3.svg (32×32) vs build image media_100f3cd2f02f07b95238a5979fb9168f933f5696a.svg (24×24) at "student travel student travel". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Domestic_d83833c767.svg (32×32) vs build image media_19c9b5d5f323df63534926370529cd0484360e7c4.svg (24×24) at "domestic travel domestic travel". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_23162_5d209c1d71.svg (32×32) vs build image media_180122c300eee214c99837f3d1038fc777bdc786b.svg (24×24) at "accident insurance accident insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_23163_e876a79072.svg (32×32) vs build image media_1cd281b0cb12b474d49d17ac4cc053298acf3f6e1.svg (24×24) at "home insurance home insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_23166_122756cc95.svg (32×32) vs build image media_17b9805faadb30bc8e7d85d307253d0386baca001.svg (24×24) at "casualty insurance casualty insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Frame_12f4998d65.svg (32×32) vs build image media_1878eda16faafdefffcc453e45183bbb186e96046.svg (24×24) at "private client group insurance private c". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Frame_1_6d8172ec5a.svg (32×32) vs build image media_1eaf19506976d480aa717c759e85ba984579b5c30.svg (24×24) at "pradhan mantri fasal bima yojna (pmfby) ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Frame_2_7711ed5e8c.svg (32×32) vs build image media_17c218db62d8a87cc75815823f624ac6e17aa814f.svg (24×24) at "small business insurance small business ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [main]: source image Group_23165_0386464c42.svg (32×32) vs build image media_166071a4ddd2c18fbaeb64106549678e48b700906.svg (24×24) at "financial lines financial lines". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [main]: source image iconRight.png (15×20) at "next slide" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ICON DIFF [header]: source image AcssMen.svg (32×32) vs build image access-menu.svg (32×32) at "accessibility options". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [header]: source image nav_mtoggle.svg (15×11) at "button#1" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 ICON DIFF [header]: source image Icon%20down.svg (18×18) vs build image nav-chevron.svg (18×18) at "personal". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source image Icon%20down.svg (18×18) vs build image nav-chevron.svg (18×18) at "business". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source image Icon%20down.svg (18×18) vs build image nav-chevron.svg (18×18) at "renewal". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source image user%20(2).svg (17×17) vs build image user.svg (17×17) at "log-in & explore all of our insurance pl". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source image AcssMen.svg (32×32) vs build image access-menu.svg (32×32) at "accessibility options". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [header]: source image iconDown.png (18×18) vs build image icon-down.png (18×18) at "accessibility options". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "Learn more" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "View Motor Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "View Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "View Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "About Us" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Public Disclosures" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Investors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Contact Us" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Careers" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Agent Registration" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Blog" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Insurance FAQs" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Vendor Code of Conduct" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Surety Bond Policies" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Horizon Watch" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Excluded Hospital List" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Renewals" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Claim Process" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Self Service" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "TATA AIA" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Tata AIG MediCare Series" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Senior Citizen Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "TATA AIG MediCare Select Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Individual Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Family Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Critical Illness Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Arogya Sanjeevani" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "MediCare Plus (Super Top Up)" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Corona Kavach" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Health Insurance Quote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Cashless Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Women Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Maternity Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Parents Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Motor Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Car Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Bike Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Commercial Vehicle Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Long Term Two wheeler package policy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Auto Secure-Commercial Vehicle Package Policy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Third Party Car Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Third Party Bike Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Comprehensive Car Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Comprehensive Bike Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Car Insurance Quote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Bike Insurance Quote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Auto Rickshaw Quote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Standalone Own Damage Car Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Standalone Own Damage Bike Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "International Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Domestic Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Student Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Senior Citizen Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Business Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Travel Insurance Quote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Schengen Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Family Travel Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Marine Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Marine Transit Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Marine Cargo Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Marine Open Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Fire & Burglary Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Fire Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Shop Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Office Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Theft Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Group Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Workmen Compensation Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Labour Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Engineering Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Contractors’ Plant and Machinery Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Professional Indemnity Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Accident Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Home Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Rural Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Private Client Group Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Financial lines" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Health Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Car Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Bike Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Travel Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Group Health Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Marine Insurance Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Workmen Compensation Premium Calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Disclaimer" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Terms of Use" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Downloads" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "IRDAI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "GST Registration Numbers" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Privacy Policy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Grievance Redressal Policy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "General" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Bima Bharosa" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Health Insurance Portability" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Blacklisted Agents" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Posh Policy" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "She-Box Portal (POSH)" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Darpan ID" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "customersupport@tataaig.com" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [main]: source body "1"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "2"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "3"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "4"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "5"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "6"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "7"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "8"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "9"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "10"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "11"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "12"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "13"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "14"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "15"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "16"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "17"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "18"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "19"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Download Our App"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Follow Us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Company"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Resources"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Services"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Group Companies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Health Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Motor Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Travel Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "SME Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Other Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Calculators"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Health Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Motor Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Travel Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "SME Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Other Insurance"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Calculators"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS / "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "E.g. KA01AB1234" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "TATA AIG car policy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "E.g. KA01AB1234" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "TATA AIG bike policy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Renew" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Renew" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Search countries" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "1 Cr + Policies Issued last year" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "5 Cr + Customers Served since Inception" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Instant Policy For All Products" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "13244+ Network Garages" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "15,000+ Hospitals" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "200+ Destinations Covered" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Show Less" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [main]: build has 75 outermost editable element(s) vs 132 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING TITLE [main]: source <img> title="Play Store" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <img> title="App Store" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Know More About Our Vision, Mission, Core Values" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Public Disclosures" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Feel Free To Ask Your Doubts, Worries & Issues" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get The Best Opportunity To Excel Your Career Wi" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Read Our Blogs To Educate Yourself About Insuran" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Read Most Frequently Asked Questions & Get Answe" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Associates & Suppliers Code Of Conduct" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Surety Bond Policies" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Renew Your Car Health Or Bike Insurance Policy O" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Log-in To Our User Dashboard & Explore All Our S" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="TATA AIA LIfe Insurance" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Our Extensive Yet Simplified Medicare Health" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Protect Your Family With Tata AIG's Family Healt" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Avail The Great Range Of Benefits with our Arogy" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get extra coverage for your family with Tata AIG" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Buy Our Corona Kavach & Get Yourself Secured Fro" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Women Health Insurance" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Vehicle Insurance: Buy/Renew Motor Insurance Pol" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Our Four Wheeler Insurance Policy & Avail Un" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Purchase Our Online Two Wheeler Insurance & Get " has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Purchase Commercial Vehicle Insurance & Get Rid " has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Freedom from Yearly With Our Long Term Two W" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get The Best Auto Insurance Solutions For Corpor" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Our Third Party Car Insurance Policy Online" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Our Third Party Bike Insurance Policy Online" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Comprehensive Car Insurance - Buy/Renew Online &" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Comprehensive Bike Insurance: Buy/Renew Comprehe" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Car Insurance Quote" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Bike Insurance Quote" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Auto Rickshaw Quote" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Your International Travel Secured With Our I" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Make Your Domestic Travel Delightful With Our Do" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Buy Our Cost-Effective Student Insurance Plan & " has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Buy Our Senior Citizen Travel Insurance & Get He" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Make Your Business Tour Completely Protected Wit" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Travel Insurance Quote" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Marine Insurance From the world's leading ma" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Marine Open Insurance from the world's leadi" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Fire & Burglary Insurance From the world's l" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Safeguard your shop against fire, burglary, thef" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Group Health Insurance From the India's lead" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Workmen Compensation Insurance From the worl" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Professional Indemnity Insurance From the wo" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Choose From Our Various Individual Personal Acci" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Get Best Home Insurance Against Any Natural Or M" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Explore The Wide Range Of Rural Insurance Offere" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Explore The Variety Of Insurance Offered Under P" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Explore Our Financial Liabilities Insurance Plan" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Health Insurance Calculator Online" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [main]: source <a> title="Car Insurance Calculator Online" has no build <a> with that title (build <a> titles: "Learn more", "Learn more", "Learn more"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="View All Reviews" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="Next" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Business Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="link of video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="link of video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="click here" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="6" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="7" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="9" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="10" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="11" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="12" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="13" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="14" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="15" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="16" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="17" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="18" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="19" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <button> aria-label="3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [main]: source image renewalNotificationIcon.svg (23×32) at "renew your tata aig car policy" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [main]: source image newForwardIcon.svg (24×24) at "renew your tata aig car policy" is at "renew your tata aig car policy renew tat" in the build — same icon, paired by order within "get comprehensive car insurance". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON DIFF [main]: source image calculator.svg (23×32) vs build image media_17dd3519a69496411b34c76921db44e20edf77989.svg (32×32) at "premium calculator (requires manual entr". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image shine.svg (10×10) vs build image quote-shine.svg (10×10) at "auto-fetch your vehicle details instantl". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image newBikeIcon.svg (32×32) vs build image media_1c84a41820c18c6246e98b9e8c3af57749f6ad16a.svg (32×32) at "insure your brand new bike". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [main]: source image renewalNotificationIcon.svg (32×32) at "renew your tata aig bike policy" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [main]: source image newForwardIcon.svg (24×24) at "renew your tata aig bike policy" is at "renew your tata aig bike policy renew ta" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON DIFF [main]: source image calculator.svg (32×32) vs build image media_17dd3519a69496411b34c76921db44e20edf77989.svg (32×32) at "premium calculator (requires manual entr". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image newIcon.svg (32×32) vs build image media_1c337582a66b2819f52cd819f5a6603b03ae2f1f2.svg (32×32) at "new to health insurance? we’ll simplify ". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image renewalNotificationIcon.svg (32×32) vs build image media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg (32×32) at "renew your tata aig policy". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image calculator.svg (32×32) vs build image media_17dd3519a69496411b34c76921db44e20edf77989.svg (32×32) at "premium calculator (requires manual entr". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [main]: source image inputSearchIcon.svg (24×24) at "add destinations" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [main]: source image ww.svg (32×32) vs build image media_18dad3eaf19b4abce6f0cc0ab04e4112e26106f2b.svg (32×32) at "ideal for frequent travellers annual tra". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image downArrowV2.svg (13×7) vs build image flow-down.svg (16×16) at "ideal for frequent travellers annual tra". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image calculator.svg (32×32) vs build image media_17dd3519a69496411b34c76921db44e20edf77989.svg (32×32) at "premium calculator (requires manual entr". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Marine_Cargo_15d7af3d8f.svg (24×24) vs build image media_1f7a0fd939ef66762c61fa8c4fe618ee9d5addaa7.svg (24×24) at "marine cargo". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Group_Health_203c989bd0.svg (24×24) vs build image media_1dc3a15c004d15c9d93ed8483d0e4007e1f78d82d.svg (24×24) at "group health". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Fire_and_Burglary_1_e3bb889d53.svg (24×24) vs build image media_1af46c6ad1e252e46255d900f12351964e65e8b7c.svg (24×24) at "fire & burglary". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Marine_Open_8270d9d71d.svg (25×24) vs build image media_1608e69664cf90c39cd6a5843be2f35f86eef4fcf.svg (25×24) at "open marine". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image WC_Icon_a503416f44.svg (33×32) vs build image media_1ea4d6617fa6efd4fdbe2fdfcb33095a4b7b26655.svg (33×32) at "workmen insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Icon_ad5a3c1880.svg (25×24) vs build image media_1d44b072c3713e277a04e8a6c30d465aad5a5763d.svg (25×24) at "professional indemnity". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image CPM_a1de9bd032.svg (32×32) vs build image media_1e69c6bd70df5f74c9005f413e34218ffc8dc672b.svg (32×32) at "contractors’ plant and machinery insuran". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image cyber_Icons_0ac0e27ef0.svg (32×32) vs build image media_111849785dc35f4a536958f89abaac7419ae0fc31.svg (32×32) at "cyber insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [main]: source image Icon_Frame_e719d63660.svg (25×24) at "home insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [main]: source image Vector_107fbfbca4.svg (22×24) vs build image media_1cad20e02728f0143ecec8cf33a95aae83beb402a.svg (22×24) at "cyber insurance". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON MOVED [main]: source image Group_1497_cf38de5cfc.svg (21×25) at "1 cr + policies issued last year" is at "1 cr + policies issued last year learn m" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image Group_1366_2766986325.svg (25×25) at "5 cr + customers served since inception" is at "5 cr + customers served since inception " in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image Group_4134_4e0aedee05.svg (23×25) at "instant policy for all products" is at "instant policy for all products learn mo" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image iconRight.png (15×20) at "navnit kumar dhamsaniya | health insuran" is at "next" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON DIFF [main]: source image Layer_2_a335282894.svg (36×32) vs build image media_1d244ab0108ee802c0da72b8ff96bfb6d9b2f23f5.svg (36×32) at "business insurance one stop business ins". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Group_22537_d38d818655.svg (36×20) vs build image media_1788b36fa87039330ccc60551e40e0001b3f45e15.svg (36×20) at "health insurance 15,000+ network hospita". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [main]: source image Group_22931_e466595874.svg (37×30) vs build image media_183e090096ade20387fe069ae763cff76f81e3785.svg (37×30) at "motor insurance upto 75% off on motor in". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [main]: source image QR_code_bc61d5b21d.png (16×16) at "get our app keep your policy handy and s" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image Tata_AIG_Logo_Sept_2026_630c66ccd7.png (50×50) at "download our app follow us" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (12×12) at "health insurance motor insurance travel " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "health insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "motor insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "travel insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "sme insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "other insurance" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image iconDown.png (22×22) at "calculators" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [main]: build image media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg (32×32) at "renew your tata aig car policy renew tat" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_19c1cac2bf0b7c181f858e1a9febbc93e34ad5462.svg (32×32) at "renew your tata aig bike policy renew ta" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image quote-search.svg (16×16) at "search countries" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1f9139c203240a3b83cfcca586bcf5e776ea60510.svg (25×24) at "home insurance new" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_168b40297520c78814da3bc73e4a3ee68220efc77.svg (61×61) at "5 cr + customers served since inception " has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1b4ae81ba2eeb13287d4d30a9c015f68dbc5a58e5.svg (44×48) at "instant policy for all products learn mo" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1c690cd97b9096b822a99a9dd179a268a355e1f11.svg (58×51) at "13244+ network garages view motor insura" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1f988b9ec8a2910cecf536acf18580888820a3fbc.svg (42×57) at "200+ destinations covered view travel in" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "grievance resolution month – november 20" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig is conducting a customer outrea" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "read more" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "we stand in solidarity with the people o" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig are committed to serve our insu" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "please find here with the link of video " has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "abha is a digital platform to maintain y" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stands in solidarity with the f" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "for any claim intimation for the loss un" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1f3ca5dd2a772153230d163df0d12a8dde5fba078.png (51×37) at "we celebrate 21 years of service this ye" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "change in assistance company and claim s" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "travel insurance products have been alig" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "grievance resolution month – november 20" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig is conducting a customer outrea" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "read more" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "we stand in solidarity with the people o" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig are committed to serve our insu" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "please find here with the link of video " has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "abha is a digital platform to maintain y" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stands in solidarity with the f" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "for any claim intimation for the loss un" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "change in assistance company and claim s" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image media_1cd1b592d710e0ed1b805969b0a2f396581596398.svg (51×37) at "travel insurance products have been alig" has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING BODY [header]: source body "100 %"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "100 %"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [header]: build body "Welcome to TATA AIG! Explore our insurance solut" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "100%" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "100%" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "No" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Four Wheeler Insurance Policy & Avail Un" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Purchase Our Online Two Wheeler Insurance & Get " has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Auto Rickshaw Insurance Policy Instantly" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Purchase Commercial Vehicle Insurance & Get Rid " has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Your International Travel Secured With Our I" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Buy Our Cost-Effective Student Insurance Plan & " has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Buy Our Senior Citizen Travel Insurance & Get He" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Make Your Domestic Travel Delightful With Our Do" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get extra coverage for your family with Tata AIG" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Health Insurance Policy with the help of" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Women Health Insurance" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Best Home Insurance Against Any Natural Or M" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Marine Insurance From the world's leading ma" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Marine Open Insurance from the world's leadi" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Workmen Compensation Insurance From the worl" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Professional Indemnity Insurance From the wo" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Group Health Insurance From the India's lead" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Safeguard your shop against fire, burglary, thef" has no build <a> with that title (build <a> titles: "Motor Insurance", "Travel Insurance", "Health Insurance"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <a> aria-label="TATA AIG LOGO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Close menu" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Other Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Marine Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Liability Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Group Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Fire and Burglary Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Engineering Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Close" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Decrease" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Increase" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Decrease" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Increase" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Grey Scale" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="High Contrast" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Low Contrast" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Light background" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Readable fonts" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Link’s underline" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON DIFF [header]: source image search.svg (24×24) vs build image access-zoom.svg (16×16) at "zoom page". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [header]: source image minus.svg (24×24) at "100 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image plus.svg (24×24) at "100 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [header]: source image text.svg (24×24) vs build image access-text.svg (16×16) at "font size". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [header]: source image minus.svg (24×24) at "100 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image plus.svg (24×24) at "100 %" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON DIFF [header]: source image greyScale.svg (24×24) vs build image access-grey-scale.svg (16×16) at "grey scale". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image highContrast.svg (24×24) vs build image access-high-contrast.svg (16×16) at "high contrast". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image lowContrast.svg (24×24) vs build image access-low-contrast.svg (16×16) at "low contrast". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image light.svg (24×24) vs build image access-light.svg (16×16) at "light background". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image readable.svg (24×24) vs build image access-readable.svg (16×16) at "readable fonts". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image link.svg (24×24) vs build image access-link.svg (16×16) at "link’s underline". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 ICON DIFF [header]: source image reset.svg (24×24) vs build image access-reset.svg (16×16) at "reset". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 EXTRA ICON [header]: build image mega-motor.svg (16×16) at "motor insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-travel.svg (16×16) at "travel insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-health.svg (16×16) at "health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-other.svg (16×16) at "other insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-marine.svg (16×16) at "marine insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-liability.svg (16×16) at "liability insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-group-health.svg (16×16) at "group health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-fire.svg (16×16) at "fire and burglary insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-fire.svg (16×16) at "engineering insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-car.svg (16×16) at "car" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-bike.svg (16×16) at "bike" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-renewal-health.svg (16×16) at "health" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image mega-other.svg (16×16) at "others" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [footer]: build body "Download Our App" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Follow Us" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Company" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Resources" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Services" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Group Companies" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Health Insurance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Motor Insurance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Travel Insurance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "SME Insurance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Other Insurance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Calculators" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS / " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA TITLE [footer]: build <a> title="Play Store" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="App Store" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="facebook" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="linkedin" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="x-twitter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="instagram" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <a> aria-label="youtube" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Know More About Our Vision, Mission, Core Values" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Public Disclosures" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Feel Free To Ask Your Doubts, Worries & Issues" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get The Best Opportunity To Excel Your Career Wi" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Read Our Blogs To Educate Yourself About Insuran" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Read Most Frequently Asked Questions & Get Answe" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Associates & Suppliers Code Of Conduct" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Surety Bond Policies" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Renew Your Car Health Or Bike Insurance Policy O" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Log-in To Our User Dashboard & Explore All Our S" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="TATA AIA LIfe Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [footer]: build <button> aria-label="Show all" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Our Extensive Yet Simplified Medicare Health" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Protect Your Family With Tata AIG's Family Healt" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Avail The Great Range Of Benefits with our Arogy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get extra coverage for your family with Tata AIG" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Buy Our Corona Kavach & Get Yourself Secured Fro" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Women Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Vehicle Insurance: Buy/Renew Motor Insurance Pol" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Our Four Wheeler Insurance Policy & Avail Un" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Purchase Our Online Two Wheeler Insurance & Get " has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Purchase Commercial Vehicle Insurance & Get Rid " has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Freedom from Yearly With Our Long Term Two W" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get The Best Auto Insurance Solutions For Corpor" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Our Third Party Car Insurance Policy Online" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Our Third Party Bike Insurance Policy Online" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Comprehensive Car Insurance - Buy/Renew Online &" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Comprehensive Bike Insurance: Buy/Renew Comprehe" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Car Insurance Quote" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Bike Insurance Quote" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Auto Rickshaw Quote" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Your International Travel Secured With Our I" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Make Your Domestic Travel Delightful With Our Do" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Buy Our Cost-Effective Student Insurance Plan & " has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Buy Our Senior Citizen Travel Insurance & Get He" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Make Your Business Tour Completely Protected Wit" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Travel Insurance Quote" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Marine Insurance From the world's leading ma" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Marine Open Insurance from the world's leadi" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Fire & Burglary Insurance From the world's l" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Safeguard your shop against fire, burglary, thef" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Group Health Insurance From the India's lead" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Workmen Compensation Insurance From the worl" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Professional Indemnity Insurance From the wo" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Choose From Our Various Individual Personal Acci" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Get Best Home Insurance Against Any Natural Or M" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Explore The Wide Range Of Rural Insurance Offere" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Explore The Variety Of Insurance Offered Under P" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Explore Our Financial Liabilities Insurance Plan" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Health Insurance Calculator Online" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Car Insurance Calculator Online" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="customersupport@tataaig.com" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [footer]: build image facebook.svg (8×12) at "facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image linkedin.svg (11×12) at "linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image x-twitter.svg (12×12) at "x-twitter" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image instagram.svg (11×12) at "instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image youtube.svg (14×12) at "youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (12×12) at "show all" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#1" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#2" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#3" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#4" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#5" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build image icon-down.png (22×22) at "button#6" has no source source. Build-only icon — confirm it is intended.

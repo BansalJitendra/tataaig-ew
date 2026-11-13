@@ -1,0 +1,71 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-12T13:24:38.266Z",
+  "origin": "https://main--0484faa8--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "product quote tabs + registration form",
+   "id": "quote-widget",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .quote-hero [role=tab] (min 5)",
+   "thirdParty": "",
+   "ms": 2311,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product quote tabs + registration form",
+   "id": "quote-widget",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .quote-hero [role=tabpanel] (min 5)",
+   "thirdParty": "",
+   "ms": 2125,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product quote tabs + registration form",
+   "id": "quote-widget",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .quote-hero .quote-card-btn (min 4)",
+   "thirdParty": "",
+   "ms": 2110,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught errors on the delivered page",
+   "id": "page-health",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 1 page(s)",
+   "thirdParty": "",
+   "ms": 2081,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (3 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6185,
+   "environmentLimit": null
+  }
+ ]
+}

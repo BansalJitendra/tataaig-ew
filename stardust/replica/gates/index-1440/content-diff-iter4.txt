@@ -1,0 +1,152 @@
+[live-session] waiting to pace live navigations to www.tataaig.com (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 801 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 474 text nodes — 27 headings, 0 eyebrows, 193 CTAs, 254 body; 165 img
+  build: 490 text nodes — 27 headings, 0 eyebrows, 196 CTAs, 267 body; 172 img
+  editable texts (outermost h*/p/ul/ol): source 132 / build 58
+  attributes (placeholder/aria-label/title): source 64 / build 70; icons: source 100 / build 144
+root "header"
+  source: 56 text nodes — 0 headings, 0 eyebrows, 42 CTAs, 14 body; 48 img
+  build: 56 text nodes — 0 headings, 0 eyebrows, 42 CTAs, 14 body; 48 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 23 / build 6; icons: source 21 / build 47
+root "footer"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: 131 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 131
+  🟠 EXTRA [main]: build cta "View Motor Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "View Health Insurance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main]: build cta "View Travel Insurance" has no source source — Unexpected node with no source.
+  🟡 EXTRA [main]: build body "TATA AIG car policy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "TATA AIG bike policy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Renew" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Renew" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "1 Cr + Policies Issued last year" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "5 Cr + Customers Served since Inception" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Instant Policy For All Products" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "13244+ Network Garages" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "15,000+ Hospitals" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "200+ Destinations Covered" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "1" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "2" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "3" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [main]: build has 58 outermost editable element(s) vs 132 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Motor Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Health Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main]: build <a> aria-label="View Travel Insurance" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [main]: source image renewalNotificationIcon.svg (23×32) at "renew your tata aig car policy" is at "renew your tata aig car policy renew tat" in the build — same icon, paired by order within "get comprehensive car insurance". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image newForwardIcon.svg (24×24) at "renew your tata aig car policy" is at "renew your tata aig car policy renew tat" in the build — same icon, paired by order within "get comprehensive car insurance". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image renewalNotificationIcon.svg (32×32) at "renew your tata aig bike policy" is at "renew your tata aig bike policy renew ta" in the build — same icon, paired by order within "get comprehensive bike insurance". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image newForwardIcon.svg (24×24) at "renew your tata aig bike policy" is at "renew your tata aig bike policy renew ta" in the build — same icon, paired by order within "get comprehensive bike insurance". Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image Icon_Frame_e719d63660.svg (25×24) at "home insurance" is at "home insurance new" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [main]: source image iconRight.png (15×20) at "navnit kumar dhamsaniya | health insuran" is at "button#1" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 MISSING ICON [main]: source image QR_code_bc61d5b21d.png (16×16) at "get our app keep your policy handy and s" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image Tata_AIG_Logo_Sept_2026_630c66ccd7.png (50×50) at "download our app follow us" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 ICON MOVED [main]: source image iconDown.png (12×12) at "health insurance motor insurance travel " is at "button#2" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [main]: build image Group_1366_2766986325.svg (61×61) at "5 cr + customers served since inception" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image Group_4134_4e0aedee05.svg (44×48) at "instant policy for all products" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image Group_3624_d8635bfcef.svg (58×51) at "13244+ network garages view motor insura" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image Group_3651_5537ce339f.svg (42×57) at "200+ destinations covered view travel in" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "grievance resolution month – november 20" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "tata aig is conducting a customer outrea" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "read more" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "we stand in solidarity with the people o" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig are committed to serve our insu" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "please find here with the link of video " has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "abha is a digital platform to maintain y" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stands in solidarity with the f" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "for any claim intimation for the loss un" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image TAGIC_20y_9e829be5dd.png (45×37) at "we celebrate 21 years of service this ye" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "change in assistance company and claim s" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "travel insurance products have been alig" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "grievance resolution month – november 20" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "tata aig is conducting a customer outrea" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "read more" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "we stand in solidarity with the people o" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected i" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig are committed to serve our insu" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "please find here with the link of video " has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "abha is a digital platform to maintain y" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stands in solidarity with the f" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "tata aig stand with all those affected b" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "for any claim intimation for the loss un" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a.svg (51×37) at "change in assistance company and claim s" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image speaker_59c10b8a4a_d02265610e.svg (51×37) at "travel insurance products have been alig" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image FB.svg (8×12) at "/tataaigindia/" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image linkedin-in.svg (11×12) at "/company/tata-aig" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image x-twitter.svg (12×12) at "/tataaigindia" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image instagram.svg (11×12) at "/tataaigofficial" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [main]: build image youtube.svg (14×12) at "/channel/uczz6b0_0qzfpnr8tp3hv6ww" has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING BODY [header]: source body "100 %"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "100 %"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [header]: build body "100%" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "100%" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Four Wheeler Insurance Policy & Avail Un" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Purchase Our Online Two Wheeler Insurance & Get " has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Auto Rickshaw Insurance Policy Instantly" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Purchase Commercial Vehicle Insurance & Get Rid " has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Your International Travel Secured With Our I" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Buy Our Cost-Effective Student Insurance Plan & " has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Buy Our Senior Citizen Travel Insurance & Get He" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Make Your Domestic Travel Delightful With Our Do" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get extra coverage for your family with Tata AIG" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Our Health Insurance Policy with the help of" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Women Health Insurance" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Best Home Insurance Against Any Natural Or M" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Marine Insurance From the world's leading ma" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Marine Open Insurance from the world's leadi" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Workmen Compensation Insurance From the worl" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Professional Indemnity Insurance From the wo" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Get Group Health Insurance From the India's lead" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [header]: source <a> title="Safeguard your shop against fire, burglary, thef" has no build <a> with that title (build <a> titles: "Register A Claim & Track The Claim Progr", "Contact Us & Get All Your Insurance Worr", "Log-In & Explore All Of Our Insurance Pl"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [header]: source image minus.svg (24×24) at "100 %" is at "button#2" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [header]: source image plus.svg (24×24) at "100 %" is at "button#3" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [header]: source image minus.svg (24×24) at "100 %" is at "button#4" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [header]: source image plus.svg (24×24) at "100 %" is at "button#5" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 EXTRA ICON [header]: build image Live_Container_adc0c278ba.svg (24×24) at "motor insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "motor insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_f5ccd8427a.svg (24×24) at "travel insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "travel insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_adca7b78c1.svg (24×24) at "health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_933bafaeed.svg (24×24) at "other insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "other insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_0332205b40.svg (24×24) at "marine insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "marine insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_0d337c7a1b.svg (24×24) at "liability insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "liability insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_49cea69744.svg (24×24) at "group health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "group health insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_824e5ab9ef.svg (24×24) at "fire and burglary insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "fire and burglary insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_824e5ab9ef.svg (24×24) at "engineering insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "engineering insurance" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_c3e31338cb.svg (24×24) at "car" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "car" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_Container_83465fda78.svg (24×24) at "bike" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "bike" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_e0e8aed679.svg (24×24) at "health" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "health" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Live_container_933bafaeed.svg (24×24) at "others" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image Frame_b9951a8484_c6aa6d504d_59dd1be1ff.svg (16×16) at "others" has no source source. Build-only icon — confirm it is intended.

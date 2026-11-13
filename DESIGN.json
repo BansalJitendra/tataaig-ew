@@ -1,0 +1,228 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "mode": "bounded-single",
+    "writtenAt": "2026-11-12T10:51:48Z",
+    "synthesizedFrom": [
+      "stardust/current/pages/index.json",
+      "stardust/replica/tokens.json",
+      "stardust/current/DESIGN.json (cap-probe)"
+    ]
+  },
+  "colors": {
+    "primaryText": "#264a9f",
+    "pageBackground": "#eff0f3",
+    "accent": "#007bff",
+    "border": "#dee2e6",
+    "surfaceDark": "#18478b",
+    "white": "#ffffff",
+    "navy": "#071e54",
+    "muted": "#546280",
+    "mutedLight": "#919cb5",
+    "lightBlue": "#e2edff",
+    "teal": "#caeaef"
+  },
+  "typography": {
+    "family": "Poppins, sans-serif",
+    "levels": {
+      "h1": {
+        "size": 28,
+        "weight": 500
+      },
+      "h2": {
+        "size": 28,
+        "weight": 500
+      },
+      "h3": {
+        "size": 16,
+        "weight": 500
+      },
+      "h4": {
+        "size": 12,
+        "weight": 600
+      },
+      "h5": {
+        "size": 16,
+        "weight": 400
+      },
+      "text": [
+        14,
+        13,
+        12
+      ],
+      "button": [
+        16,
+        14,
+        12
+      ]
+    }
+  },
+  "rounded": {
+    "mode": "8px",
+    "area": "16px",
+    "pill": "50%",
+    "others": [
+      "3px 3px 0 0",
+      "50px",
+      "30px",
+      "15px 15px 0 0"
+    ]
+  },
+  "shadows": {
+    "raised": "rgb(191,195,207) 3px 3px 6px 0, rgb(255,255,255) -3px -3px 6px 0",
+    "raisedAlt": "rgb(255,255,255) -3px -3px 6px 0, rgb(191,195,207) 3px 3px 6px 0",
+    "soft": "rgb(128,128,128) 0 0 5px 0"
+  },
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1648px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1648,
+          "via": "max-width",
+          "selector": "div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid > div.container.homeMobilePadding",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 809,
+          "via": "other",
+          "selector": "div.slick-slider.slick-initialized > div.slick-list > div.slick-track > div.slick-slide.slick-active",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 551,
+          "via": "fixed",
+          "selector": "div.col-12.my-md-0 > div.row.justify-content-between > div.col-md-6.mDisplayNone > picture",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 350,
+          "via": "max-width",
+          "selector": "div.slick-track > div.slick-slide.slick-active > div > div.mt-2.mb-2",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 320,
+          "via": "max-width",
+          "selector": "div.mp0 > div.row > div.col-12.mt-3 > button.globalButton.Button_input__1X7LK",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 278,
+          "via": "fixed",
+          "selector": "div.card.fcPadding1 > div.container > div.row > div.motorCategory_autoFetch__EqTtV",
+          "pages": [
+            "https://www.tataaig.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 0,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 1,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.whyTataSection",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 2,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 3,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 4,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 5,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 6,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 7,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.py-md-4",
+          "px": null
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 8,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 9,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid.sectionSeparator",
+          "px": 1648
+        },
+        {
+          "url": "https://www.tataaig.com/",
+          "section": 10,
+          "selector": "div > div.Layout_wrapper__HKCNb > main.Layout_main__E16O_ > div.container-fluid",
+          "px": 1648
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-12T10:50:02.115Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.tataaig.com/"
+        ]
+      }
+    },
+    "fonts": {
+      "family": "Poppins, sans-serif",
+      "faces": [
+        {
+          "weight": 400,
+          "file": "stardust/current/assets/fonts/poppins-v24-latin-regular.woff2",
+          "license": "OFL",
+          "note": "only face declared by the source; 500/600 are synthesised by the browser"
+        }
+      ],
+      "bodyBootstrap": "font-size 1rem; line-height 1.5 (bootstrap.min.css body)"
+    }
+  }
+}

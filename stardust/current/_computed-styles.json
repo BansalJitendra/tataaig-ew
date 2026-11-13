@@ -1,0 +1,3734 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-12T10:49:55.563Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.tataaig.com/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "browser-default",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.tataaig.com/": {
+      "360": {
+        "title": "TATA AIG | Buy Car, Bike, Health & Travel Insurance Online",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 2559,
+          "visible": 627
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h4",
+            "text": "Quick Bike Policy Renewal",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > h4",
+            "fontFamily": "Arial, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "600",
+            "lineHeight": "14.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "h2",
+            "text": "Get comprehensive car insurance",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Why TATA AIG",
+            "selector": "main > div:nth-of-type(2) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "#ThisIsTataAIG - Customer/Client Testim…",
+            "selector": "main > div:nth-of-type(3) > section > article > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h5",
+            "text": "Navnit Kumar Dhamsaniya | Health Insura…",
+            "selector": "div > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > h5",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h5",
+            "text": "Manjunath Naik Mahadeo | Health Insuran…",
+            "selector": "div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > h5",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Products",
+            "selector": "main > div:nth-of-type(4) > div > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "23px",
+            "fontWeight": "500",
+            "lineHeight": "28.06px",
+            "letterSpacing": "-0.51px",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h1",
+            "text": "About TATA AIG",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > h1",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Whats New",
+            "selector": "main > div:nth-of-type(6) > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Get our app",
+            "selector": "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "23.18px",
+            "letterSpacing": "-0.51px",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Related Articles",
+            "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "19px",
+            "fontWeight": "500",
+            "lineHeight": "22.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Auto-fetch your vehicle details instant…",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "10px",
+            "fontWeight": "500",
+            "lineHeight": "15px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "\"For Navnitkumar Dhamsaniya, care and s…",
+            "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "\"For over 10 years, Mr. Manjunath Naik …",
+            "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "One stop business insurance solutions",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Professional Indemnity",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > a > div:nth-of-type(3) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "15,000+ Network Hospitals",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Medicare Plus Super Top Up",
+            "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(3) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "Upto 75% off on Motor Insurance",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Auto Rikshaw Insurance",
+            "selector": "div > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > a > div:nth-of-type(3) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "191+ destinations covered",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Private Client Group Insurance",
+            "selector": "div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(4) > a > div:nth-of-type(3) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "Pradhan Mantri Fasal Bima Yojna",
+            "selector": "div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > a > div:nth-of-type(3) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "View All Reviews",
+            "selector": "main > div:nth-of-type(3) > section > article > a",
+            "count": 1,
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(38, 74, 159)",
+            "borderRadius": "25px",
+            "padding": "8px 20px",
+            "border": "1px solid rgb(38, 74, 159)",
+            "borderColor": "rgb(38, 74, 159)",
+            "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 86, 179)",
+              "borderColor": "rgb(38, 74, 159)",
+              "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+              "changed": true
+            }
+          },
+          {
+            "text": "Accident Insurance Accident Insurance",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "count": 4,
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(0, 123, 255)",
+            "borderRadius": "8px",
+            "padding": "8px",
+            "border": "0px none rgb(0, 123, 255)",
+            "borderColor": "rgb(0, 123, 255)",
+            "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 86, 179)",
+              "borderColor": "rgb(0, 86, 179)",
+              "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+              "changed": true
+            }
+          },
+          {
+            "text": "Disclaimer",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+            "count": 13,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "0px 16px",
+            "border": "",
+            "borderColor": "rgb(255, 255, 255) rgb(222, 226, 230) rgb(255, 255, 255) rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255) rgb(222, 226, 230) rgb(255, 255, 255) rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "View Motor Insurance",
+            "selector": "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > a",
+            "count": 3,
+            "color": "rgb(7, 30, 84)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(7, 30, 84)",
+              "borderColor": "rgb(7, 30, 84)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Business Insurance",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "count": 4,
+            "color": "rgb(38, 74, 159)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(38, 74, 159)",
+              "borderColor": "rgb(38, 74, 159)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Marine Cargo Marine Cargo",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "count": 20,
+            "color": "rgb(0, 123, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 86, 179)",
+              "borderColor": "rgb(0, 86, 179)",
+              "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+              "changed": true
+            }
+          },
+          {
+            "text": "About Us",
+            "selector": "div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(2) > section > div:nth-of-type(1) > a",
+            "count": 16,
+            "color": "rgb(38, 74, 159)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Darpan ID",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(14)",
+            "count": 2,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "#fixHeader",
+            "rect": {
+              "x": 0,
+              "y": 105,
+              "w": 360,
+              "h": 90
+            },
+            "backgroundColor": "rgb(245, 245, 245)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 182,
+              "w": 360,
+              "h": 8711
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 182,
+              "w": 360,
+              "h": 815
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px 15px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 997,
+              "w": 360,
+              "h": 842
+            },
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "64.4px 15px 50px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 0,
+              "y": 1839,
+              "w": 360,
+              "h": 543
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "50px 15px 8px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(4)",
+            "rect": {
+              "x": 0,
+              "y": 2382,
+              "w": 360,
+              "h": 2007
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "50px 15px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "8px",
+            "count": 31,
+            "area": 346353,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "#car > span > div",
+              "#bike > span > div"
+            ]
+          },
+          {
+            "value": "3px 3px 0px 0px",
+            "count": 23,
+            "area": 104766,
+            "sources": [
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a > div:nth-of-type(1)",
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a > div:nth-of-type(1)",
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 19,
+            "area": 42595,
+            "sources": [
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)",
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)",
+              "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 9,
+            "area": 711198,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(2) > div > div",
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 6,
+            "area": 93600,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(4) > div > div",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(5) > div > div",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(6) > div > div"
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 4,
+            "area": 16880,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input",
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 2,
+            "area": 78070,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div",
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "15px 15px 0px 0px",
+            "count": 2,
+            "area": 77833,
+            "sources": [
+              "div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1)",
+              "div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "3.2px",
+            "count": 2,
+            "area": 3072,
+            "sources": [
+              "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > span",
+              "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > span"
+            ]
+          },
+          {
+            "value": "15px",
+            "count": 1,
+            "area": 123660,
+            "sources": [
+              "div > div > div > div > div:nth-of-type(1) > div > a > div"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 1,
+            "area": 15360,
+            "sources": [
+              "body > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "25px",
+            "count": 1,
+            "area": 7020,
+            "sources": [
+              "main > div:nth-of-type(3) > section > article > a"
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 1,
+            "area": 1800,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+            "count": 35,
+            "sources": [
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)",
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)",
+              "main > div:nth-of-type(3) > section > article > a"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255) -3px -3px 6px 0px, rgb(191, 195, 207) 3px 3px 6px 0px",
+            "count": 10,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "#car > span > div",
+              "#bike > span > div"
+            ]
+          },
+          {
+            "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgb(191, 195, 207) 3px 3px 6px 0px inset, rgb(255, 255, 255) -3px -3px 6px 0px inset",
+            "count": 1,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input"
+            ]
+          },
+          {
+            "value": "rgb(206, 206, 206) 3px 3px 3px 0px, rgb(255, 255, 255) -3px -3px 3px 0px",
+            "count": 1,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.2) 0px 2px 4px 0px",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(90deg, rgb(53, 211, 225) -45%, rgb(38, 74, 159) 110%, rgb(25, 93, 255) 140%)",
+            "count": 5,
+            "area": 6845,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "linear-gradient(to right bottom, rgb(239, 240, 243), rgb(229, 230, 235))",
+            "count": 4,
+            "area": 158814,
+            "sources": [
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)",
+              "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)",
+              "div > div > div > div > div:nth-of-type(1) > div > div > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(309deg, rgb(229, 230, 235) -44.85%, rgb(239, 240, 243) 50%)",
+            "count": 4,
+            "area": 8464,
+            "sources": [
+              "#bike > span > div",
+              "#health > span > div",
+              "#travel > span > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(276deg, rgba(13, 53, 148, 0.898), rgb(53, 211, 225))",
+            "count": 1,
+            "area": 9600,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "linear-gradient(90deg, rgb(53, 211, 225) -23.09%, rgb(13, 53, 148) 123.37%)",
+            "count": 1,
+            "area": 2116,
+            "sources": [
+              "#car > span > div"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(239, 240, 243)",
+            "count": 50,
+            "area": 1559389,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "#motor4w_main > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(245, 245, 245)",
+            "count": 3,
+            "area": 680400,
+            "sources": [
+              "",
+              "body",
+              "#fixHeader"
+            ]
+          },
+          {
+            "value": "rgb(226, 237, 255)",
+            "count": 2,
+            "area": 24564,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(2)",
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(24, 71, 139)",
+            "count": 1,
+            "area": 262800,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgb(244, 247, 255)",
+            "count": 1,
+            "area": 12160,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input"
+            ]
+          },
+          {
+            "value": "rgb(202, 234, 239)",
+            "count": 1,
+            "area": 11520,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(38, 74, 159)",
+            "count": 83,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > a > span",
+              "#car > span > span > strong",
+              "#bike > span > span"
+            ]
+          },
+          {
+            "value": "rgba(0, 0, 0, 0)",
+            "count": 22,
+            "sources": [
+              "div:nth-of-type(6) > div:nth-of-type(3) > div > div > div > ul > li:nth-of-type(1) > button",
+              "div:nth-of-type(6) > div:nth-of-type(3) > div > div > div > ul > li:nth-of-type(2) > button",
+              "div:nth-of-type(6) > div:nth-of-type(3) > div > div > div > ul > li:nth-of-type(3) > button"
+            ]
+          },
+          {
+            "value": "rgb(7, 30, 84)",
+            "count": 19,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(1) > div > div > p",
+              "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > h4",
+              "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > p"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 17,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgba(7, 30, 84, 0.8)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > span",
+              "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > div",
+              "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(84, 98, 128)",
+            "count": 4,
+            "sources": [
+              "div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > label",
+              "div:nth-of-type(1) > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p",
+              "div > div > div > div:nth-of-type(1) > div > a > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(145, 156, 181)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(222, 226, 230)",
+            "count": 13,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(212, 215, 222)",
+            "count": 10,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgba(38, 74, 159, 0.55)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+              "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(153, 153, 153)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(186, 192, 207)",
+            "count": 1,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(188, 188, 188)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(5)"
+            ]
+          },
+          {
+            "value": "rgb(206, 206, 206)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(38, 74, 159)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > section > article > a"
+            ]
+          }
+        ],
+        "customProps": {
+          "--blue": {
+            "declared": "#007bff",
+            "computed": "#007bff"
+          },
+          "--indigo": {
+            "declared": "#6610f2",
+            "computed": "#6610f2"
+          },
+          "--purple": {
+            "declared": "#6f42c1",
+            "computed": "#6f42c1"
+          },
+          "--pink": {
+            "declared": "#e83e8c",
+            "computed": "#e83e8c"
+          },
+          "--red": {
+            "declared": "#dc3545",
+            "computed": "#dc3545"
+          },
+          "--orange": {
+            "declared": "#fd7e14",
+            "computed": "#fd7e14"
+          },
+          "--yellow": {
+            "declared": "#ffc107",
+            "computed": "#ffc107"
+          },
+          "--green": {
+            "declared": "#28a745",
+            "computed": "#28a745"
+          },
+          "--teal": {
+            "declared": "#20c997",
+            "computed": "#20c997"
+          },
+          "--cyan": {
+            "declared": "#17a2b8",
+            "computed": "#17a2b8"
+          },
+          "--white": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--gray": {
+            "declared": "#6c757d",
+            "computed": "#6c757d"
+          },
+          "--gray-dark": {
+            "declared": "#343a40",
+            "computed": "#343a40"
+          },
+          "--primary": {
+            "declared": "#007bff",
+            "computed": "#007bff"
+          },
+          "--secondary": {
+            "declared": "#6c757d",
+            "computed": "#6c757d"
+          },
+          "--success": {
+            "declared": "#28a745",
+            "computed": "#28a745"
+          },
+          "--info": {
+            "declared": "#17a2b8",
+            "computed": "#17a2b8"
+          },
+          "--warning": {
+            "declared": "#ffc107",
+            "computed": "#ffc107"
+          },
+          "--danger": {
+            "declared": "#dc3545",
+            "computed": "#dc3545"
+          },
+          "--light": {
+            "declared": "#f8f9fa",
+            "computed": "#f8f9fa"
+          },
+          "--dark": {
+            "declared": "#343a40",
+            "computed": "#343a40"
+          },
+          "--breakpoint-xs": {
+            "declared": "0",
+            "computed": "0"
+          },
+          "--breakpoint-sm": {
+            "declared": "576px",
+            "computed": "576px"
+          },
+          "--breakpoint-md": {
+            "declared": "768px",
+            "computed": "768px"
+          },
+          "--breakpoint-lg": {
+            "declared": "992px",
+            "computed": "992px"
+          },
+          "--breakpoint-xl": {
+            "declared": "1200px",
+            "computed": "1200px"
+          },
+          "--font-family-sans-serif": {
+            "declared": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+            "computed": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+          },
+          "--font-family-monospace": {
+            "declared": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+            "computed": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+          }
+        },
+        "fonts": [
+          {
+            "family": "Poppins",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "#fixHeader > div > div > section > a > img",
+            "src": "https://www.tataaig.com/_next/image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FTata_AIG_Logo_Sept_2026_630c66ccd7.png&w=96&q=75",
+            "inlineSvg": false,
+            "alt": "TATA AIG LOGO",
+            "ariaLabel": null,
+            "class": "Header_logo__V9h3K",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 38,
+              "y": 114,
+              "w": 96,
+              "h": 52
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1) > span > img",
+            "src": "https://www.tataaig.com/AcssMen.svg",
+            "inlineSvg": false,
+            "alt": "X",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 230,
+              "y": 123,
+              "w": 26,
+              "h": 30
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2) > span > img",
+            "src": "https://www.tataaig.com/nav_mtoggle.svg",
+            "inlineSvg": false,
+            "alt": "X",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 297,
+              "y": 130,
+              "w": 16,
+              "h": 16
+            }
+          }
+        ],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.tataaig.com/"
+      },
+      "1440": {
+        "title": "TATA AIG | Buy Car, Bike, Health & Travel Insurance Online",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 2486,
+          "visible": 609
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h2",
+            "text": "Get comprehensive car insurance",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "28.8px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Why TATA AIG",
+            "selector": "main > div:nth-of-type(2) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "#ThisIsTataAIG - Customer/Client Testim…",
+            "selector": "main > div:nth-of-type(3) > section > article > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h5",
+            "text": "Navnit Kumar Dhamsaniya | Health Insura…",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > h5",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h5",
+            "text": "Manjunath Naik Mahadeo | Health Insuran…",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > h5",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h5",
+            "text": "Kishana Ram Suthar | Marine Customer Te…",
+            "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > h5",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "19.2px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Our Products",
+            "selector": "main > div:nth-of-type(4) > div > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "43.68px",
+            "letterSpacing": "-0.7px",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h1",
+            "text": "About TATA AIG",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > h1",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Whats New",
+            "selector": "main > div:nth-of-type(6) > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Get our app",
+            "selector": "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "43.68px",
+            "letterSpacing": "-0.7px",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h2",
+            "text": "Related Articles",
+            "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(1) > div > h2",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "28px",
+            "fontWeight": "500",
+            "lineHeight": "33.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h3",
+            "text": "How is your car insurance premium calcu…",
+            "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > h3",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textTransform": "capitalize",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h3",
+            "text": "Going for a vacation. Here are five rea…",
+            "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(2) > div > h3",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textTransform": "capitalize",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "h3",
+            "text": "Things To Consider Before Buying Insura…",
+            "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(3) > div > h3",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "500",
+            "lineHeight": "normal",
+            "letterSpacing": "normal",
+            "textTransform": "capitalize",
+            "color": "rgb(38, 74, 159)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Auto-fetch your vehicle details instant…",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "\"For Navnitkumar Dhamsaniya, care and s…",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "\"For over 10 years, Mr. Manjunath Naik …",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "When Mr. Kishana Ram Suthar’s business …",
+            "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "13px",
+            "fontWeight": "400",
+            "lineHeight": "19.5px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "One stop business insurance solutions",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Professional Indemnity",
+            "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > a > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "15,000+ Network Hospitals",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Medicare Plus Super Top Up",
+            "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "Upto 75% off on Motor Insurance",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Auto Rikshaw Insurance",
+            "selector": "div > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > a > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          },
+          {
+            "tag": "p",
+            "text": "191+ destinations covered",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "lineHeight": "18px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(7, 30, 84)"
+          },
+          {
+            "tag": "p",
+            "text": "Private Client Group Insurance",
+            "selector": "div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(4) > a > div:nth-of-type(2) > p",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "21px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(38, 74, 159)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Accessibility Options",
+            "selector": "nav > button",
+            "count": 1,
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(0, 0, 0)",
+            "borderRadius": "100px",
+            "padding": "0px 16px",
+            "border": "0px none rgb(0, 0, 0)",
+            "borderColor": "rgb(0, 0, 0)",
+            "boxShadow": "rgb(255, 255, 255) -3px -3px 6px 0px, rgb(191, 195, 207) 3px 3px 6px 0px",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 0, 0)",
+              "borderColor": "rgb(0, 0, 0)",
+              "boxShadow": "rgb(255, 255, 255) -3px -3px 6px 0px, rgb(191, 195, 207) 3px 3px 6px 0px",
+              "changed": false
+            }
+          },
+          {
+            "text": "View All Reviews",
+            "selector": "main > div:nth-of-type(3) > section > article > a",
+            "count": 1,
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(38, 74, 159)",
+            "borderRadius": "25px",
+            "padding": "8px 20px",
+            "border": "1px solid rgb(38, 74, 159)",
+            "borderColor": "rgb(38, 74, 159)",
+            "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 86, 179)",
+              "borderColor": "rgb(38, 74, 159)",
+              "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+              "changed": true
+            }
+          },
+          {
+            "text": "Disclaimer",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+            "count": 13,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "0px 16px",
+            "border": "",
+            "borderColor": "rgb(255, 255, 255) rgb(222, 226, 230) rgb(255, 255, 255) rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "12px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "borderColor": "rgb(255, 255, 255) rgb(222, 226, 230) rgb(255, 255, 255) rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "changed": false
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "View Motor Insurance",
+            "selector": "main > div:nth-of-type(2) > section > section > div:nth-of-type(4) > aside > a",
+            "count": 3,
+            "color": "rgb(38, 74, 159)",
+            "textDecoration": "underline",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(7, 30, 84)",
+              "borderColor": "rgb(7, 30, 84)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Business Insurance",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "count": 4,
+            "color": "rgb(38, 74, 159)",
+            "textDecoration": "none",
+            "fontWeight": "500",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(38, 74, 159)",
+              "borderColor": "rgb(38, 74, 159)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "Marine Cargo Marine Cargo",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "count": 26,
+            "color": "rgb(0, 123, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgb(239, 240, 243)",
+              "color": "rgb(0, 86, 179)",
+              "borderColor": "rgb(0, 86, 179)",
+              "boxShadow": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+              "changed": true
+            }
+          },
+          {
+            "text": "About Us",
+            "selector": "div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(2) > section > div:nth-of-type(1) > a",
+            "count": 16,
+            "color": "rgb(38, 74, 159)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          },
+          {
+            "text": "Darpan ID",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(14)",
+            "count": 2,
+            "color": "rgb(255, 255, 255)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": null
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "#fixHeader",
+            "rect": {
+              "x": 0,
+              "y": 55,
+              "w": 1440,
+              "h": 100
+            },
+            "backgroundColor": "rgb(245, 245, 245)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "sticky",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 461,
+              "y": 67,
+              "w": 90,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 74, 159)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 590,
+              "y": 67,
+              "w": 90,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 74, 159)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 720,
+              "y": 67,
+              "w": 89,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 74, 159)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 849,
+              "y": 67,
+              "w": 49,
+              "h": 21
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(38, 74, 159)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "14px"
+          },
+          {
+            "matched": "main",
+            "selector": "main",
+            "rect": {
+              "x": 0,
+              "y": 175,
+              "w": 1440,
+              "h": 5900
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(1)",
+            "rect": {
+              "x": 0,
+              "y": 175,
+              "w": 1440,
+              "h": 815
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "0px 15px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(2)",
+            "rect": {
+              "x": 0,
+              "y": 990,
+              "w": 1440,
+              "h": 653
+            },
+            "backgroundColor": "rgb(239, 240, 243)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "64.4px 15px 70px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(3)",
+            "rect": {
+              "x": 150,
+              "y": 1643,
+              "w": 1140,
+              "h": 512
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "70px 15px 8px",
+            "maxWidth": "1140px",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "main > div:nth-of-type(4)",
+            "rect": {
+              "x": 0,
+              "y": 2155,
+              "w": 1440,
+              "h": 1066
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(33, 37, 41)",
+            "padding": "70px 15px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "Poppins, sans-serif",
+            "fontSize": "16px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "8px",
+            "count": 31,
+            "area": 303825,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "#car > span > div",
+              "#bike > span > div"
+            ]
+          },
+          {
+            "value": "3px 3px 0px 0px",
+            "count": 23,
+            "area": 93464,
+            "sources": [
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a > div:nth-of-type(1)",
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a > div:nth-of-type(1)",
+              "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 15,
+            "area": 1207300,
+            "sources": [
+              "main > div:nth-of-type(2) > section > article",
+              "main > div:nth-of-type(2) > section > section > div:nth-of-type(1) > section",
+              "main > div:nth-of-type(2) > section > section > div:nth-of-type(2) > section"
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 11,
+            "area": 1098961,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(2) > div > div",
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 4,
+            "area": 24240,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input",
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "3.2px",
+            "count": 4,
+            "area": 4864,
+            "sources": [
+              "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > span",
+              "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > span",
+              "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > span"
+            ]
+          },
+          {
+            "value": "15px",
+            "count": 3,
+            "area": 481950,
+            "sources": [
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(1) > div",
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(2) > div",
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "20px 20px 0px 0px",
+            "count": 3,
+            "area": 262500,
+            "sources": [
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > img",
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(2) > div > img",
+              "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(3) > div > img"
+            ]
+          },
+          {
+            "value": "15px 15px 0px 0px",
+            "count": 3,
+            "area": 206718,
+            "sources": [
+              "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1)",
+              "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+              "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 2,
+            "area": 160650,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div",
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 1,
+            "area": 15400,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 1,
+            "area": 15360,
+            "sources": [
+              "body > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "25px",
+            "count": 1,
+            "area": 7020,
+            "sources": [
+              "main > div:nth-of-type(3) > section > article > a"
+            ]
+          },
+          {
+            "value": "800px",
+            "count": 1,
+            "area": 4642,
+            "sources": [
+              "nav > a > span"
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 1,
+            "area": 4026,
+            "sources": [
+              "nav > button"
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 1,
+            "area": 1800,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button"
+            ]
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+            "count": 42,
+            "sources": [
+              "nav > a > span",
+              "main > div:nth-of-type(3) > section > article > a",
+              "main > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255) -3px -3px 6px 0px, rgb(191, 195, 207) 3px 3px 6px 0px",
+            "count": 11,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "nav > button",
+              "#car > span > div"
+            ]
+          },
+          {
+            "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgb(191, 195, 207) 3px 3px 6px 0px inset, rgb(255, 255, 255) -3px -3px 6px 0px inset",
+            "count": 1,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input"
+            ]
+          },
+          {
+            "value": "rgb(206, 206, 206) 3px 3px 3px 0px, rgb(255, 255, 255) -3px -3px 3px 0px",
+            "count": 1,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          }
+        ],
+        "gradients": [
+          {
+            "value": "linear-gradient(to right bottom, rgb(239, 240, 243), rgb(229, 230, 235))",
+            "count": 7,
+            "area": 591339,
+            "sources": [
+              "nav > a > span",
+              "div > div > div > div:nth-of-type(1) > div > div > div > div",
+              "div > div > div > div:nth-of-type(2) > div > div > div > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(90deg, rgb(53, 211, 225) -45%, rgb(38, 74, 159) 110%, rgb(25, 93, 255) 140%)",
+            "count": 5,
+            "area": 4500,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "linear-gradient(309deg, rgb(229, 230, 235) -44.85%, rgb(239, 240, 243) 50%)",
+            "count": 4,
+            "area": 8464,
+            "sources": [
+              "#bike > span > div",
+              "#health > span > div",
+              "#travel > span > div"
+            ]
+          },
+          {
+            "value": "linear-gradient(276deg, rgba(13, 53, 148, 0.898), rgb(53, 211, 225))",
+            "count": 1,
+            "area": 12800,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            ]
+          },
+          {
+            "value": "linear-gradient(90deg, rgb(53, 211, 225) -23.09%, rgb(13, 53, 148) 123.37%)",
+            "count": 1,
+            "area": 2116,
+            "sources": [
+              "#car > span > div"
+            ]
+          }
+        ],
+        "bgColors": [
+          {
+            "value": "rgb(239, 240, 243)",
+            "count": 47,
+            "area": 2756942,
+            "sources": [
+              "#fixHeader > div > div > section > a",
+              "nav > button",
+              "#motor4w_main > div:nth-of-type(1) > div > div"
+            ]
+          },
+          {
+            "value": "rgb(245, 245, 245)",
+            "count": 3,
+            "area": 2736000,
+            "sources": [
+              "",
+              "body",
+              "#fixHeader"
+            ]
+          },
+          {
+            "value": "rgb(226, 237, 255)",
+            "count": 2,
+            "area": 24295,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(3) > div",
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(24, 71, 139)",
+            "count": 1,
+            "area": 420480,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgb(202, 234, 239)",
+            "count": 1,
+            "area": 57600,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(244, 247, 255)",
+            "count": 1,
+            "area": 19600,
+            "sources": [
+              "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(38, 74, 159)",
+            "count": 97,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1)",
+              "nav > div:nth-of-type(1) > span",
+              "nav > div:nth-of-type(1) > span"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 17,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(7, 30, 84)",
+            "count": 16,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(1) > div > div > p",
+              "body > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2)",
+              "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(1) > div > div:nth-of-type(2) > p"
+            ]
+          },
+          {
+            "value": "rgb(84, 98, 128)",
+            "count": 9,
+            "sources": [
+              "div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > label",
+              "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p",
+              "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgba(7, 30, 84, 0.8)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > span",
+              "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > div",
+              "main > div:nth-of-type(10) > div > div > div:nth-of-type(1) > ul > li:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(145, 156, 181)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(222, 226, 230)",
+            "count": 13,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(145, 156, 181)",
+            "count": 8,
+            "sources": [
+              "main > div:nth-of-type(4) > div > div > div:nth-of-type(1)",
+              "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1)",
+              "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgba(38, 74, 159, 0.35)",
+            "count": 6,
+            "sources": [
+              "main > div:nth-of-type(2) > section > section > div:nth-of-type(1) > section",
+              "main > div:nth-of-type(2) > section > section > div:nth-of-type(2) > section",
+              "main > div:nth-of-type(2) > section > section > div:nth-of-type(3) > section"
+            ]
+          },
+          {
+            "value": "rgb(188, 188, 188)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > section:nth-of-type(1) > aside",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > section:nth-of-type(2) > aside",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > section:nth-of-type(3) > aside"
+            ]
+          },
+          {
+            "value": "rgb(212, 215, 222)",
+            "count": 5,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1)",
+              "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(2) > div"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 5,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(2)",
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(153, 153, 153)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(1) > div"
+            ]
+          },
+          {
+            "value": "rgb(186, 192, 207)",
+            "count": 1,
+            "sources": [
+              "nav"
+            ]
+          },
+          {
+            "value": "rgb(206, 206, 206)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(38, 74, 159)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(3) > section > article > a"
+            ]
+          },
+          {
+            "value": "rgba(38, 74, 159, 0.2)",
+            "count": 1,
+            "sources": [
+              "body > div:nth-of-type(1) > div:nth-of-type(3) > div"
+            ]
+          },
+          {
+            "value": "rgba(38, 74, 159, 0.3)",
+            "count": 1,
+            "sources": [
+              "main > div:nth-of-type(2) > section > article"
+            ]
+          },
+          {
+            "value": "rgba(81, 96, 129, 0.2)",
+            "count": 1,
+            "sources": [
+              "#motor4w_main > div:nth-of-type(1) > div > div"
+            ]
+          }
+        ],
+        "customProps": {
+          "--blue": {
+            "declared": "#007bff",
+            "computed": "#007bff"
+          },
+          "--indigo": {
+            "declared": "#6610f2",
+            "computed": "#6610f2"
+          },
+          "--purple": {
+            "declared": "#6f42c1",
+            "computed": "#6f42c1"
+          },
+          "--pink": {
+            "declared": "#e83e8c",
+            "computed": "#e83e8c"
+          },
+          "--red": {
+            "declared": "#dc3545",
+            "computed": "#dc3545"
+          },
+          "--orange": {
+            "declared": "#fd7e14",
+            "computed": "#fd7e14"
+          },
+          "--yellow": {
+            "declared": "#ffc107",
+            "computed": "#ffc107"
+          },
+          "--green": {
+            "declared": "#28a745",
+            "computed": "#28a745"
+          },
+          "--teal": {
+            "declared": "#20c997",
+            "computed": "#20c997"
+          },
+          "--cyan": {
+            "declared": "#17a2b8",
+            "computed": "#17a2b8"
+          },
+          "--white": {
+            "declared": "#fff",
+            "computed": "#fff"
+          },
+          "--gray": {
+            "declared": "#6c757d",
+            "computed": "#6c757d"
+          },
+          "--gray-dark": {
+            "declared": "#343a40",
+            "computed": "#343a40"
+          },
+          "--primary": {
+            "declared": "#007bff",
+            "computed": "#007bff"
+          },
+          "--secondary": {
+            "declared": "#6c757d",
+            "computed": "#6c757d"
+          },
+          "--success": {
+            "declared": "#28a745",
+            "computed": "#28a745"
+          },
+          "--info": {
+            "declared": "#17a2b8",
+            "computed": "#17a2b8"
+          },
+          "--warning": {
+            "declared": "#ffc107",
+            "computed": "#ffc107"
+          },
+          "--danger": {
+            "declared": "#dc3545",
+            "computed": "#dc3545"
+          },
+          "--light": {
+            "declared": "#f8f9fa",
+            "computed": "#f8f9fa"
+          },
+          "--dark": {
+            "declared": "#343a40",
+            "computed": "#343a40"
+          },
+          "--breakpoint-xs": {
+            "declared": "0",
+            "computed": "0"
+          },
+          "--breakpoint-sm": {
+            "declared": "576px",
+            "computed": "576px"
+          },
+          "--breakpoint-md": {
+            "declared": "768px",
+            "computed": "768px"
+          },
+          "--breakpoint-lg": {
+            "declared": "992px",
+            "computed": "992px"
+          },
+          "--breakpoint-xl": {
+            "declared": "1200px",
+            "computed": "1200px"
+          },
+          "--font-family-sans-serif": {
+            "declared": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"",
+            "computed": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+          },
+          "--font-family-monospace": {
+            "declared": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+            "computed": "SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+          }
+        },
+        "fonts": [
+          {
+            "family": "Poppins",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "#fixHeader > div > div > section > a > img",
+            "src": "https://www.tataaig.com/_next/image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FTata_AIG_Logo_Sept_2026_630c66ccd7.png&w=96&q=75",
+            "inlineSvg": false,
+            "alt": "TATA AIG LOGO",
+            "ariaLabel": null,
+            "class": "Header_logo__V9h3K",
+            "id": null,
+            "href": "/",
+            "inHomeLink": true,
+            "rect": {
+              "x": 173,
+              "y": 64,
+              "w": 96,
+              "h": 52
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "nav > div:nth-of-type(1) > img",
+            "src": "https://www.tataaig.com/Icon%20down.svg",
+            "inlineSvg": false,
+            "alt": "X",
+            "ariaLabel": null,
+            "class": "Header_navIcon__6ps7B mb-1",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 527,
+              "y": 67,
+              "w": 18,
+              "h": 18
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "nav > div:nth-of-type(1) > img",
+            "src": "https://www.tataaig.com/Icon%20down.svg",
+            "inlineSvg": false,
+            "alt": "X",
+            "ariaLabel": null,
+            "class": "Header_navIcon__6ps7B mb-1",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 657,
+              "y": 67,
+              "w": 18,
+              "h": 18
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "nav > div > img",
+            "src": "https://www.tataaig.com/Icon%20down.svg",
+            "inlineSvg": false,
+            "alt": "X",
+            "ariaLabel": null,
+            "class": "Header_navIcon__6ps7B mb-1",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 786,
+              "y": 67,
+              "w": 18,
+              "h": 18
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "nav > button > img:nth-of-type(1)",
+            "src": "https://www.tataaig.com/AcssMen.svg",
+            "inlineSvg": false,
+            "alt": "access",
+            "ariaLabel": null,
+            "class": "",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 1200,
+              "y": 62,
+              "w": 32,
+              "h": 32
+            }
+          },
+          {
+            "tag": "img",
+            "selector": "nav > button > img:nth-of-type(2)",
+            "src": "https://www.tataaig.com/iconDown.png",
+            "inlineSvg": false,
+            "alt": "arrow",
+            "ariaLabel": null,
+            "class": "Header_navIcon__6ps7B mb-1 mr-0",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 1242,
+              "y": 67,
+              "w": 18,
+              "h": 18
+            }
+          }
+        ],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.tataaig.com/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#264a9f",
+        "values": [
+          "rgb(38, 74, 159)"
+        ],
+        "weight": 253,
+        "by": {
+          "text": 180,
+          "link": 43,
+          "border": 2,
+          "button-border": 2,
+          "button-text": 2,
+          "heading": 24
+        },
+        "roles": [
+          "text",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(1)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > a > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(2) > section > div:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > section > section > div:nth-of-type(4) > aside > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#eff0f3",
+        "values": [
+          "rgb(239, 240, 243)",
+          "rgb(245, 245, 245)",
+          "rgb(244, 247, 255)"
+        ],
+        "weight": 112,
+        "bgArea": 7764491,
+        "by": {
+          "background": 105,
+          "button-background": 7
+        },
+        "roles": [
+          "background"
+        ],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "#fixHeader > div > div > section > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "prop": "button-background"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": null,
+            "prop": "background"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(3) > section > article > a",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#007bff",
+        "values": [
+          "rgb(0, 123, 255)"
+        ],
+        "weight": 50,
+        "by": {
+          "link": 46,
+          "button-text": 4
+        },
+        "roles": [
+          "accent"
+        ],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > a",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#dee2e6",
+        "values": [
+          "rgb(222, 226, 230)",
+          "rgb(212, 215, 222)"
+        ],
+        "weight": 41,
+        "by": {
+          "border": 41
+        },
+        "roles": [
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#18478b",
+        "values": [
+          "rgb(24, 71, 139)"
+        ],
+        "weight": 2,
+        "bgArea": 683280,
+        "by": {
+          "background": 2
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)"
+        ],
+        "weight": 74,
+        "by": {
+          "text": 34,
+          "button-text": 26,
+          "border": 10,
+          "link": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div > a:nth-of-type(14)",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#071e54",
+        "values": [
+          "rgb(7, 30, 84)"
+        ],
+        "weight": 39,
+        "by": {
+          "text": 35,
+          "link": 3,
+          "heading": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(1) > div > div > p",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > h4",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#546280",
+        "values": [
+          "rgb(84, 98, 128)"
+        ],
+        "weight": 13,
+        "by": {
+          "text": 13
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > label",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#071e54cc",
+        "values": [
+          "rgba(7, 30, 84, 0.8)"
+        ],
+        "weight": 12,
+        "by": {
+          "text": 12
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(1) > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#919cb5",
+        "values": [
+          "rgb(145, 156, 181)"
+        ],
+        "weight": 10,
+        "by": {
+          "border": 8,
+          "text": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#264a9f59",
+        "values": [
+          "rgba(38, 74, 159, 0.35)"
+        ],
+        "weight": 6,
+        "by": {
+          "border": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > section > section > div:nth-of-type(1) > section",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#264a9f8c",
+        "values": [
+          "rgba(38, 74, 159, 0.55)"
+        ],
+        "weight": 6,
+        "by": {
+          "border": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#bcbcbc",
+        "values": [
+          "rgb(188, 188, 188)"
+        ],
+        "weight": 6,
+        "by": {
+          "border": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div > section:nth-of-type(1) > aside",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(5)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#e2edff",
+        "values": [
+          "rgb(226, 237, 255)"
+        ],
+        "weight": 4,
+        "bgArea": 48859,
+        "by": {
+          "background": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(3) > div",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#999999",
+        "values": [
+          "rgb(153, 153, 153)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(1) > div",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#bac0cf",
+        "values": [
+          "rgb(186, 192, 207)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "#motor4w_main > div:nth-of-type(1)",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "nav",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#caeaef",
+        "values": [
+          "rgb(202, 234, 239)"
+        ],
+        "weight": 2,
+        "bgArea": 69120,
+        "by": {
+          "background": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(1)",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#cecece",
+        "values": [
+          "rgb(206, 206, 206)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(12) > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#000000",
+        "values": [
+          "rgb(0, 0, 0)"
+        ],
+        "weight": 1,
+        "by": {
+          "button-text": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "nav > button",
+            "prop": "button-text"
+          }
+        ]
+      },
+      {
+        "hex": "#264a9f33",
+        "values": [
+          "rgba(38, 74, 159, 0.2)"
+        ],
+        "weight": 1,
+        "by": {
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "body > div:nth-of-type(1) > div:nth-of-type(3) > div",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#264a9f4d",
+        "values": [
+          "rgba(38, 74, 159, 0.3)"
+        ],
+        "weight": 1,
+        "by": {
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > section > article",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#51608133",
+        "values": [
+          "rgba(81, 96, 129, 0.2)"
+        ],
+        "weight": 1,
+        "by": {
+          "border": 1
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "#motor4w_main > div:nth-of-type(1) > div > div",
+            "prop": "border"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "Poppins",
+          "count": 81,
+          "headings": 24,
+          "text": 24,
+          "buttons": 33
+        },
+        {
+          "family": "Arial",
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "headingFamily": "Poppins",
+      "bodyFamily": "Poppins",
+      "sizes": [
+        {
+          "px": 28,
+          "count": 7,
+          "headings": 7,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 24,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 23,
+          "count": 1,
+          "headings": 1,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 19,
+          "count": 6,
+          "headings": 6,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 16,
+          "count": 13,
+          "headings": 9,
+          "text": 0,
+          "buttons": 4
+        },
+        {
+          "px": 14,
+          "count": 12,
+          "headings": 0,
+          "text": 9,
+          "buttons": 3
+        },
+        {
+          "px": 13,
+          "count": 5,
+          "headings": 0,
+          "text": 5,
+          "buttons": 0
+        },
+        {
+          "px": 12,
+          "count": 36,
+          "headings": 1,
+          "text": 9,
+          "buttons": 26
+        },
+        {
+          "px": 10,
+          "count": 1,
+          "headings": 0,
+          "text": 1,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 60,
+          "headings": 5,
+          "text": 22,
+          "buttons": 33
+        },
+        {
+          "weight": "500",
+          "count": 20,
+          "headings": 18,
+          "text": 2,
+          "buttons": 0
+        },
+        {
+          "weight": "600",
+          "count": 2,
+          "headings": 2,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 28,
+          "fontWeight": "500",
+          "count": 1,
+          "score": 35
+        },
+        "h2": {
+          "fontSize": 28,
+          "fontWeight": "500",
+          "count": 6,
+          "score": 85.73
+        },
+        "h3": {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "count": 3,
+          "score": 34.64
+        },
+        "h4": {
+          "fontSize": 12,
+          "fontWeight": "600",
+          "count": 1,
+          "score": 18
+        },
+        "h5": {
+          "fontSize": 16,
+          "fontWeight": "400",
+          "count": 5,
+          "score": 35.78
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "8px",
+        "areaMode": "16px",
+        "pill": "50%",
+        "values": [
+          {
+            "value": "8px",
+            "count": 62,
+            "area": 650178,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#fixHeader > div > div > section > a"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#car > span > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#bike > span > div"
+              }
+            ]
+          },
+          {
+            "value": "3px 3px 0px 0px",
+            "count": 46,
+            "area": 198230,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "50%",
+            "count": 34,
+            "area": 1249895,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(2) > section > article"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(2) > section > section > div:nth-of-type(1) > section"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "count": 20,
+            "area": 1810159,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(2) > div > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "50px",
+            "count": 8,
+            "area": 41120,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div > div > div:nth-of-type(2) > div > div:nth-of-type(1) > div > div > input"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(2) > div > div > div:nth-of-type(1) > div:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "3.2px",
+            "count": 6,
+            "area": 7936,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > span"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > span"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > span"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > span"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(2) > div > span"
+              }
+            ]
+          },
+          {
+            "value": "30px",
+            "count": 6,
+            "area": 93600,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(4) > div > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(5) > div > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(6) > div > div"
+              }
+            ]
+          },
+          {
+            "value": "15px 15px 0px 0px",
+            "count": 5,
+            "area": 284551,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(3) > div > div > div > div:nth-of-type(1) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(3) > div > div > div > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div > div:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(3) > div > div > div:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "15px",
+            "count": 4,
+            "area": 605610,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "div > div > div > div > div:nth-of-type(1) > div > a > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(2) > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(3) > div"
+              }
+            ]
+          },
+          {
+            "value": "20px",
+            "count": 4,
+            "area": 238720,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(1) > div > div"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "20px 20px 0px 0px",
+            "count": 3,
+            "area": 262500,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > img"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(2) > div > img"
+              },
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(11) > div > div:nth-of-type(2) > a:nth-of-type(3) > div > img"
+              }
+            ]
+          },
+          {
+            "value": "25px",
+            "count": 2,
+            "area": 14040,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(3) > section > article > a"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 2,
+            "area": 30720,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "body > div:nth-of-type(3) > div"
+              }
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 2,
+            "area": 3600,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "main > div:nth-of-type(5) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "100px",
+            "count": 1,
+            "area": 4026,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "nav > button"
+              }
+            ]
+          },
+          {
+            "value": "12px",
+            "count": 1,
+            "area": 15400,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "body > div:nth-of-type(1) > div:nth-of-type(3) > div"
+              }
+            ]
+          },
+          {
+            "value": "800px",
+            "count": 1,
+            "area": 4642,
+            "sources": [
+              {
+                "url": "https://www.tataaig.com/",
+                "selector": "nav > a > span"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgb(191, 195, 207) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 0px",
+          "count": 77,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "main > div:nth-of-type(3) > section > article > a"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "nav > a > span"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "main > div:nth-of-type(3) > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > div"
+            }
+          ]
+        },
+        {
+          "value": "rgb(255, 255, 255) -3px -3px 6px 0px, rgb(191, 195, 207) 3px 3px 6px 0px",
+          "count": 21,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#fixHeader > div > div > section > a"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#car > span > div"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#bike > span > div"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "nav > button"
+            }
+          ]
+        },
+        {
+          "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+          "count": 2,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "body > div:nth-of-type(3) > div"
+            }
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(to right bottom, rgb(239, 240, 243), rgb(229, 230, 235))",
+          "count": 11,
+          "area": 750153,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#fixHeader > div > div > section > div:nth-of-type(1) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "div > div > div > div > div:nth-of-type(1) > div > div > div"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "nav > a > span"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "div > div > div > div:nth-of-type(1) > div > div > div > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(90deg, rgb(53, 211, 225) -45%, rgb(38, 74, 159) 110%, rgb(25, 93, 255) 140%)",
+          "count": 10,
+          "area": 11345,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "main > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div > section:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(309deg, rgb(229, 230, 235) -44.85%, rgb(239, 240, 243) 50%)",
+          "count": 8,
+          "area": 16928,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#bike > span > div"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#health > span > div"
+            },
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#travel > span > div"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(276deg, rgba(13, 53, 148, 0.898), rgb(53, 211, 225))",
+          "count": 2,
+          "area": 22400,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#motor4w_main > div:nth-of-type(1) > div > div > div:nth-of-type(2) > div > div:nth-of-type(2) > button"
+            }
+          ]
+        },
+        {
+          "value": "linear-gradient(90deg, rgb(53, 211, 225) -23.09%, rgb(13, 53, 148) 123.37%)",
+          "count": 2,
+          "area": 4232,
+          "sources": [
+            {
+              "url": "https://www.tataaig.com/",
+              "selector": "#car > span > div"
+            }
+          ]
+        }
+      ]
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "color": "rgb(38, 74, 159)"
+        },
+        "to": {
+          "color": "rgb(0, 86, 179)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(3) > section > article > a"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(3) > section > article > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(0, 123, 255)"
+        },
+        "to": {
+          "color": "rgb(0, 86, 179)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "color": "rgb(0, 123, 255)",
+          "borderColor": "rgb(0, 123, 255)"
+        },
+        "to": {
+          "color": "rgb(0, 86, 179)",
+          "borderColor": "rgb(0, 86, 179)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(4) > div > div > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(38, 74, 159)"
+        },
+        "to": {
+          "color": "rgb(7, 30, 84)"
+        },
+        "count": 1,
+        "sources": [
+          {
+            "url": "https://www.tataaig.com/",
+            "selector": "main > div:nth-of-type(2) > section > section > div:nth-of-type(4) > aside > a"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "img",
+      "url": "https://www.tataaig.com/",
+      "width": 1440,
+      "selector": "#fixHeader > div > div > section > a > img",
+      "src": "https://www.tataaig.com/_next/image?url=https%3A%2F%2Fwww.tataaig.com%2Fs3%2FTata_AIG_Logo_Sept_2026_630c66ccd7.png&w=96&q=75",
+      "alt": "TATA AIG LOGO",
+      "rect": {
+        "x": 173,
+        "y": 64,
+        "w": 96,
+        "h": 52
+      },
+      "inHomeLink": true
+    },
+    "iconFont": null
+  }
+}

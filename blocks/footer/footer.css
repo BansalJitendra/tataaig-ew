@@ -1,20 +1,387 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
-}
+/* stylelint-disable no-descending-specificity -- lifted cascade order from the prototype */
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
-}
+/* TATA AIG footer — lifted from stardust/prototypes/css/canon.css (secondLastFooter_*,
+   footer_*). The source paints it inside <main>; here it is the footer block. */
 
 footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .footer .site-footer {
+  padding: 0 var(--gutter);
+}
+
+footer .footer .foot-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 16px 15px 48px;
+}
+
+footer .footer .foot-deco {
+  min-height: 50px;
+  margin-top: 96px;
+  border-bottom: 2px dotted #999;
+  background: url("../../icons/footer-bg.svg") right 2rem center / contain no-repeat;
+}
+
+/* ---------- link card ---------- */
+footer .footer .foot-card {
+  display: grid;
+  grid-template-columns: 200px repeat(4, 1fr);
+  margin-top: 16px;
+  padding: 53.2px 65.8px 63px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+footer .footer .foot-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer .foot-logo {
+  flex-grow: 1;
+}
+
+footer .footer .foot-logo picture {
+  display: contents;
+}
+
+footer .footer .foot-logo img {
+  width: auto;
+  height: 50px;
+  margin-right: 4px;
+  padding: 5px;
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--neu-r);
+  object-fit: contain;
+}
+
+footer .footer .foot-apptitle {
+  margin-top: 24px;
+  padding: 16px 0 4px;
+  color: var(--blue);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+footer .footer .foot-app a {
+  display: block;
+  padding: 8px 0;
+}
+
+footer .footer .foot-app img {
+  width: 55%;
+  max-width: 196px;
+  height: auto;
+  max-height: 60px;
+}
+
+footer .footer .foot-follow {
+  margin-top: 16px;
+  padding-top: 16px;
+  color: var(--slate);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer .footer .foot-social ul {
+  display: flex;
+  margin-top: 16px;
+}
+
+footer .footer .foot-social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, #35d3e1 -45%, #264a9f 110%, #195dff 140%);
+  box-shadow: var(--neu);
+}
+
+footer .footer .foot-social .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 12px;
+}
+
+footer .footer .foot-social .icon img {
+  width: auto;
+  height: 12px;
+}
+
+footer .footer .foot-rule {
+  display: none;
+}
+
+footer .footer .foot-colhead {
+  margin-bottom: 22.4px;
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .footer .foot-links li {
+  padding: 9.8px 0;
+  line-height: 24px;
+}
+
+footer .footer .foot-links a,
+footer .footer .foot-acc-list a {
+  color: var(--blue);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* ---------- product accordion (desktop: one card, tab row + six columns) ---------- */
+footer .footer .foot-acc {
+  position: relative;
+  margin-top: 24px;
+  padding: 0 65.8px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+footer .footer .foot-acc-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+footer .footer .foot-acc.is-open .foot-acc-grid {
+  padding-bottom: 63px;
+}
+
+footer .footer .foot-acc-group {
+  display: contents;
+}
+
+footer .footer .foot-acc-title {
+  position: relative;
+  grid-row: 1;
+  padding: 16px 0;
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .footer .foot-acc-group:not(:last-child) .foot-acc-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 85%;
+  border-right: 1px dotted #bcbcbc;
+}
+
+footer .footer .foot-acc-list {
+  grid-row: 2;
+  display: none;
+}
+
+footer .footer .foot-acc.is-open .foot-acc-list {
+  display: block;
+}
+
+footer .footer .foot-acc-list li {
+  padding: 9.8px 0;
+}
+
+footer .footer .foot-acc-toggle,
+footer .footer .foot-acc-chev {
+  position: absolute;
+  top: 28px;
+  right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: var(--neu);
+  transform: translateY(-50%);
+}
+
+footer .footer .foot-acc-toggle img,
+footer .footer .foot-acc-chev img {
+  height: 12px;
+}
+
+footer .footer .foot-acc-chev {
+  display: none;
+}
+
+/* ---------- legal band ---------- */
+footer .footer .foot-legal {
+  margin: 0 calc(-1 * var(--gutter));
+  background: var(--legal);
+  color: #fff;
+}
+
+footer .footer .foot-legal-inner {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+/* the source list has no whitespace between its inline items: font-size 0 on the list
+   collapses the delivered whitespace so the row wraps as on the source */
+footer .footer .foot-legal-links ul {
+  margin-top: 16px;
+  padding: 16px;
+  border-bottom: 2px dotted #cecece;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+footer .footer .foot-legal-links li {
+  display: inline;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: normal;
+}
+
+footer .footer .foot-legal-links a {
+  padding: 0 16px;
+  border-right: 1px solid #dee2e6;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer .footer .foot-legal-links li:last-child a {
+  border-right: 0;
+}
+
+footer .footer .foot-marked {
+  margin: 16px 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+footer .footer .foot-marked p {
+  margin: 0 0 16px;
+}
+
+footer .footer .foot-marked a {
+  color: #fff;
+}
+
+/* ---------- source mobile step (max-width 768) ---------- */
+@media (width <= 768px) {
+  footer .footer .foot-deco {
+    margin-top: 48px;
+  }
+
+  footer .footer .foot-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    padding: 30px;
+  }
+
+  footer .footer .foot-logo {
+    flex-grow: 0;
+  }
+
+  footer .footer .foot-apptitle {
+    margin-top: 16px;
+  }
+
+  footer .footer .foot-follow {
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+
+  footer .footer .foot-social a {
+    width: 37px;
+    height: 37px;
+  }
+
+  footer .footer .foot-rule {
+    display: block;
+    margin-top: 20px;
+    border-bottom: 2px dashed #bcbcbc;
+  }
+
+  footer .footer .foot-colhead {
+    margin: 16px 0 10px;
+  }
+
+  footer .footer .foot-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* product accordion → one card per group (the source's foot-macc <details>) */
+  footer .footer .foot-acc {
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+
+  footer .footer .foot-acc-toggle {
+    display: none;
+  }
+
+  footer .footer .foot-acc-grid {
+    display: block;
+  }
+
+  footer .footer .foot-acc.is-open .foot-acc-grid {
+    padding-bottom: 0;
+  }
+
+  footer .footer .foot-acc-group {
+    position: relative;
+    display: block;
+    margin-top: 24px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--surface);
+  }
+
+  footer .footer .foot-acc-title {
+    padding: 13px 35px 13px 15px;
+    cursor: pointer;
+  }
+
+  footer .footer .foot-acc-group:not(:last-child) .foot-acc-title::after {
+    display: none;
+  }
+
+  footer .footer .foot-acc-chev {
+    top: 50%;
+    right: 15px;
+    display: flex;
+    box-shadow: none;
+  }
+
+  footer .footer .foot-acc.is-open .foot-acc-list,
+  footer .footer .foot-acc-list {
+    display: none;
+  }
+
+  footer .footer .foot-acc-group.is-open .foot-acc-list {
+    display: block;
+    padding: 0 40px 20px 15px;
+  }
+
+  footer .footer .foot-acc-list li {
+    padding: 8px 0;
   }
 }

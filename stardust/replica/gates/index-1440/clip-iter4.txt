@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/index-proposed.html @ 1440px — docH 6175, 241 text nodes, 113 controls (HTTP 200, chrome)
+  (none)
+Clipped: 0 (text clipped 0, text hidden 0, controls hidden 0, controls clipped 0; advisory: clamped 7, collapsed 0, scroll-hidden 0, horizontal 5)
+json → stardust/replica/gates/index-1440/clip-iter4.json

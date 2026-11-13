@@ -1,0 +1,70 @@
+[live-session] waiting to pace live navigations to main--0484faa8--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 675 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.tataaig.com/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-12T11:13:56.398Z — delete the file to re-probe)
+  build: https://main--0484faa8--aemcoder.aem.page/
+
+■ header: 14 delta(s) — 6 paired of 6/7 texts, 7/7 icons
+  REGION BOX   Δy -55px (55→0), Δh +55px (100→155)
+  PAIR         "Personal"  Δx -18px (461→443)
+  PAIR         "Business"  lineHeight normal → 21px; Δx -17px (590→573)
+  PAIR         "Renewal"  Δx -17px (720→703)
+  PAIR         "Claims"  tag <span> → <a>; Δx -17px (849→832)
+  PAIR         "Support"  tag <span> → <a>; Δx -17px (938→921)
+  PAIR         "My Policy"  tag <span> → <a>; Δx -17px (1033→1016); Δw +17px (119→136)
+  EXTRA        "Welcome to TATA AIG! Explore our insuran"  build <p> "Welcome to TATA AIG! Explore our insurance solut" has no live source
+  ICON         icon #1: signature "Icon down.svg" → "nav-chevron.svg"
+  ICON         icon #2: signature "Icon down.svg" → "nav-chevron.svg"
+  ICON         icon #3: signature "Icon down.svg" → "nav-chevron.svg"
+  ICON         "My Policy"  icon #4 near "My Policy": Δw +17px (0→17); signature "user (2).svg" → "user.svg"
+  ICON         "Accessibility Options"  icon #5 near "Accessibility Options": signature "AcssMen.svg" → "access-menu.svg"
+  ICON         "Accessibility Options"  icon #6 near "Accessibility Options": signature "iconDown.png" → "icon-down.png"
+
+■ footer: 46 delta(s) — 0 paired of 0/44 texts, 0/9 icons
+  REGION BOX   Δy -929px (6075→5146), Δh +1030px (0→1030)
+  EXTRA        "Download Our App"  build <p> "Download Our App" has no live source
+  EXTRA        "Follow Us"  build <p> "Follow Us" has no live source
+  EXTRA        "Company"  build <p> "Company" has no live source
+  EXTRA        "About Us"  build <a> "About Us" has no live source
+  EXTRA        "Public Disclosures"  build <a> "Public Disclosures" has no live source
+  EXTRA        "Investors"  build <a> "Investors" has no live source
+  EXTRA        "Contact Us"  build <a> "Contact Us" has no live source
+  EXTRA        "Careers"  build <a> "Careers" has no live source
+  EXTRA        "Agent Registration"  build <a> "Agent Registration" has no live source
+  EXTRA        "Resources"  build <p> "Resources" has no live source
+  EXTRA        "Blog"  build <a> "Blog" has no live source
+  EXTRA        "Insurance FAQs"  build <a> "Insurance FAQs" has no live source
+  EXTRA        "Vendor Code of Conduct"  build <a> "Vendor Code of Conduct" has no live source
+  EXTRA        "Surety Bond Policies"  build <a> "Surety Bond Policies" has no live source
+  EXTRA        "Horizon Watch"  build <a> "Horizon Watch" has no live source
+  EXTRA        "Excluded Hospital List"  build <a> "Excluded Hospital List" has no live source
+  EXTRA        "Services"  build <p> "Services" has no live source
+  EXTRA        "Renewals"  build <a> "Renewals" has no live source
+  EXTRA        "Claim Process"  build <a> "Claim Process" has no live source
+  EXTRA        "Self Service"  build <a> "Self Service" has no live source
+  EXTRA        "Group Companies"  build <p> "Group Companies" has no live source
+  EXTRA        "TATA AIA"  build <a> "TATA AIA" has no live source
+  EXTRA        "Health Insurance"  build <p> "Health Insurance" has no live source
+  EXTRA        "Motor Insurance"  build <p> "Motor Insurance" has no live source
+  EXTRA        "Travel Insurance"  build <p> "Travel Insurance" has no live source
+  EXTRA        "SME Insurance"  build <p> "SME Insurance" has no live source
+  EXTRA        "Other Insurance"  build <p> "Other Insurance" has no live source
+  EXTRA        "Calculators"  build <p> "Calculators" has no live source
+  EXTRA        "Disclaimer"  build <a> "Disclaimer" has no live source
+  EXTRA        "Terms of Use"  build <a> "Terms of Use" has no live source
+  EXTRA        "Downloads"  build <a> "Downloads" has no live source
+  EXTRA        "IRDAI"  build <a> "IRDAI" has no live source
+  EXTRA        "GST Registration Numbers"  build <a> "GST Registration Numbers" has no live source
+  EXTRA        "Privacy Policy"  build <a> "Privacy Policy" has no live source
+  EXTRA        "Grievance Redressal Policy"  build <a> "Grievance Redressal Policy" has no live source
+  EXTRA        "General"  build <a> "General" has no live source
+  EXTRA        "Bima Bharosa"  build <a> "Bima Bharosa" has no live source
+  EXTRA        "Health Insurance Portability"  build <a> "Health Insurance Portability" has no live source
+  EXTRA        "Blacklisted Agents"  build <a> "Blacklisted Agents" has no live source
+  EXTRA        "Posh Policy"  build <a> "Posh Policy" has no live source
+  EXTRA        "She-Box Portal (POSH)"  build <a> "She-Box Portal (POSH)" has no live source
+  EXTRA        "Darpan ID"  build <a> "Darpan ID" has no live source
+  EXTRA        "BEWARE OF SPURIOUS PHONE CALLS AND FICTI"  build <p> "BEWARE OF SPURIOUS PHONE CALLS AND FICTITIOUS / " has no live source
+  EXTRA        "customersupport@tataaig.com"  build <a> "customersupport@tataaig.com" has no live source
+  ICONS        0 live vs 9 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 60 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.
